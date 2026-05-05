@@ -1,0 +1,201 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Local Business Page Generator",
+  "description": "AI-optimized local business pages with unique content and complete SEO",
+  "url": "https://webdesignmiami.net",
+  "dateModified": "2026-05-05T14:45:34.679Z",
+  "inLanguage": "en-US",
+  "pages": [
+    {
+      "url": "https://webdesignmiami.net/web-design/opa-locka-fl-33055",
+      "name": "Opa Locka, Florida",
+      "location": {
+        "city": "Opa Locka",
+        "state": "Florida",
+        "zip": "33055",
+        "coordinates": {
+          "lat": 25.94812,
+          "lon": -80.27809
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/north-miami-beach-fl-33160",
+      "name": "North Miami Beach, Florida",
+      "location": {
+        "city": "North Miami Beach",
+        "state": "Florida",
+        "zip": "33160",
+        "coordinates": {
+          "lat": 25.93234,
+          "lon": -80.13583
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/hollywood-fl-33024",
+      "name": "Hollywood, Florida",
+      "location": {
+        "city": "Hollywood",
+        "state": "Florida",
+        "zip": "33024",
+        "coordinates": {
+          "lat": 26.02501,
+          "lon": -80.24475
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/fort-lauderdale-fl-33311",
+      "name": "Fort Lauderdale, Florida",
+      "location": {
+        "city": "Fort Lauderdale",
+        "state": "Florida",
+        "zip": "33311",
+        "coordinates": {
+          "lat": 26.14412,
+          "lon": -80.17319
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/hallandale-fl-33009",
+      "name": "Hallandale, Florida",
+      "location": {
+        "city": "Hallandale",
+        "state": "Florida",
+        "zip": "33009",
+        "coordinates": {
+          "lat": 25.98531,
+          "lon": -80.1466
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/homestead-fl-33033",
+      "name": "Homestead, Florida",
+      "location": {
+        "city": "Homestead",
+        "state": "Florida",
+        "zip": "33033",
+        "coordinates": {
+          "lat": 25.47858,
+          "lon": -80.4057
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/miami-gardens-fl-33056",
+      "name": "Miami Gardens, Florida",
+      "location": {
+        "city": "Miami Gardens",
+        "state": "Florida",
+        "zip": "33056",
+        "coordinates": {
+          "lat": 25.94922,
+          "lon": -80.24562
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/pembroke-pines-fl-33028",
+      "name": "Pembroke Pines, Florida",
+      "location": {
+        "city": "Pembroke Pines",
+        "state": "Florida",
+        "zip": "33028",
+        "coordinates": {
+          "lat": 26.01852,
+          "lon": -80.34488
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/key-biscayne-fl-33149",
+      "name": "Key Biscayne, Florida",
+      "location": {
+        "city": "Key Biscayne",
+        "state": "Florida",
+        "zip": "33149",
+        "coordinates": {
+          "lat": 25.72479,
+          "lon": -80.16118
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/dania-fl-33004",
+      "name": "Dania, Florida",
+      "location": {
+        "city": "Dania",
+        "state": "Florida",
+        "zip": "33004",
+        "coordinates": {
+          "lat": 26.05939,
+          "lon": -80.13637
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/miami-fl-33157",
+      "name": "Miami, Florida",
+      "location": {
+        "city": "Miami",
+        "state": "Florida",
+        "zip": "33157",
+        "coordinates": {
+          "lat": 25.60671,
+          "lon": -80.34314
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/miami-beach-fl-33141",
+      "name": "Miami Beach, Florida",
+      "location": {
+        "city": "Miami Beach",
+        "state": "Florida",
+        "zip": "33141",
+        "coordinates": {
+          "lat": 25.85116,
+          "lon": -80.14147
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/plantation-fl-33388",
+      "name": "Plantation, Florida",
+      "location": {
+        "city": "Plantation",
+        "state": "Florida",
+        "zip": "33388",
+        "coordinates": {
+          "lat": 26.11715,
+          "lon": -80.25409
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/hialeah-fl-33012",
+      "name": "Hialeah, Florida",
+      "location": {
+        "city": "Hialeah",
+        "state": "Florida",
+        "zip": "33012",
+        "coordinates": {
+          "lat": 25.86583,
+          "lon": -80.30247
+        }
+      }
+    }
+  ],
+  "features": [
+    "AI-generated unique content",
+    "Complete SEO optimization",
+    "Schema.org structured data",
+    "Local business signals",
+    "Voice search optimization",
+    "FAQ schema markup"
+  ]
+}
