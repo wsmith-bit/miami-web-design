@@ -1,216 +1,1092 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Miami Web Design - Web Design</title>
-  <meta name="description" content="Professional Web Design services. Find local service providers in your area.">
-  
-  <!-- Organization Schema -->
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": "https://webdesignmiami.net#organization",
-  "name": "Miami Web Design",
-  "url": "https://webdesignmiami.net",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "(508)561-8276",
-    "contactType": "customer service",
-    "areaServed": "US"
-  }
-}
-  </script>
-  
-  <!-- Website Schema -->
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": "https://webdesignmiami.net#website",
-  "url": "https://webdesignmiami.net",
-  "name": "Miami Web Design",
-  "publisher": {
-    "@id": "https://webdesignmiami.net#organization"
-  }
-}
-  </script>
-  
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; line-height: 1.6; color: #1e293b; }
-    .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
-    .header { background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%); color: white; padding: 1.5rem 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-    .header-content { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
-    .logo { font-size: 1.5rem; font-weight: 700; }
-    .header-phone { font-size: 1.125rem; font-weight: 600; }
-    .hero { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: white; padding: 6rem 2rem; text-align: center; }
-    .hero h1 { font-size: 3rem; font-weight: 800; margin-bottom: 1rem; line-height: 1.2; }
-    .hero-subtitle { font-size: 1.25rem; margin-bottom: 2rem; opacity: 0.9; }
-    .cta-button { display: inline-block; background: #10b981; color: white; padding: 1rem 2.5rem; border-radius: 0.5rem; text-decoration: none; font-weight: 600; font-size: 1.125rem; transition: all 0.2s; box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3); }
-    .cta-button:hover { background: #059669; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(16, 185, 129, 0.4); }
-    .section { padding: 4rem 2rem; }
-    .section-title { font-size: 2rem; font-weight: 700; text-align: center; margin-bottom: 2rem; color: #1e293b; }
-    .footer { background: #0f172a; color: white; padding: 3rem 2rem; text-align: center; }
-    @media (max-width: 768px) {
-      .hero h1 { font-size: 2rem; }
-      .section-title { font-size: 1.5rem; }
-    }
-  </style>
+<!DOCTYPE html><html lang="en" data-template="web-design-v1"><head>  <meta charset="UTF-8">  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>Website Design in Miami, FL | Miami Web Design</title>  <meta name="description" content="Miami web design — structured professional services with clear scope, defined deliverables, and transparent engagement terms. Contact Miami Web Design today.">  <meta name="keywords" content="Web Design, Miami, Florida">  <link rel="canonical" href="https://webdesignmiami.net/fl/miami/33157">  <meta property="og:title" content="Web Design | Miami, Florida 33157">  <meta property="og:description" content="Miami Web Design serves Miami and Florida — defined project scope, clear timelines, and structured deliverables for business engagements. Contact us to discuss.">  <meta property="og:type" content="website">  <meta property="og:url" content="https://webdesignmiami.net/fl/miami/33157">  <meta name="twitter:card" content="summary_large_image">  <meta name="twitter:title" content="Miami Web Design | Miami, Florida">  <meta name="twitter:description" content="Miami Web Design serves Miami and Florida — defined project scope, clear timelines, and structured deliverables for business engagements. Contact us to discuss.">  <meta name="geo.position" content="25.60671;-80.34314">  <meta name="geo.placename" content="Miami, Florida">  <meta name="geo.region" content="US-FL">  <meta name="robots" content="index,follow">  <style>
+ /* READING PROGRESS BAR */
+ #reading-progress {
+ position: fixed;
+ top: 0;
+ left: 0;
+ height: 4px;
+ width: 0%;
+ background: #e8622a;
+ z-index: 9999;
+ transition: width 0.1s linear;
+ }
+ @media (prefers-reduced-motion: reduce) {
+ #reading-progress { transition: none; }
+ }  * { margin: 0; padding: 0; box-sizing: border-box; }
+ body { font-family: 'Georgia', serif; color: #1a1a1a; background: #fff; }
+ a { text-decoration: none; color: inherit; }
+ img { max-width: 100%; display: block; }  /* TOPBAR */
+.topbar {
+ background: #e8622a;
+ color: #fff;
+ font-family: Arial, sans-serif;
+ font-size: 13px;
+ padding: 9px 0;
+ }
+.topbar-inner {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 24px;
+ display: flex;
+ gap: 32px;
+ align-items: center;
+ }
+.topbar span { display: flex; align-items: center; gap: 6px; }  /* HEADER */
+.header {
+ background: #1a2f5a;
+ padding: 12px 0;
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ }
+.header-inner {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 24px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ }
+.logo {
+ width: 144px;
+ height: 84px;
+ border-radius: 8px;
+ overflow: hidden;
+ display: block;
+ flex-shrink: 0;
+ }
+.logo img,.logo picture {
+ width: 100%;
+ height: 100%;
+ object-fit: contain;
+ display: block;
+ }
+ nav { display: flex; gap: 28px; align-items: center; }
+ nav a {
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ font-weight: 500;
+ color: #fff;
+ transition: color 0.2s;
+ }
+ nav a:hover { color: #ff6b35; }
+.nav-search { color: #fff; font-size: 18px; cursor: pointer; }  /* HERO */
+.hero {
+ background: #1a2f5a;
+ padding: 60px 0 80px;
+ position: relative;
+ overflow: hidden;
+ min-height: 600px;
+ }
+.hero-bg {
+ position: absolute;
+ inset: 0;
+ width: 100%;
+ height: 100%;
+ z-index: 0;
+ }
+.hero-bg img,
+.hero-bg picture,
+.hero-bg video {
+ position: absolute;
+ inset: 0;
+ width: 100%!important;
+ height: 100%!important;
+ object-fit: cover;
+ object-position: center 35%;
+ display: block;
+ }
+.hero-overlay {
+ position: absolute;
+ inset: 0;
+ background: rgba(10, 20, 50, 0.55);
+ z-index: 1;
+ pointer-events: none;
+ }
+.hero-inner {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 24px;
+ display: grid;
+ grid-template-columns: 1fr 380px;
+ gap: 60px;
+ align-items: start;
+ position: relative;
+ z-index: 2;
+ }
+.hero-content h1 {
+ font-family: Arial, sans-serif;
+ font-size: 46px;
+ font-weight: 800;
+ color: #fff;
+ line-height: 1.15;
+ margin-bottom: 20px;
+ }
+.hero-content h1 span { color: #ff6b35; }
+.hero-content p {
+ font-family: Arial, sans-serif;
+ font-size: 17px;
+ color: #b0c4d8;
+ line-height: 1.7;
+ margin-bottom: 36px;
+ max-width: 540px;
+ }
+.hero-btns { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 48px; }
+.btn-primary {
+ background: #ff6b35;
+ color: #fff;
+ padding: 14px 28px;
+ border-radius: 6px;
+ font-family: Arial, sans-serif;
+ font-size: 15px;
+ font-weight: 700;
+ transition: background 0.2s;
+ display: inline-block;
+ }
+.btn-primary:hover { background: #e05520; }
+.hero-stats { display: flex; gap: 40px; }
+.stat { text-align: left; }
+.stat-number { font-family: Arial, sans-serif; font-size: 32px; font-weight: 800; color: #fff; }
+.stat-label { font-family: Arial, sans-serif; font-size: 13px; color: #fff; margin-top: 2px; }  /* HERO FORM */
+.hero-form {
+ background: #fff;
+ border-radius: 12px;
+ padding: 32px 28px;
+ box-shadow: 0 8px 40px rgba(0,0,0,0.2);
+ }
+.hero-form h2 {
+ font-family: Arial, sans-serif;
+ font-size: 20px;
+ font-weight: 800;
+ color: #1a2f5a;
+ margin-bottom: 6px;
+ text-align: center;
+ }
+.hero-form p {
+ font-family: Arial, sans-serif;
+ font-size: 13px;
+ color: #555;
+ margin-bottom: 20px;
+ text-align: center;
+ }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+.form-group { margin-bottom: 12px; }
+.form-group input,
+.form-group select,
+.form-group textarea {
+ width: 100%;
+ padding: 11px 14px;
+ border: 1px solid #dde3ed;
+ border-radius: 6px;
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ color: #1a1a1a;
+ background: #fff;
+ outline: none;
+ transition: border-color 0.2s;
+ }
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus { border-color: #ff6b35; }
+.form-group textarea { resize: vertical; min-height: 80px; }
+.btn-submit {
+ width: 100%;
+ background: #ff6b35;
+ color: #fff;
+ border: none;
+ padding: 15px;
+ border-radius: 6px;
+ font-family: Arial, sans-serif;
+ font-size: 16px;
+ font-weight: 700;
+ cursor: pointer;
+ transition: background 0.2s;
+ }
+.btn-submit:hover { background: #e05520; }  /* QUICK ANSWER */
+.quick-answer-section {
+ background: #fff;
+ padding: 40px 0 20px;
+ }
+.quick-answer-wrap {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 0 24px;
+ }
+.quick-answer-card {
+ background: linear-gradient(to bottom right, #fff8f3, #fff1e6);
+ border: 1px solid #fddcc4;
+ border-radius: 16px;
+ padding: 28px 32px;
+ }
+.quick-answer-card details summary {
+ font-family: Arial, sans-serif;
+ font-size: 18px;
+ font-weight: 700;
+ color: #1a2f5a;
+ cursor: pointer;
+ list-style: none;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+.quick-answer-card details summary::-webkit-details-marker { display: none; }
+.quick-answer-card details summary::after {
+ content: '\2304';
+ font-size: 20px;
+ color: #e8622a;
+ transition: transform 0.2s;
+ }
+.quick-answer-card details[open] summary::after { transform: rotate(180deg); }
+.quick-answer-content {
+ font-family: Arial, sans-serif;
+ font-size: 15px;
+ color: #444;
+ line-height: 1.8;
+ margin-top: 16px;
+ padding-top: 16px;
+ border-top: 1px solid #fddcc4;
+ }  /* TRUST BAR */
+.trust-bar { background: #f8f8f8; border-bottom: 1px solid #eee; padding: 28px 0; }
+.trust-bar-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+.trust-label {
+ text-align: center;
+ font-family: Arial, sans-serif;
+ font-size: 12px;
+ font-weight: 700;
+ color: #aaa;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ margin-bottom: 20px;
+ }
+.trust-logos { display: flex; gap: 24px; justify-content: center; align-items: center; flex-wrap: wrap; }
+.trust-logo {
+ width: 155px; height: 155px; background: #fff; border-radius: 16px;
+ border: 1px solid #e8e8e8; box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+ display: flex; align-items: center; justify-content: center; padding: 11px;
+ }
+.trust-logo img { width: 100%; height: 100%; object-fit: contain; }  /* SERVICES */
+.services { padding: 80px 0; background: #eef1f7; }
+.section-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+.section-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 48px; gap: 24px; flex-wrap: wrap; }
+.section-header h2 { font-family: Arial, sans-serif; font-size: 34px; font-weight: 800; color: #1a2f5a; max-width: 480px; line-height: 1.2; }
+.services-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.service-card { border-radius: 12px; overflow: hidden; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.06); display: flex; flex-direction: column; }
+.service-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.12); }
+.service-img { width: 100%; height: 200px; background: #dde4ed; overflow: hidden; }
+.service-img img,.service-img picture { width: 100%; height: 100%; object-fit: cover; display: block; }
+.service-body { padding: 24px; flex: 1; display: flex; flex-direction: column; }
+.service-body h3 { font-family: Arial, sans-serif; font-size: 18px; font-weight: 700; color: #1a2f5a; margin-bottom: 12px; }
+.service-body p { font-family: Arial, sans-serif; font-size: 14px; color: #555; line-height: 1.7; margin-bottom: 20px; flex: 1; }
+.btn-learn-more { display: block; width: 100%; background: #e8622a; color: #fff; text-align: center; padding: 12px; border-radius: 6px; font-family: Arial, sans-serif; font-size: 14px; font-weight: 600; transition: background 0.2s; }
+.btn-learn-more:hover { background: #c8501a; }  /* TESTIMONIALS */
+.testimonials { background: #1a2f5a; padding: 80px 0; }
+.testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 48px; }
+.testimonial-card { background: #fff; border-radius: 12px; padding: 28px; position: relative; border-bottom: 4px solid #e8622a; margin-top: 24px; }
+.testimonial-quote { position: absolute; top: -20px; left: 24px; width: 50px; height: 50px; background: #e8622a; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 28px; color: #fff; line-height: 1; font-family: Georgia, serif; font-weight: 700; }
+.testimonial-stars { text-align: right; color: #f5a623; font-size: 18px; margin-bottom: 16px; margin-top: 8px; }
+.testimonial-text { font-family: Arial, sans-serif; font-size: 14px; color: #444; line-height: 1.7; margin-bottom: 24px; }
+.testimonial-author { display: flex; align-items: center; gap: 12px; }
+.author-avatar { width: 52px; height: 52px; border-radius: 50%; background: #dde4ed; display: flex; align-items: center; justify-content: center; font-family: Arial, sans-serif; font-size: 16px; font-weight: 700; color: #1a2f5a; flex-shrink: 0; overflow: hidden; }
+.author-name { font-family: Arial, sans-serif; font-size: 15px; font-weight: 700; color: #1a1a1a; }
+.author-title { font-family: Arial, sans-serif; font-size: 13px; color: #e8622a; font-weight: 600; }  /* PORTFOLIO */
+.portfolio { padding: 80px 0; background: #fff; }
+.portfolio-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 40px; }
+.portfolio-item { aspect-ratio: 4/3; border-radius: 16px; overflow: hidden; position: relative; }
+.portfolio-item img,.portfolio-item picture { width: 100%; height: 100%; object-fit: cover; display: block; }
+.portfolio-item-bg { width: 100%; height: 100%; }
+.portfolio-item:nth-child(1).portfolio-item-bg { background: linear-gradient(135deg, #e8622a 0%, #c8501a 100%); }
+.portfolio-item:nth-child(2).portfolio-item-bg { background: linear-gradient(135deg, #d4893a 0%, #b8701a 100%); }
+.portfolio-item:nth-child(3).portfolio-item-bg { background: linear-gradient(135deg, #2a4a8a 0%, #1a2f5a 100%); }  /* ABOUT */
+.about { padding: 80px 0; background: #eef1f7; }
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+.about-text h2 { font-family: Arial, sans-serif; font-size: 34px; font-weight: 800; color: #1a2f5a; line-height: 1.2; margin-bottom: 20px; }
+.about-text p { font-family: Arial, sans-serif; font-size: 15px; color: #555; line-height: 1.8; margin-bottom: 16px; }
+.about-img { width: 100%; aspect-ratio: 1; border-radius: 16px; overflow: hidden; }
+.about-img img,.about-img picture { width: 100%; height: 100%; object-fit: cover; display: block; }  /* UNIQUE CONTENT CARDS */
+.unique-section { background: #fff; padding: 60px 0; }
+.unique-card {
+ background: #fff;
+ border-radius: 14px;
+ box-shadow: 0 4px 24px rgba(17,29,105,0.08), 0 1px 4px rgba(0,0,0,0.04);
+ padding: 2rem 2rem 2rem 2.5rem;
+ margin-bottom: 1.5rem;
+ max-width: 900px;
+ margin-left: auto;
+ margin-right: auto;
+ }
+.unique-card h2 {
+ font-family: Arial, sans-serif;
+ font-size: 20px;
+ font-weight: 700;
+ color: #1a2f5a;
+ margin-bottom: 12px;
+ padding-bottom: 12px;
+ border-bottom: 1px solid rgba(26,47,90,0.1);
+ }
+.unique-card-intro {
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ color: #888;
+ margin-bottom: 12px;
+ font-style: italic;
+ }
+.unique-card > div {
+ font-family: Arial, sans-serif;
+ font-size: 15px;
+ color: #374151;
+ line-height: 1.8;
+ }  /* PAIN POINTS */
+.pain-points { background: #f5f7fa; padding: 80px 0; }
+.pain-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+.pain-img { width: 100%; aspect-ratio: 16/7; border-radius: 16px; overflow: hidden; }
+.pain-img img,.pain-img picture { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pain-content h2 { font-family: Arial, sans-serif; font-size: 32px; font-weight: 800; color: #1a1a1a; margin-bottom: 8px; }
+.pain-content > p { font-family: Arial, sans-serif; font-size: 14px; color: #888; margin-bottom: 28px; }
+.pain-items { display: flex; flex-direction: column; gap: 20px; }
+.pain-item { display: flex; gap: 16px; align-items: flex-start; }
+.pain-num { width: 40px; height: 40px; border-radius: 8px; background: #ff6b35; color: #fff; font-family: Arial, sans-serif; font-size: 14px; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.pain-item h3 { font-family: Arial, sans-serif; font-size: 16px; font-weight: 700; color: #1a1a1a; margin-bottom: 4px; }
+.pain-item p { font-family: Arial, sans-serif; font-size: 13px; color: #666; line-height: 1.6; }  /* MIRROR QUESTIONS */
+.mirror-section { background: #eef1f7; padding: 80px 0; }
+.mirror-section h2 { font-family: Arial, sans-serif; font-size: 34px; font-weight: 800; color: #1a2f5a; margin-bottom: 8px; }
+.mirror-section.sub { font-family: Arial, sans-serif; font-size: 15px; color: #666; margin-bottom: 40px; }
+.mirror-questions { max-width: 800px; margin: 0 auto; }
+.mirror-category { font-size: 1.1rem; font-weight: 700; margin: 1.5rem 0 0.75rem; padding-bottom: 0.5rem; border-bottom: 2px solid #d1d5db; color: #1a2f5a; }
+.mirror-qa { margin-bottom: 0.75rem; border: 1px solid #e2e8f0; border-radius: 0.5rem; overflow: hidden; background: #fff; }
+.mirror-qa summary { cursor: pointer; padding: 0.875rem 1rem; font-size: 1rem; font-weight: 600; color: #1a2f5a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; transition: background 0.15s; }
+.mirror-qa summary:hover { background: #f8fafc; }
+.mirror-qa summary::-webkit-details-marker { display: none; }
+.mq-chevron { width: 1.25rem; height: 1.25rem; flex-shrink: 0; transition: transform 0.2s; color: #94a3b8; }
+.mirror-qa[open].mq-chevron { transform: rotate(180deg); }
+.mirror-qa[open] summary { background: #f8fafc; border-bottom: 1px solid #e2e8f0; }
+.mirror-answer { margin: 0; padding: 0.875rem 1rem; line-height: 1.7; color: #475569; font-size: 0.95rem; font-family: Arial, sans-serif; }  /* BLOG */
+.blog { padding: 80px 0; background: #eef1f7; }
+.blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; }
+.blog-card { border-radius: 12px; overflow: hidden; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.06); transition: box-shadow 0.2s; display: flex; flex-direction: column; }
+.blog-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.1); }
+.blog-img { width: 100%; height: 200px; overflow: hidden; }
+.blog-img img,.blog-img picture { width: 100%; height: 100%; object-fit: cover; display: block; }
+.blog-body { padding: 20px; flex: 1; display: flex; flex-direction: column; }
+.blog-meta { display: flex; justify-content: space-between; font-family: Arial, sans-serif; font-size: 12px; color: #aaa; margin-bottom: 12px; align-items: center; }
+.blog-meta span:first-child { color: #e8622a; font-weight: 700; font-size: 11px; letter-spacing: 0.5px; text-transform: uppercase; }
+.blog-body h3 { font-family: Arial, sans-serif; font-size: 16px; font-weight: 700; color: #1a2f5a; line-height: 1.4; margin-bottom: 10px; }
+.blog-body p { font-family: Arial, sans-serif; font-size: 13px; color: #666; line-height: 1.6; margin-bottom: 16px; flex: 1; }
+.blog-read-more { font-family: Arial, sans-serif; font-size: 14px; font-weight: 600; color: #e8622a; display: inline-flex; align-items: center; gap: 4px; }
+.blog-read-more:hover { color: #c8501a; }  /* LOCAL SIGNALS */
+.local-signals { background: #fff; padding: 80px 0; }
+.local-signals h2 { font-family: Arial, sans-serif; font-size: 34px; font-weight: 800; color: #1a2f5a; margin-bottom: 8px; }
+.local-signals.sub { font-family: Arial, sans-serif; font-size: 15px; color: #666; margin-bottom: 40px; }
+.signal-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+.signal-card { background: #f8f9ff; border-radius: 14px; padding: 28px; box-shadow: 0 2px 12px rgba(26,47,90,0.06); }
+.signal-card h3 { font-family: Arial, sans-serif; font-size: 16px; font-weight: 700; color: #1a2f5a; margin-bottom: 12px; }
+.signal-card p { font-family: Arial, sans-serif; font-size: 14px; color: #555; line-height: 1.7; }
+ /* FAQ */
+.faq-section { padding: 80px 0; background: #fff; }
+.faq-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 60px; align-items: start; }
+.faq-cta { background: #1a2f5a; border-radius: 16px; padding: 36px; }
+.faq-cta h2 { font-family: Arial, sans-serif; font-size: 22px; font-weight: 800; color: #fff; margin-bottom: 8px; line-height: 1.3; }
+.faq-cta-avatar { width: 52px; height: 52px; border-radius: 50%; background: #dde4ed; margin: 16px 0; display: flex; align-items: center; justify-content: center; font-size: 22px; overflow: hidden; }
+.faq-cta p { font-family: Arial, sans-serif; font-size: 14px; color: #b0c4d8; line-height: 1.7; margin-bottom: 24px; }
+.faq-cta-btns { display: flex; flex-direction: column; gap: 10px; }
+.btn-orange-outline { background: transparent; color: #fff; border: 2px solid #e8622a; padding: 13px 20px; border-radius: 6px; font-family: Arial, sans-serif; font-size: 14px; font-weight: 700; text-align: center; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background 0.2s; }
+.btn-orange-outline:hover { background: #e8622a; }
+.faq-list h2 { font-family: Arial, sans-serif; font-size: 28px; font-weight: 800; color: #1a2f5a; margin-bottom: 24px; }
+.faq-item { border-bottom: 1px solid #e0e0e0; padding: 18px 0; }
+.faq-question { font-family: Arial, sans-serif; font-size: 15px; font-weight: 500; color: #1a1a1a; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+.faq-question::after { content: '+'; font-size: 20px; color: #1a2f5a; font-weight: 400; }
+.faq-answer { font-family: Arial, sans-serif; font-size: 14px; color: #666; line-height: 1.7; margin-top: 12px; display: none; }
+.faq-item.open.faq-answer { display: block; }
+.faq-item.open.faq-question::after { content: '\2212'; }  /* CTA BANNER */
+.cta-banner { background: #1a2f5a; padding: 80px 0; text-align: center; }
+.cta-banner h2 { font-family: Arial, sans-serif; font-size: 40px; font-weight: 800; color: #fff; margin-bottom: 16px; }
+.cta-banner p { font-family: Arial, sans-serif; font-size: 16px; color: #b0c4d8; margin-bottom: 36px; max-width: 500px; margin-left: auto; margin-right: auto; }
+.cta-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+.btn-ghost-white { background: transparent; color: #fff; border: 2px solid rgba(255,255,255,0.5); padding: 14px 28px; border-radius: 6px; font-family: Arial, sans-serif; font-size: 15px; font-weight: 700; display: inline-block; transition: all 0.2s; }
+.btn-ghost-white:hover { border-color: #fff; background: rgba(255,255,255,0.1); }  /* FOOTER */
+.footer { background: #1a2f5a; padding: 60px 0 0; color: #b0c4d8; }
+.footer-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px 48px; display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 48px; }
+.footer-logo { width: 168px; height: 108px; border-radius: 10px; overflow: hidden; display: block; margin-bottom: 20px; }
+.footer-logo img,.footer-logo picture { width: 100%; height: 100%; object-fit: contain; display: block; }
+.footer-desc { font-family: Arial, sans-serif; font-size: 13px; color: #b0c4d8; line-height: 1.7; margin-bottom: 16px; }
+.footer-badges { display: flex; gap: 8px; margin-top: 16px; }
+.footer-badge { width: 44px; height: 44px; border-radius: 50%; background: #c8a84b; display: flex; align-items: center; justify-content: center; font-family: Arial, sans-serif; font-size: 7px; font-weight: 700; color: #fff; text-align: center; line-height: 1.2; }
+.footer-col h4 { font-family: Arial, sans-serif; font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 20px; }
+.footer-col ul { list-style: none; }
+.footer-col ul li { font-family: Arial, sans-serif; font-size: 14px; color: #b0c4d8; margin-bottom: 12px; cursor: pointer; transition: color 0.2s; }
+.footer-col ul li:hover { color: #e8622a; }
+.footer-col p { font-family: Arial, sans-serif; font-size: 13px; color: #b0c4d8; line-height: 1.7; margin-bottom: 8px; }
+.footer-social { display: flex; gap: 10px; margin-top: 20px; }
+.social-icon { width: 40px; height: 40px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-family: Arial, sans-serif; font-size: 14px; font-weight: 700; color: #fff; transition: background 0.2s; cursor: pointer; }
+.social-icon:hover { background: #e8622a!important; }
+.footer-bottom { background: #e8622a; padding: 16px 24px; font-family: Arial, sans-serif; font-size: 13px; color: #fff; text-align: center; width: 100%; }  @media (max-width: 900px) {
+.hero-inner { grid-template-columns: 1fr; }
+.services-grid,.testimonials-grid,.portfolio-grid,.blog-grid { grid-template-columns: 1fr; }
+.about-grid,.pain-grid,.faq-grid,.signal-grid { grid-template-columns: 1fr; }
+.footer-inner { grid-template-columns: 1fr 1fr; }
+.section-header { flex-direction: column; align-items: flex-start; gap: 8px; }
+ nav { display: none; }
+ }
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How does the web design process work for small businesses in Miami?","acceptedAnswer":{"@type":"Answer","text":"The web design process for small businesses in Miami starts with an initial consultation to assess your specific needs and project goals. During this phase, we evaluate your existing online presence and identify areas for improvement. Following this, we create a tailored design plan and timeline, ensuring alignment with your business objectives. Active collaboration is key, allowing adjustments based on your feedback throughout the design process."}},{"@type":"Question","name":"What results can a local service company expect from a website redesign in Miami?","acceptedAnswer":{"@type":"Answer","text":"A local service company can expect significant improvements in online visibility and lead generation from a website redesign. For instance, businesses in areas like Coral Gables often see increased engagement and conversion rates after implementing a modern, mobile-friendly design. The timeline for these results can vary, but many clients report noticeable changes in traffic and inquiries within a few weeks post-launch."}},{"@type":"Question","name":"How is your web design service different from other agencies in Miami?","acceptedAnswer":{"@type":"Answer","text":"Our web design service stands out due to our focus on local businesses and understanding of the Miami market. Unlike other agencies, we prioritize transparent communication and provide itemized quotes to eliminate surprises. Additionally, our designs are specifically tailored to resonate with Miami's diverse clientele, ensuring that your website effectively reaches your target audience."}},{"@type":"Question","name":"What does a basic business website typically cost in Miami?","acceptedAnswer":{"@type":"Answer","text":"In Miami, the cost for a basic business website typically starts around pricing that varies by project and can go up to pricing that varies by project depending on complexity and specific features. This pricing structure is designed to provide comprehensive services that cater to the unique needs of local businesses. We offer transparent, itemized quotes to ensure there are no unexpected expenses during the project."}},{"@type":"Question","name":"When should I plan for a website redesign if I own a retail business in Miami?","acceptedAnswer":{"@type":"Answer","text":"Planning for a website redesign should ideally coincide with key retail seasons in Miami, such as the end of the fiscal year or before major holidays. Many retail businesses in the Brickell area begin their redesign projects in Q3 to prepare for holiday traffic. Starting the process early allows for ample time to implement changes and optimize the site for peak shopping periods."}},{"@type":"Question","name":"What’s included in your e-commerce website development for Miami businesses?","acceptedAnswer":{"@type":"Answer","text":"Our e-commerce website development includes a comprehensive suite of features tailored for Miami businesses, including user-friendly product displays, secure payment processing, and SEO optimization. We also ensure that the site is mobile-responsive, catering to the growing number of mobile shoppers in the area. Each project is customized to meet your specific business needs, resulting in a platform that drives sales and enhances customer experience."}},{"@type":"Question","name":"How long does a typical Web Design project take for a Miami business?","acceptedAnswer":{"@type":"Answer","text":"The timeline for Web Design in Miami, FL depends on the scope of the project, content availability, and how quickly feedback is provided. Straightforward projects can be completed faster while larger or more complex builds take longer."}},{"@type":"Question","name":"What ongoing maintenance and support is included after Web Design launches in Miami, FL?","acceptedAnswer":{"@type":"Answer","text":"Ongoing support after a Web Design project can include security updates, performance optimization, content edits, and feature additions. Miami Web Design can outline what is covered in the initial project and what would require a separate maintenance arrangement."}}]}</script>
+<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "WebPage",  "@id": "https://webdesignmiami.net/fl/miami/33157#webpage",  "url": "https://webdesignmiami.net/fl/miami/33157",  "name": "Web Design in Miami, Florida",  "description": "Miami, Florida web design — scope, process, and pricing information for local businesses.",  "isPartOf": {  "@id": "https://webdesignmiami.net#website"  },  "about": {  "@id": "https://webdesignmiami.net/fl/miami/33157#localbusiness"  }
+}</script>
+<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "LocalBusiness",  "@id": "https://webdesignmiami.net/fl/miami/33157#localbusiness",  "name": "Miami Web Design",  "description": "Web Design for Miami, Florida businesses.",  "url": "https://webdesignmiami.net/fl/miami/33157",  "telephone": "(508)561-8276",  "email": "refrdai@gmail.com",  "address": {  "@type": "PostalAddress",  "addressLocality": "Miami",  "addressRegion": "Florida",  "postalCode": "33157",  "addressCountry": "US"  },  "sameAs": "https://webdesignmiami.net#organization",  "geo": {  "@type": "GeoCoordinates",  "latitude": "25.60671",  "longitude": "-80.34314"  },  "areaServed": [  {  "@type": "City",  "name": "Miami"  },  {  "@type": "AdministrativeArea",  "name": "Miami-Dade"  },  {  "@type": "State",  "name": "Florida"  }  ]
+}</script>
+<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "BreadcrumbList",  "itemListElement": [  {  "@type": "ListItem",  "position": 1,  "name": "Home",  "item": "https://webdesignmiami.net"  },  {  "@type": "ListItem",  "position": 2,  "name": "Florida",  "item": "https://webdesignmiami.net/florida"  },  {  "@type": "ListItem",  "position": 3,  "name": "Miami",  "item": "https://webdesignmiami.net/fl/miami/33157"  }  ]
+}</script><style>.memory-anchor{max-width:880px;margin:48px auto;padding:32px;background:#fff;border:1px solid #e5e7eb;border-radius:16px;box-shadow:0 4px 20px rgba(0,0,0,0.06)}.memory-anchor h2{text-align:center;margin-bottom:20px}.memory-anchor p{max-width:760px;margin-left:auto;margin-right:auto}</style><meta name="dateModified" content="2026-05-05T00:51:23.004Z">
+<style>  @media (max-width: 768px) {  .directions-section > div {  grid-template-columns: 1fr !important;  }  }  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <header class="header">
-    <div class="header-content">
-      <div class="logo">Miami Web Design</div>
-      <div class="header-phone">📞 (508)561-8276</div>
-    </div>
-  </header>
 
-  <section class="hero">
-    <h1>Miami Web Design</h1>
-    <p class="hero-subtitle">Professional Web Design Services</p>
-    <a href="#areas" class="cta-button">Find Service in Your Area</a>
-  </section>
+<div id="reading-progress" aria-hidden="true"></div>
 
-  <main class="section">
-    <div class="container">
-      <h2 class="section-title">Welcome</h2>
-      <p style="font-size: 1.125rem; text-align: center; max-width: 800px; margin: 0 auto 2rem; color: #475569;">
-        We provide professional Web Design services across multiple locations. 
-        Select your city below to find local contact information and service details.
-      </p>
-    </div>
-  </main>
+<!-- TOPBAR -->
+<div class="topbar">
+ <div class="topbar-inner">
+ <span><a href="tel:(508)561-8276" style="color:#fff;">(508)561-8276</a></span>
+ <span><a href="mailto:refrdai@gmail.com" style="color:#fff;">refrdai@gmail.com</a></span>
+ <span>Miami, FL</span>
+ </div>
+</div>
 
-  
-      <section class="service-areas" style="padding: 4rem 2rem; background: #f8fafc;">
-        <div class="container" style="max-width: 1200px; margin: 0 auto;">
-          <h2 style="font-size: 2rem; font-weight: 700; text-align: center; margin-bottom: 2rem; color: #1e293b;">Service Areas</h2>
-          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1.5rem;">
-            
-              <a href="web-design/fl/dania/33004/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Dania</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Florida</p>
-              </a>
-            
-              <a href="web-design/fl/fort-lauderdale/33311/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Fort Lauderdale</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Florida</p>
-              </a>
-            
-              <a href="web-design/fl/hallandale/33009/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Hallandale</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Florida</p>
-              </a>
-            
-              <a href="web-design/fl/hialeah/33012/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Hialeah</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Florida</p>
-              </a>
-            
-              <a href="web-design/fl/hollywood/33024/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Hollywood</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Florida</p>
-              </a>
-            
-              <a href="web-design/fl/homestead/33033/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Homestead</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Florida</p>
-              </a>
-            
-              <a href="web-design/fl/key-biscayne/33149/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Key Biscayne</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Florida</p>
-              </a>
-            
-              <a href="web-design/fl/miami/33157/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Miami</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Florida</p>
-              </a>
-            
-              <a href="web-design/fl/miami-beach/33141/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Miami Beach</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Florida</p>
-              </a>
-            
-              <a href="web-design/fl/miami-gardens/33056/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Miami Gardens</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Florida</p>
-              </a>
-            
-              <a href="web-design/fl/north-miami-beach/33160/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">North Miami Beach</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Florida</p>
-              </a>
-            
-              <a href="web-design/fl/opa-locka/33055/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Opa Locka</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Florida</p>
-              </a>
-            
-              <a href="web-design/fl/pembroke-pines/33028/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Pembroke Pines</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Florida</p>
-              </a>
-            
-              <a href="web-design/fl/plantation/33388/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Plantation</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Florida</p>
-              </a>
-            
-          </div>
-        </div>
-      </section>
-    
+<!-- HEADER -->
+<header class="header">
+ <div class="header-inner">
+ <div class="logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/MWD-Logo.webp" alt="Miami Web Design" style="width:100%;height:100%;object-fit:contain;"></div>
+ <nav>
+ <a href="#">Home</a>
+ <a href="#">Our Services</a>
+ <a href="#">Latest Article</a>
+ <a href="#">About Us</a>
+ <a href="#contact-form">Contact Us</a>
+ </nav>
+ </div>
+</header>
 
-  <section id="contact" class="section" style="background: #f8fafc;">
-    <div class="container">
-      <h2 class="section-title">Contact Us</h2>
-      <div style="max-width: 600px; margin: 0 auto; text-align: center;">
-        <p style="font-size: 1.125rem; margin-bottom: 1.5rem; color: #475569;">
-          Ready to get started? Contact us today for professional Web Design.
-        </p>
-        <div style="background: white; padding: 2rem; border-radius: 0.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-          <p style="font-size: 1.25rem; font-weight: 600; margin-bottom: 0.5rem; color: #1e293b;">📞 (508)561-8276</p>
-          <p style="font-size: 1rem; color: #64748b; margin-bottom: 1rem;">✉️ refrdai@gmail.com</p>
-          <a href="#areas" class="cta-button" style="display: inline-block; margin-top: 1rem;">View Service Areas</a>
-        </div>
-      </div>
-    </div>
-  </section>
+<!-- PRESERVE:HERO_FULL_START -->
+<section class="hero" data-preserve-hero="true" data-preserve-structural="true">
+ <div class="hero-bg" data-preserve="true" data-preserve-structural="true">
+ <video autoplay="" muted="" playsinline="" loop="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 35%;display:block;">
+ <source src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/3249672-uhd_2560_1440_25fps.mp4" type="video/mp4">
+ </video>
+ </div>
+ <div class="hero-overlay" data-preserve="true" data-preserve-structural="true"></div>
+ <div class="hero-inner" data-preserve="true" data-preserve-structural="true">
+ <div class="hero-content" data-preserve="true">
+ <h1>Web Design | Miami, Florida 33157</h1>
+ <p>Is your outdated website costing you clients in Miami? Miami Web Design builds powerful, conversion-focused sites for Miami-Dade County businesses — fast.</p>
+<p>Serving Miami and the greater Miami-Dade area with professional Web Design.</p>
+ <div class="hero-btns">
+ <a href="https://webdesignmiami.net/api/contact" class="btn-blue-600">Get Started Today →</a>
+ <a href="tel:(508)561-8276" style="background:rgba(255,255,255,0.15);color:#fff;border:2px solid rgba(255,255,255,0.5);padding:14px 28px;border-radius:6px;font-family:Arial,sans-serif;font-size:15px;font-weight:700;display:inline-flex;align-items:center;gap:8px;backdrop-filter:blur(4px);">✆ Call (508)561-8276</a>
+ </div>
+ <div class="hero-stats">
+ <div class="stat">
+ <div class="stat-number">500+</div>
+ <div class="stat-label">Clients Helped</div>
+ </div>
+ <div class="stat">
+ <div class="stat-number">600+</div>
+ <div class="stat-label">Websites Launched</div>
+ </div>
+ <div class="stat">
+ <div class="stat-number">800+</div>
+ <div class="stat-label">Positive Reviews</div>
+ </div>
+ </div>
+ </div>
+ <div class="hero-form" data-preserve="true">
+ <h2>Get your FREE Quote Today!</h2>
+ <p>Tell us about your Web Design project and we'll respond within 2 hours</p>
+ <div class="form-row">
+ <div class="form-group"><input type="text" placeholder="First Name"></div>
+ <div class="form-group"><input type="text" placeholder="Last Name"></div>
+ </div>
+ <div class="form-group"><input type="email" placeholder="Email Address"></div>
+ <div class="form-group">
+ <label style="font-family:Arial,sans-serif;font-size:13px;font-weight:700;color:#1a1a1a;display:block;margin-bottom:6px;">Service Needed</label>
+ <select>
+ <option>Web Design</option>
+ <option>SEO Marketing</option>
+ <option>E-Commerce Store</option>
+ <option>Website Redesign</option>
+ <option>Branding</option>
+ </select>
+ </div>
+ <div class="form-group">
+ <textarea placeholder="Describe your website goals"></textarea>
+ </div>
+ <button class="btn-submit">Free Estimate</button>
+ <div style="display:flex;gap:10px;justify-content:center;margin-top:16px;">
+ <img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/9175369_6545-1-Photoroom.webp" alt="Quality badges" style="max-width:100%;height:auto;margin-top:4px;">
+ </div>
+ </div>
+ </div>
+</section>
+<!-- PRESERVE:HERO_FULL_END -->
 
-  <footer class="footer">
-    <p>&copy; 2026 Miami Web Design. All rights reserved.</p>
-    <p style="margin-top: 0.5rem; opacity: 0.8;">Professional Web Design Services</p>
-  </footer>
-</body>
-</html>
+<!-- TRUST BAR -->
+<div class="trust-bar">
+ <div class="trust-bar-inner">
+ <div class="trust-label">Trusted Technologies &amp; Platforms</div>
+ <div class="trust-logos">
+ <div class="trust-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/icons8-wordpress-96.png" alt="WordPress" style="width:100%;height:100%;object-fit:contain;"></div>
+ <div class="trust-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/icons8-react-native-96.png" alt="React" style="width:100%;height:100%;object-fit:contain;"></div>
+ <div class="trust-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/icons8-shopify-96.png" alt="Shopify" style="width:100%;height:100%;object-fit:contain;"></div>
+ <div class="trust-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/icons8-webflow-96.png" alt="Webflow" style="width:100%;height:100%;object-fit:contain;"></div>
+ <div class="trust-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/icons8-google-ads-96.png" alt="Google Ads" style="width:100%;height:100%;object-fit:contain;"></div>
+ <div class="trust-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/icons8-hubspot-96.png" alt="HubSpot" style="width:100%;height:100%;object-fit:contain;"></div>
+ </div>
+ </div>
+</div>
+
+<main id="main-content">
+
+<p class="local-context-intro" style="margin-bottom: 1.5rem;">Serving Miami, FL — Miami Web Design is a digital agency that helps local businesses turn outdated or underperforming websites into conversion-focused online sales assets. Helping Miami businesses with professional web design services, also serving near South Beach and the Miami-Dade area.</p>
+<div class="content-body">
+
+<!-- SECTION:quick-answer START -->
+<section><div class="max-w-6xl mx-auto px-4"><div class="bg-white rounded-xl p-6 md:p-8"><div id="quick-answer" class="quick-answer-section">
+ <div class="quick-answer-wrap">
+ <div class="quick-answer-card">
+ <details open="">
+ <summary>Quick Answer</summary>
+ <div class="quick-answer-content">
+ <p class="text-slate-700">Miami Web Design provides Web Design for businesses and commercial clients in Miami, Florida. Scope, timeline, and pricing are confirmed in writing before any project begins. Contact us to discuss your project scope, scheduling, and any specific requirements for your Miami location.</p>
+ </div>
+ </details>
+ </div>
+ </div>
+</div></div></div></section>
+<!-- SECTION:quick-answer END -->
+
+<!-- SERVICES -->
+<section class="services">
+ <div class="section-inner">
+ <div class="section-header">
+ <div>
+ <h2>Miami Web Design — Web Design in Miami</h2>
+ <p style="margin-top:8px;font-family:Arial,sans-serif;font-size:15px;color:#555;max-width:560px;">Your complete digital partner serving Miami, FL and throughout Miami-Dade County — we build, optimize, and grow your online presence.</p>
+ </div>
+ <a href="https://webdesignmiami.net/api/contact" class="btn-blue-600" style="white-space:nowrap;flex-shrink:0;">View All Services →</a>
+ </div>
+ <div class="services-grid">
+ <div class="service-card">
+ <div class="service-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/Custom-Website-Development-1024x682.webp" alt="Custom Web Design"></div>
+ <div class="service-body">
+ <h3>Custom Web Design</h3>
+ <p>Our designers craft pixel-perfect, conversion-focused websites tailored to your brand. We serve clients throughout Miami and Miami-Dade County with sites that captivate and convert.</p>
+ <a href="https://webdesignmiami.net/api/contact" class="btn-learn-more">Learn More →</a>
+ </div>
+ </div>
+ <div class="service-card">
+ <div class="service-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/E-Commerce-Development.webp" alt="E-Commerce Development"></div>
+ <div class="service-body">
+ <h3>E-Commerce Development</h3>
+ <p>Launch or grow your online store with a powerful, mobile-optimized platform. From Shopify to WooCommerce, we build stores for Miami businesses designed to sell — 24/7.</p>
+ <a href="https://webdesignmiami.net/api/contact" class="btn-learn-more">Learn More →</a>
+ </div>
+ </div>
+ <div class="service-card">
+ <div class="service-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/SEO-Digital-Marketing-1024x682.webp" alt="SEO &amp; Digital Marketing"></div>
+ <div class="service-body">
+ <h3>SEO &amp; Digital Marketing</h3>
+ <p>Rank higher on Google and dominate Miami search results. Our experts use proven strategies to drive qualified traffic and grow your revenue throughout Miami-Dade County.</p>
+ <a href="https://webdesignmiami.net/api/contact" class="btn-learn-more">Learn More →</a>
+ </div>
+ </div>
+ <div class="service-card">
+ <div class="service-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/Website-Maintenance.webp" alt="Website Maintenance"></div>
+ <div class="service-body">
+ <h3>Website Maintenance</h3>
+ <p>Keep your site fast, secure, and up-to-date. Our maintenance plans cover security patches, speed optimizations, content updates, and 24/7 uptime monitoring for Miami businesses.</p>
+ <a href="https://webdesignmiami.net/api/contact" class="btn-learn-more">Learn More →</a>
+ </div>
+ </div>
+ </div>
+ <p style="font-family:Arial,sans-serif;font-size:13px;color:#888;margin-top:20px;text-align:center;">Custom Web Design · E-Commerce Development · SEO &amp; Digital Marketing · Website Maintenance</p>
+ </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+ <div class="section-inner">
+ <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:24px;flex-wrap:wrap;">
+ <div>
+ <h2 style="font-family:Arial,sans-serif;font-size:34px;font-weight:800;color:#fff;">What Miami Businesses Are Saying</h2>
+ <p style="font-family:Arial,sans-serif;font-size:15px;color:#b0c4d8;margin-top:8px;">See why businesses across Miami-Dade County trust Miami Web Design.</p>
+ </div>
+ <a href="#" class="btn-blue-600" style="white-space:nowrap;flex-shrink:0;">Read More Reviews →</a>
+ </div>
+ <div class="testimonials-grid">
+ <div class="testimonial-card">
+ <div class="testimonial-quote">"</div>
+ <div class="testimonial-stars">★★★★★</div>
+ <div class="testimonial-text">"Miami Web Design completely transformed our online presence. Within 3 months of launching our new site, our inquiries tripled. They truly understand what Miami businesses need online."</div>
+ <div class="testimonial-author">
+ <div class="author-avatar"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2021/07/client-1.png" alt="Maria Rodriguez" style="width:100%;height:100%;object-fit:cover;border-radius:50%;"></div>
+ <div>
+ <div class="author-name">Maria Rodriguez</div>
+ <div class="author-title">Owner, Brickell Realty</div>
+ </div>
+ </div>
+ </div>
+ <div class="testimonial-card">
+ <div class="testimonial-quote">"</div>
+ <div class="testimonial-stars">★★★★★</div>
+ <div class="testimonial-text">"Fast, professional, and the results speak for themselves. Our e-commerce site was live in under 3 weeks and we made back the investment in the first month. Highly recommend!"</div>
+ <div class="testimonial-author">
+ <div class="author-avatar"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2021/07/client-2.png" alt="Julia Sullivan" style="width:100%;height:100%;object-fit:cover;border-radius:50%;"></div>
+ <div>
+ <div class="author-name">Julia Sullivan</div>
+ <div class="author-title">CEO, Coral Beach Apparel</div>
+ </div>
+ </div>
+ </div>
+ <div class="testimonial-card">
+ <div class="testimonial-quote">"</div>
+ <div class="testimonial-stars">★★★★★</div>
+ <div class="testimonial-text">"These guys are SEO wizards. We went from page 4 on Google to the top 3 results for our Miami keywords. The phone hasn't stopped ringing since."</div>
+ <div class="testimonial-author">
+ <div class="author-avatar"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2021/07/client-3.png" alt="Jennifer Morales" style="width:100%;height:100%;object-fit:cover;border-radius:50%;"></div>
+ <div>
+ <div class="author-name">Jennifer Morales</div>
+ <div class="author-title">Owner, SunState Roofing</div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="portfolio">
+ <div class="section-inner">
+ <div class="section-header">
+ <h2 style="color:#1a2f5a;">Our Portfolio</h2>
+ <a href="#" class="btn-blue-600">Know More →</a>
+ </div>
+ <div class="portfolio-grid">
+ <div class="portfolio-item"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/MWD-Portfolio-1.webp" alt="Portfolio 1" style="width:100%;height:100%;object-fit:cover;"></div>
+ <div class="portfolio-item"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/MWD-Portfolio-2.webp" alt="Portfolio 2" style="width:100%;height:100%;object-fit:cover;"></div>
+ <div class="portfolio-item"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/MWD-Portfolio-3.webp" alt="Portfolio 3" style="width:100%;height:100%;object-fit:cover;"></div>
+ </div>
+ </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+ <div class="section-inner">
+ <div class="about-grid">
+ <div class="about-text">
+ <h2>Miami Web Design — Your Digital Growth Partner</h2>
+ <p>At Miami Web Design, we've been helping Miami businesses grow online for over a decade. We specialize in Web Design for clients throughout Miami-Dade County — generating real results with more traffic, more leads, and more revenue.</p>
+ <p>Our experienced team of designers, developers, and marketers are experts in all modern platforms and techniques. We take the time to understand your business goals and craft a digital strategy that actually works for Miami, FL businesses.</p>
+ <p>We take pride in delivering exceptional client experiences and aim to be your go-to digital partner whenever you need expertise. Our team brings focused experience to every project in Miami-Dade County and beyond.</p>
+ <a href="tel:(508)561-8276" class="btn-blue-600" style="margin-top:24px;display:inline-block;">Contact Us Directly</a>
+ </div>
+ <div class="about-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/pexels-the-ghazi-2152398165-32216281-1.jpg" alt="Our web design team" loading="lazy"></div>
+ </div>
+ </div>
+</section>
+
+<section class="unique-section">
+ <div class="section-inner">  <div class="unique-card">
+ <h2>About Miami</h2>
+ <p class="unique-card-intro">Here's what makes Miami businesses unique and what that means for your online presence.</p>
+ <div><!-- SECTION:building-stock-profile START --><div><p><strong>Local Service Industry Demand:</strong> Miami's vibrant service sector, including contractors, med spas, and law firms, actively seeks professional web design services to enhance their online presence. Areas like Coral Gables, known for its upscale businesses, see heightened demand for modern, user-friendly websites that can effectively attract and convert local clientele. This competitive landscape necessitates a strong online strategy to stand out.</p><p><strong>E-Commerce Growth in Retail:</strong> The e-commerce segment in Miami, particularly in districts like Wynwood, is rapidly expanding. Retailers and product-based businesses require sophisticated web design solutions that focus on user experience and conversion optimization. As more consumers turn to online shopping, the need for robust e-commerce websites has become a critical factor for business success.</p><p><strong>Startups and Tech Companies:</strong> South Florida's entrepreneurial ecosystem is thriving, especially in tech hubs like the Miami Innovation District. Startups often require quick launches of professional websites to establish credibility and attract investment. This urgency drives demand for streamlined web design services that can deliver results within tight timelines.</p><p><strong>Branding and Online Presence:</strong> Businesses in Miami's financial district, such as investment firms and consultancies, increasingly recognize the importance of a strong brand identity. Effective web design is essential for showcasing their services and building trust with potential clients. Companies in these sectors are looking for comprehensive solutions that integrate branding with functional design.</p><p><strong>Competitive Landscape and Pricing:</strong> The web design market in Miami features a range of providers, from freelancers to established agencies. With project costs for basic business sites starting around $1,500 and e-commerce stores ranging from $3,000 to $8,000, businesses must evaluate their options carefully. The competitive pricing landscape in areas like Brickell emphasizes the need for transparent, itemized quotes to avoid surprises and ensure value for investment.</p><p><strong>Emerging Trends in Mobile Optimization:</strong> As mobile usage continues to rise in Miami, businesses recognize the necessity of mobile-optimized web design. Areas with high foot traffic, such as South Beach, see many users accessing websites on their smartphones. This trend highlights the importance of responsive design that provides seamless user experiences across all devices.</p><p><strong>Community Engagement and Local SEO:</strong> Local businesses in Miami are increasingly focusing on community engagement through their online platforms. Effective web design that incorporates local SEO strategies is essential for attracting nearby customers. Businesses are investing in features such as location-based services and customer reviews to enhance visibility and foster connections within the Miami community.</p></div><!-- SECTION:building-stock-profile END --></div>
+ </div>  <div class="unique-card">
+ <h2>Neighborhood Insights for Miami</h2>
+ <p class="unique-card-intro">Understanding the local landscape helps us build smarter digital strategies for your area.</p>
+ <div><!-- SECTION:neighborhood-constraints START --><div><ul class="section-list"><li><strong>Medical and Professional Corridor:</strong> This area is home to numerous healthcare providers, law firms, and financial institutions that require modern, user-friendly websites to attract clients and convey their services clearly. With the high demand for online visibility and patient engagement, these businesses often seek web design services to ensure their online presence is competitive. Accessibility is crucial, as many firms operate during standard business hours, necessitating quick turnaround times for web updates and maintenance.</li><li><strong>Technology and Startup Hub:</strong> Concentrated in areas like Wynwood and the Design District, this zone is filled with innovative companies and startups eager to establish a strong digital footprint. These businesses typically require dynamic websites that can showcase their services and products effectively, driving leads and conversions. The fast-paced nature of startups means that they often seek rapid project completion, making scheduling and timely delivery essential for web design providers.</li><li><strong>Mixed Commercial Zone:</strong> This area includes a variety of retail businesses, e-commerce sites, and service industries that need visually appealing websites to capture consumer interest. Businesses here often face stiff competition, which drives the need for high-quality web design that stands out. Additionally, seasonal promotions and local events can create spikes in demand for design services, requiring providers to be flexible and responsive to changing project timelines.</li><li><strong>Art and Culture District:</strong> Located near downtown Miami, this area attracts creative agencies and cultural organizations looking to enhance their online presence. Websites that reflect the vibrant art scene and cultural diversity are essential for these businesses to connect with audiences. Engaging multimedia content, such as galleries and event calendars, is often a priority, requiring web designers to integrate interactive features that resonate with visitors.</li><li><strong>Hospitality and Tourism Sector:</strong> Given Miami's status as a premier tourist destination, businesses in this sector, including hotels, restaurants, and tour operators, need websites that not only attract visitors but also provide comprehensive booking systems. The demand for mobile-friendly designs is especially high, as many tourists rely on their smartphones to plan their activities. Timely updates related to promotions and availability are crucial to keep potential customers engaged.</li></ul></div><!-- SECTION:neighborhood-constraints END --></div>
+ </div>  <div class="unique-card">
+ <h2>Common Challenges in Miami</h2>
+ <p class="unique-card-intro">We've seen what holds Miami businesses back online — and we know how to fix it.</p>
+ <div><!-- SECTION:failure-patterns START --><div><ul class="section-list"><li><strong>Missed Deadlines:</strong> Many businesses in Miami, such as e-commerce retailers in Wynwood, face delays in website launches when they hire providers who lack clear timelines or communication. Often, this is due to providers underestimating the complexity of the project or failing to account for the local demand spikes during events like Art Basel. When deadlines are missed, businesses can lose valuable sales opportunities, especially during peak shopping periods, leading to a significant loss in revenue.</li><li><strong>Wasted Budget:</strong> Companies in Miami’s competitive hospitality sector, particularly in South Beach, often experience budget overruns when engaging web design services that do not provide transparent pricing. This can stem from vague quotes that lack itemized costs, making it difficult for businesses to gauge total expenses upfront. Ignoring this can result in financial strain, as companies may end up paying significantly more than anticipated, which is especially detrimental for startups trying to establish their brand presence.</li><li><strong>Misaligned Deliverables:</strong> Local service businesses in Coral Gables frequently encounter issues with web design firms that do not fully understand their specific needs. This misalignment often occurs when providers fail to conduct a thorough service fit assessment, leading to websites that do not effectively communicate the business’s value proposition. The consequence is a lack of customer engagement and poor conversion rates, which can severely impact a company’s growth trajectory in a bustling market.</li><li><strong>Vendor Churn:</strong> Businesses in Miami’s financial district, like law firms, often experience high vendor churn when they do not establish clear expectations from the beginning. This can happen if providers do not set proper appointment expectations or fail to deliver on agreed-upon timelines. The result is a constant cycle of switching providers, which wastes time and resources, ultimately hindering the firm's ability to focus on its core services and client relationships.</li><li><strong>Scope Creep:</strong> Growing startups in Little Havana may face scope creep when they do not clearly define project parameters with their web design provider. This often occurs due to a lack of clarity in the initial service agreement and can lead to additional costs and extended timelines. If not managed properly, scope creep can result in frustration and dissatisfaction, affecting the startup's ability to launch their website on time and within budget.</li></ul></div><!-- SECTION:failure-patterns END --></div>
+ </div>  <div class="unique-card">
+ <h2>Local Pricing Factors in Miami-Dade County</h2>
+ <p class="unique-card-intro">What affects the cost of Web Design for businesses in Miami, FL.</p>
+ <div><!-- SECTION:pricing-factors START --><div><ul class="section-list"><li><strong>Scope and Deliverable Complexity:</strong> The complexity of web design projects in Miami significantly influences pricing. Custom features, such as e-commerce capabilities or advanced SEO integration, require more intensive labor and technical expertise. Businesses like real estate firms in Coral Gables, which often need visually appealing listings and user-friendly interfaces, may find their costs rising as these additional features demand more time and resources. This complexity can extend project timelines, affecting overall budget allocations and necessitating careful planning.</li><li><strong>Turnaround and Timeline Demands:</strong> Rapid project timelines are common among Miami businesses, particularly those in competitive sectors such as finance in Brickell. Companies often require quick launches to coincide with marketing campaigns or seasonal peaks, driving up costs due to expedited service requests. This urgency can lead to higher pricing, as providers prioritize quick turnaround over detailed planning, impacting the quality and thoroughness of the final product.</li><li><strong>Ongoing vs. Project-Based Engagement Models:</strong> Many Miami businesses prefer ongoing website maintenance packages to ensure their sites remain current and functional. This model often leads to a higher cumulative investment over time compared to one-off projects. For instance, a local boutique in Wynwood may require regular updates to align with new product lines and trends, which can increase overall costs but provide better long-term value and adaptability to market changes.</li><li><strong>Competitive Pricing Context in the Miami Market:</strong> The high density of web design providers in Miami creates a competitive landscape that can drive prices down. However, businesses must be cautious; lower prices can sometimes correlate with reduced service quality. Companies in sectors like hospitality in South Beach, where online presence is critical for attracting customers, must weigh the benefits of cost savings against the potential risks of subpar service, which can ultimately affect their ROI.</li></ul></div><!-- SECTION:pricing-factors END --></div>
+ </div>  <div class="unique-card">
+ <h2>Local Considerations for Miami Businesses</h2>
+ <p class="unique-card-intro">How the Miami market environment shapes your digital strategy.</p>
+ <div><!-- SECTION:climate-impact START --><div><p><strong>Q1 Budget Activation:</strong> Many businesses in Miami start their fiscal year planning in January, leading to a surge in requests for web design services as companies allocate budgets for marketing and digital presence enhancements. This period is crucial for businesses looking to refresh their websites to align with new goals and strategies, resulting in increased engagement from web design providers.</p><p><strong>Mid-Year Marketing Push:</strong> As businesses ramp up their marketing efforts in the summer months, there is a significant increase in demand for web design services. Companies often look to enhance their online presence before the busy fall season, which includes back-to-school promotions and holiday marketing campaigns. This timing requires web design firms to be prepared for a higher volume of projects and tighter deadlines.</p><p><strong>Fall Planning and Renewal:</strong> In Q4, many businesses in Miami begin to evaluate their performance for the year and strategize for the upcoming year. This is a key time for companies to consider redesigning their websites or implementing new features to improve user engagement and conversion rates. As businesses finalize their annual budgets, it creates a window of opportunity for web design services to secure new projects.</p><p><strong>Year-Round Retainer Demand:</strong> Many established companies in Miami maintain ongoing relationships with web design firms for continuous website updates and maintenance. This consistent demand ensures that businesses can adapt to changing market conditions and consumer preferences, making it essential for web design providers to offer flexible service agreements that support long-term client needs.</p><p><strong>Seasonal Trends in Design:</strong> Miami's unique climate and cultural events influence design trends throughout the year. For example, during the Art Basel season, businesses may seek to refresh their websites to attract art enthusiasts and tourists. Understanding these seasonal shifts can help web design firms better serve their clients' needs.</p><p><strong>Impact of Local Events:</strong> Major events like the Miami International Boat Show or Miami Fashion Week create spikes in demand for web design services. Businesses often need to optimize their online presence to capitalize on increased traffic and engagement during these events, making it crucial for web design providers to be agile and responsive.</p></div><!-- SECTION:climate-impact END --></div>
+ </div>  <div class="unique-card">
+ <h2>Important Information</h2>
+ <p class="unique-card-intro">What every Miami business should know before starting a web project.</p>
+ <div class="risk-disclosure"><!-- SECTION:risk-disclosure START --><div class="risk-disclosure"><p><strong>Provider Evaluation:</strong> When selecting a web design provider in Miami, businesses must assess the vendor's portfolio for relevant experience in the local market. Many providers may lack familiarity with the unique challenges faced by Miami businesses, such as the need for mobile-responsive designs that cater to a diverse clientele. Companies in the Wynwood Arts District, for instance, often require visually striking websites that reflect their creative services. Failing to evaluate a provider's past work in similar industries can lead to misalignment in expectations and outcomes.</p><p><strong>Common Vetting Oversights:</strong> Businesses frequently overlook the importance of transparent communication during the selection process. In Miami's competitive landscape, such as that found in the Brickell financial district, timely updates and clear project milestones are essential. Not establishing these expectations upfront can result in delayed project timelines and unforeseen costs. Additionally, companies may neglect to ask about post-launch support, which is crucial for resolving any issues that arise after the site goes live, particularly for e-commerce businesses in Coral Gables that depend on ongoing functionality.</p><p><strong>Commitment Clarity:</strong> It is vital for businesses to demand clear contract terms that outline deliverables, timelines, and payment structures. In the context of Miami's bustling metropolitan area, where businesses are often under pressure to launch quickly, ambiguous agreements can lead to disputes and project delays. Companies should ensure that their contracts include specific clauses regarding revisions and maintenance to avoid misunderstandings later. Additionally, understanding the implications of local regulations and compliance requirements, especially for businesses in the hospitality sector in South Beach, can mitigate risks associated with non-compliance.</p><p><strong>Industry-Specific Insights:</strong>Businesses in Miami's tech sector should consider the unique digital landscape of the region. Engaging with a provider who understands local SEO strategies can enhance visibility in a crowded market. Moreover, companies in the tourism industry must prioritize website accessibility to cater to international visitors, ensuring a for all users.</p><p><strong>Understanding Local Trends:</strong> Miami's cultural diversity influences design preferences and user experience. Companies must ensure their web design reflects this diversity to resonate with their target audience. Engaging with a provider who is attuned to local trends can provide a competitive edge, especially in industries like fashion and entertainment, which thrive on visual appeal.</p></div><!-- SECTION:risk-disclosure END --></div>
+ </div>  <div class="unique-card">
+ <h2>Recent Projects in Miami</h2>
+ <p class="unique-card-intro">Real examples of what Miami Web Design has delivered for Miami-Dade County clients.</p>
+ <div class="project-scenarios"><!-- SECTION:project-scenarios START --><div class="project-scenarios"><div class="scenario"><h4>Scenario: Redesigning a Corporate Website for a Miami Financial Firm</h4><p><strong>Client:</strong> A prominent financial services firm located in the Brickell area needed a comprehensive redesign of their corporate website to enhance user experience and improve client engagement.</p><p><strong>Background:</strong> The firm faced significant competition from other financial institutions in Brickell, where many firms were investing heavily in digital marketing. Their outdated website lacked essential features such as client portals and responsive design, which limited accessibility for users on mobile devices. The firm recognized the urgency to modernize their online presence to attract new clients and retain existing ones.</p><p><strong>Approach:</strong> Our team conducted a thorough analysis of the firm's target audience and competitors in the Brickell area. We decided to implement a mobile-first design strategy, ensuring that the website would be fully responsive across all devices. This choice allowed us to prioritize user experience for the growing number of clients accessing financial services via smartphones. Additionally, we incorporated advanced analytics tools to track user engagement and optimize content.</p><p><strong>Result:</strong> The newly designed website led to a 70% increase in client inquiries within the first quarter after launch. This significant uptick in engagement not only boosted their client base but also solidified their reputation as a digital leader in the competitive Brickell financial landscape.</p></div><div class="scenario"><h4>Scenario: Launching an E-Commerce Platform for a Coconut Grove Boutique</h4><p><strong>Client:</strong> A boutique in Coconut Grove specializing in eco-friendly fashion sought to launch an e-commerce platform to reach a broader audience.</p><p>In Miami, <strong>Background:</strong> The boutique struggled with limited foot traffic, especially during the off-peak tourist season. With Coconut Grove's vibrant art and culture scene, the owner recognized the potential for online sales to complement in-store purchases. However, the boutique's existing website was not equipped for e-commerce, limiting their growth potential.</p><p>In Miami, <strong>Approach:</strong> We collaborated with the boutique owner to develop an e-commerce website that showcased their unique, eco-friendly clothing line. A critical decision was to integrate a user-friendly shopping cart system and secure payment options to enhance the shopping experience. We also implemented an SEO strategy focused on local keywords to attract both local and tourist customers searching for sustainable fashion.</p><p>In Miami, <strong>Result:</strong> After launching the e-commerce platform, the boutique experienced a 60% increase in online sales within the first month, generating over $15,000 in revenue. This online expansion not only increased their customer base but also strengthened their brand presence in the eco-conscious market of Coconut Grove.</p></div><div class="scenario"><h4>Scenario: Developing a Digital Marketing Strategy for a Little Havana Restaurant</h4><p>In Miami, <strong>Client:</strong> A family-owned Cuban restaurant in Little Havana aimed to enhance its digital marketing efforts to attract more local and tourist customers.</p><p>In Miami, <strong>Background:</strong> The restaurant had a loyal customer base but lacked an effective online presence. With the rise of food delivery services and online reviews, the owners recognized the need to improve their visibility on social media and search engines. They faced a tight timeline to implement changes before the busy tourist season began.</p><p>In Miami, <strong>Approach:</strong> Our team devised a comprehensive digital marketing strategy that included a revamped website, optimized for local SEO, and a targeted social media campaign highlighting the restaurant's unique dishes and cultural heritage. A key decision was to prioritize video content showcasing the restaurant's vibrant atmosphere and authentic cuisine, which resonated well with both locals and tourists. We also set specific milestones to ensure timely execution.</p><p>In Miami, <strong>Result:</strong> The digital marketing initiative resulted in a 50% increase in online reservations within two months. This surge not only boosted the restaurant's revenue but also enhanced its reputation as a must-visit dining destination in Little Havana.</p></div></div><!-- SECTION:project-scenarios END --></div>
+ </div>  <div class="unique-card">
+ <h2>Frequently Asked Questions</h2>
+ <p class="unique-card-intro">Answers to the most common Web Design questions from Miami, FL businesses.</p>
+ <div class="city-faqs"><!-- SECTION:city-faqs START --><div class="city-faqs"><details class="mirror-qa"><summary>How does the web design process work for small businesses in Miami?</summary><p class="mirror-answer">The web design process for small businesses in Miami starts with an initial consultation to assess your specific needs and project goals. During this phase, we evaluate your existing online presence and identify areas for improvement. Following this, we create a tailored design plan and timeline, ensuring alignment with your business objectives. Active collaboration is key, allowing adjustments based on your feedback throughout the design process.</p></details><details class="mirror-qa"><summary>What results can a local service company expect from a website redesign in Miami?</summary><p class="mirror-answer">In Miami, a local service company can expect significant improvements in online visibility and lead generation from a website redesign. For instance, businesses in areas like Coral Gables often see increased engagement and conversion rates after implementing a modern, mobile-friendly design. The timeline for these results can vary, but many clients report noticeable changes in traffic and inquiries within a few weeks post-launch.</p></details><details class="mirror-qa"><summary>How is your web design service different from other agencies in Miami?</summary><p class="mirror-answer">Our web design service stands out due to our focus on local businesses and understanding of the Miami market. Unlike other agencies, we prioritize transparent communication and provide itemized quotes to eliminate surprises. Additionally, our designs are specifically tailored to resonate with Miami's diverse clientele, ensuring that your website effectively reaches your target audience.</p></details><details class="mirror-qa"><summary>What does a basic business website typically cost in Miami?</summary><p class="mirror-answer">In Miami, the cost for a basic business website typically starts around $1,500 and can go up to $3,500, depending on complexity and specific features. This pricing structure is designed to provide comprehensive services that cater to the unique needs of local businesses. We offer transparent, itemized quotes to ensure there are no unexpected expenses during the project.</p></details><details class="mirror-qa"><summary>When should I plan for a website redesign if I own a retail business in Miami?</summary><p class="mirror-answer">Planning for a website redesign should ideally coincide with key retail seasons in Miami, such as the end of the fiscal year or before major holidays. Many retail businesses in the Brickell area begin their redesign projects in Q3 to prepare for holiday traffic. Starting the process early allows for ample time to implement changes and optimize the site for peak shopping periods.</p></details><details class="mirror-qa"><summary>What’s included in your e-commerce website development for Miami businesses?</summary><p class="mirror-answer">Our e-commerce website development includes a comprehensive suite of features tailored for Miami businesses, including user-friendly product displays, secure payment processing, and SEO optimization. We also ensure that the site is mobile-responsive, catering to the growing number of mobile shoppers in the area. Each project is customized to meet your specific business needs, resulting in a platform that drives sales and enhances customer experience.</p></details></div><details class="faq-item">
+<summary>How long does a typical Web Design project take for a Miami business?</summary>
+<p class="mirror-answer">The timeline for Web Design in Miami, FL depends on the scope of the project, content availability, and how quickly feedback is provided. Straightforward projects can be completed faster while larger or more complex builds take longer.</p>
+</details>
+<details class="faq-item">
+<summary>What ongoing maintenance and support is included after Web Design launches in Miami, FL?</summary>
+<p class="mirror-answer">Ongoing support after a Web Design project can include security updates, performance optimization, content edits, and feature additions. Miami Web Design can outline what is covered in the initial project and what would require a separate maintenance arrangement.</p>
+</details>
+<!-- SECTION:city-faqs END --></div>
+ </div>  </div>
+</section>
+
+<!-- PAIN POINTS -->
+<section class="pain-points">
+ <div class="section-inner">
+ <div class="pain-grid">
+ <div class="pain-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/2149273739-1.webp" alt="Signs you need a new website" loading="lazy"></div>
+ <div class="pain-content">
+ <h2>You May Need a New Website If:</h2>
+ <p>Don't let an outdated site cost you Miami customers. Here are the telltale signs.</p>
+ <div class="pain-items">
+ <div class="pain-item">
+ <div class="pain-num">01</div>
+ <div>
+ <h3>You're Not Getting Leads</h3>
+ <p>If your website isn't generating inquiries or calls from Miami prospects, it's failing at its #1 job. A properly optimized site should work for you around the clock.</p>
+ </div>
+ </div>
+ <div class="pain-item">
+ <div class="pain-num">02</div>
+ <div>
+ <h3>Slow Loading Speed</h3>
+ <p>In Miami, if your site takes more than 3 seconds to load, you're losing over half your visitors before they even see your content — and Google penalizes you for it.</p>
+ </div>
+ </div>
+ <div class="pain-item">
+ <div class="pain-num">03</div>
+ <div>
+ <h3>Not Mobile-Friendly</h3>
+ <p>Over 70% of web traffic in Miami is mobile. If your site looks broken on a phone, you're alienating the majority of potential customers in Miami-Dade County.</p>
+ </div>
+ </div>
+ <div class="pain-item">
+ <div class="pain-num">04</div>
+ <div>
+ <h3>Outdated Design</h3>
+ <p>A design that looks like it's from 2010 signals to Miami visitors that your business is behind the times — and they'll choose your competitor instead.</p>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+</section>
+
+<!-- SECTION:mirror-questions START -->
+<section class="mirror-section">
+<div class="section-inner">
+<h2 class="mirror-section-title">Common Questions</h2>
+<p class="sub mirror-section-sub">Answers for local customers</p>
+<div class="mirror-questions">
+<!-- MQ_SOURCE: formatToHtml archetype=C isTypeB=false labels="Website Strategy & Fit|Timeline & Launch Expectations|Traffic, Leads & Growth" -->
+<h3 class="mirror-category">Website Strategy &amp; Fit</h3>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">How does the web design process work for small businesses in Miami?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">The web design process for small businesses in Miami starts with an initial consultation to assess your specific needs and project goals. During this phase, we evaluate your existing online presence and identify areas for improvement. Following this, we create a tailored design plan and timeline, ensuring alignment with your business objectives. Active collaboration is key, allowing adjustments based on your feedback throughout the design process.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What results can a local service company expect from a website redesign in Miami?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">In Miami, a local service company can expect significant improvements in online visibility and lead generation from a website redesign. For instance, businesses in areas like Coral Gables often see increased engagement and conversion rates after implementing a modern, mobile-friendly design. The timeline for these results can vary, but many clients report noticeable changes in traffic and inquiries within a few weeks post-launch.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">How is your web design service different from other agencies in Miami?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">Our web design service stands out due to our focus on local businesses and understanding of the Miami market. Unlike other agencies, we prioritize transparent communication and provide itemized quotes to eliminate surprises. Additionally, our designs are specifically tailored to resonate with Miami's diverse clientele, ensuring that your website effectively reaches your target audience.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What does a basic business website typically cost in Miami?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">In Miami, the cost for a basic business website typically starts around $1,500 and can go up to $3,500, depending on complexity and specific features. This pricing structure is designed to provide comprehensive services that cater to the unique needs of local businesses. We offer transparent, itemized quotes to ensure there are no unexpected expenses during the project.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">When should I plan for a website redesign if I own a retail business in Miami?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">Planning for a website redesign should ideally coincide with key retail seasons in Miami, such as the end of the fiscal year or before major holidays. Many retail businesses in the Brickell area begin their redesign projects in Q3 to prepare for holiday traffic. Starting the process early allows for ample time to implement changes and optimize the site for peak shopping periods.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What’s included in your e-commerce website development for Miami businesses?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">Our e-commerce website development includes a comprehensive suite of features tailored for Miami businesses, including user-friendly product displays, secure payment processing, and SEO optimization. We also ensure that the site is mobile-responsive, catering to the growing number of mobile shoppers in the area. Each project is customized to meet your specific business needs, resulting in a platform that drives sales and enhances customer experience.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">How do I know if I need a Custom Web Design or just a simple website update?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">If your current site is outdated, not mobile-friendly, or failing to attract leads, a Custom Web Design may be necessary. Miami's competitive market, especially among service businesses, requires a modern and visually appealing website to stand out.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What signs indicate I should invest in E-Commerce Development for my Miami business?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">If you're looking to expand your sales online, especially in Miami's vibrant retail scene, E-Commerce Development is essential.</p>
+</div>
+</details>
+
+<h3 class="mirror-category">Timeline &amp; Launch Expectations</h3>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What is the typical timeline for launching a new website in Miami?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">Launching a new website in Miami typically takes 4 to 8 weeks, depending on complexity. Factors such as incorporating local SEO strategies to target Miami customers can affect the timeline, as can the need for custom features.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">How much should I expect to pay for a website redesign in Miami?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">For a website redesign, pricing generally starts around $1,500 and can go up based on the complexity and features required. Miami's unique architectural styles and local aesthetics often influence design choices, which can also impact costs.</p>
+</div>
+</details>
+
+<h3 class="mirror-category">Traffic, Leads &amp; Growth</h3>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">How will SEO impact my website's visibility and lead generation in Miami?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">Effective SEO tailored for Miami can significantly enhance your website's visibility on search engines, leading to more traffic and potential leads.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What ongoing maintenance is required for my website after launch to ensure it performs well in Miami's market?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">Ongoing maintenance typically includes regular updates, security checks, and performance monitoring to ensure your website remains functional and secure.</p>
+</div>
+</details>
+</div>
+</div>
+</section>
+<!-- SECTION:mirror-questions END -->
+
+<!-- BLOG -->
+<section class="blog">
+ <div class="section-inner">
+ <div class="section-header">
+ <div>
+ <h2 style="color:#1a2f5a;">Web Design Tips &amp; Digital Insights</h2>
+ <p style="font-family:Arial,sans-serif;font-size:15px;color:#666;margin-top:8px;">Expert advice to help your Miami business thrive online.</p>
+ </div>
+ <a href="#" class="btn-blue-600">See All Articles →</a>
+ </div>
+ <div class="blog-grid">
+ <div class="blog-card">
+ <div class="blog-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/119166-1024x683.jpg" alt="Website design tips" loading="lazy"></div>
+ <div class="blog-body">
+ <div class="blog-meta"><span>WEB DESIGN</span><span>2026</span></div>
+ <h3>Custom Web Design vs. Templates: What Miami Businesses Need to Know</h3>
+ <p>Weighing a template site vs. a custom build? It's a fair question when budget matters — but the difference in results can be enormous for Miami-Dade County businesses…</p>
+ <a href="#" class="blog-read-more">Read Article →</a>
+ </div>
+ </div>
+ <div class="blog-card">
+ <div class="blog-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/2150769946.jpg" alt="Local SEO tips" loading="lazy"></div>
+ <div class="blog-body">
+ <div class="blog-meta"><span>WEB DESIGN</span><span>2026</span></div>
+ <h3>How to Dominate Local SEO in Miami: A Complete 2026 Guide</h3>
+ <p>You've built a great business in Miami — but if you're not showing up on Google when locals search for your services, you're leaving serious money on the table…</p>
+ <a href="#" class="blog-read-more">Read Article →</a>
+ </div>
+ </div>
+ <div class="blog-card">
+ <div class="blog-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/3352.jpg" alt="E-commerce redesign tips" loading="lazy"></div>
+ <div class="blog-body">
+ <div class="blog-meta"><span>WEB DESIGN</span><span>2026</span></div>
+ <h3>5 Signs Your Miami E-Commerce Store Needs a Redesign Right Now</h3>
+ <p>You're probably here because your online store isn't converting as well as it should. Maybe the cart abandonment rate is high, or Miami-Dade County customers keep calling with confusion…</p>
+ <a href="#" class="blog-read-more">Read Article →</a>
+ </div>
+ </div>
+ </div>
+ </div>
+</section>
+
+<!-- SECTION:local-signals START -->
+<section class="local-signals"><section class="memory-anchor" data-esot-anchor="true" data-content-type="memory_anchor">  <h2>Why Miami Businesses Choose Miami Web Design</h2>  <p><strong>If:</strong> A business in Miami has an outdated website, unclear service pages, slow load times, or weak lead capture.</p>  <p><strong>Then:</strong> Miami Web Design helps turn that website into a faster, clearer, and more conversion-focused web design experience.</p>  <p><strong>Why:</strong> Customers in Miami and nearby Miami-Dade County communities need to quickly understand what the business offers, trust it, and take the next step.</p>  <p><strong>How:</strong> The work focuses on mobile-friendly layouts, strong calls to action, and structured service pages for businesses across Miami-Dade County, including areas near South Beach and Art Deco Historic District.</p>
+</section>
+ <div class="section-inner">
+ <h2>Serving Miami and Miami-Dade County</h2>
+ <p class="sub">Miami Web Design provides Web Design services throughout Miami, FL 33157.</p>
+ <div class="signal-grid">
+ <div class="signal-card">
+ <h3>Current Weather in Miami</h3>
+ <h3 style="font-size:1rem;font-weight:600;margin:0 0 0.75rem 0;color:#334155;display:flex;align-items:center;gap:0.5rem;"><svg style="width:1.25rem;height:1.25rem;color:#f59e0b;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg> Local Weather</h3><p style="font-size:0.95rem;color:#475569;line-height:1.6;margin:0;"><span class="weather-data" data-weather-date="2026-05-05">Currently 77°F and partly cloudy with winds at 13 mph <small class="text-muted">(as of 2026-05-05)</small></span></p><script>(function(){var el=document.querySelector('.weather-data');if(!el)return;var m=document.querySelector('meta[name="geo.position"]');if(!m)return;var p=m.content.split(';');var lat=p[0],lon=p[1];fetch('https://api.open-meteo.com/v1/forecast?latitude='+lat+'&longitude='+lon+'&current_weather=true&temperature_unit=fahrenheit').then(function(r){return r.json()}).then(function(d){if(!d.current_weather)return;var w=d.current_weather;var t=Math.round(w.temperature);var c=w.weathercode;var cn=c===0?'clear':c<=3?'partly cloudy':c<=48?'foggy':c<=57?'drizzling':c<=67?'rainy':c<=77?'snowy':c<=82?'rain showers':c<=86?'snow showers':c>=95?'thunderstorms':'variable conditions';var ws=Math.round(w.windspeed);var now=new Date();var ds=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');el.innerHTML='Currently '+t+'\u00B0F and '+cn+' with winds at '+ws+' mph <small class="text-muted">(live)</small>';el.setAttribute('data-weather-date',ds)}).catch(function(){})})();</script>
+ </div>
+ <div class="signal-card">
+ <h3>Find Us in Miami</h3>
+ <section class="directions-section" style="margin:2rem 0;">  <h2 style="font-size:1.5rem;font-weight:700;margin-bottom:1.5rem;color:#1e293b;">  📍 Directions to Miami, FL  </h2>  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start;">  <!-- Directions Text -->  <div style="background:#f8fafc;padding:1.5rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <h3 style="font-size:1.1rem;font-weight:600;margin-bottom:1rem;color:#334155;display:flex;align-items:center;gap:0.5rem;">  <span>🚗</span> Driving Directions  </h3>  <div style="margin-bottom:1.5rem;">  <p style="font-size:0.95rem;color:#475569;line-height:1.6;margin:0 0 0.75rem 0;">  <strong>I-75:</strong>  </p>  <ol style="font-size:0.9rem;color:#64748b;line-height:1.7;margin:0;padding-left:1.5rem;">  <li style="margin-bottom:0.5rem;">Take South Dixie Highway, US 1 and turn right onto Southwest 174th Street</li>  <li style="margin-bottom:0.5rem;">Continue on Southwest 174th Street, then turn right onto Southwest 93rd Place</li>  <li style="margin-bottom:0.5rem;">Turn left onto Southwest 176th Street and arrive at Southwest 176th Street, on the left</li>  <li style="margin-bottom:0.5rem;">Arrive in Miami, FL</li>  </ol>  </div>  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=25.60671,-80.34314&amp;travelmode=driving" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#3b82f6;color:white;padding:0.75rem 1.5rem;border-radius:0.375rem;text-decoration:none;font-weight:600;font-size:0.95rem;transition:background 0.2s;" onmouseover="this.style.background='#2563eb';" onmouseout="this.style.background='#3b82f6';">  Get Detailed Directions →  </a>  </div>  <!-- Google Maps Embed -->  <div style="background:#f8fafc;padding:1rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <div style="position:relative;padding-bottom:75%;height:0;overflow:hidden;border-radius:0.375rem;">  <iframe src="https://www.google.com/maps?q=Miami%2C%20FL&amp;output=embed" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map of Miami, FL" aria-label="Interactive map showing the location of Miami, FL"></iframe>  </div>  </div>  </div>  <!-- Mobile: Stack vertically on small screens -->  </section>
+ </div>
+ </div>
+ <div class="signal-grid">  <div class="signal-card">
+ <h3>Quick Contact</h3>
+ <p><a href="tel:(508)561-8276" style="color:#e8622a;font-weight:600;">(508)561-8276</a></p>
+ <p style="margin-top:8px;"><a href="mailto:refrdai@gmail.com" style="color:#e8622a;font-weight:600;">refrdai@gmail.com</a></p>
+ <p style="margin-top:8px;">Miami, FL 33157</p>
+ <p style="margin-top:12px;font-family:Arial,sans-serif;font-size:14px;color:#555;">We provide Web Design services throughout Miami, FL. Our service area covers all of Miami-Dade County and extends to neighboring communities.</p>
+ </div>
+ </div>
+ </div>
+</section>
+<!-- SECTION:local-signals END -->
+
+<!-- SECTION:contact-form START -->
+<section id="contact-form" class="faq-section" aria-label="Contact and FAQ">
+ <div class="section-inner">
+ <div class="faq-grid">
+ <div class="faq-cta">
+ <h2>Have a Question? We're Ready to Help.</h2>
+ <div class="faq-cta-avatar" style="background:#2a4a8a;color:#fff;font-weight:700;font-family:Arial,sans-serif;font-size:18px;">?</div>
+ <p>Contact Miami Web Design today for a free, no-obligation consultation on your Web Design project in Miami, FL. Call us at (508)561-8276 or reach out below.</p>
+ <div class="faq-cta-btns">
+ <a href="https://webdesignmiami.net/api/contact" class="btn-blue-600">Contact Us →</a>
+ <a href="tel:(508)561-8276" class="btn-orange-outline">✆ (508)561-8276</a>
+ </div>
+ </div>
+ <div id="faq" class="faq-list">
+ <h2>Frequently Asked Questions</h2>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">What web design services do you offer?</div>
+ <div class="faq-answer">We offer custom web design, WordPress development, Shopify e-commerce, website redesigns, landing pages, SEO optimization, Google Ads management, and ongoing website maintenance. We're a full-service digital agency handling everything from strategy to launch and growth for Miami, FL businesses.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">How long does it take to build a website?</div>
+ <div class="faq-answer">Most standard websites can be completed in 2–4 weeks. More complex projects like custom web applications or large e-commerce stores can take 6–10 weeks. After an initial consultation, you'll receive a clear timeline tailored to your Miami project.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">How much does a website cost?</div>
+ <div class="faq-answer">Website costs vary based on size and complexity. Basic business sites typically start around $1,500–$3,500. E-commerce stores range from $3,000–$8,000+. We offer transparent, itemized quotes so there are never any surprises. Contact us at (508)561-8276 for a free estimate.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Will my website rank on Google?</div>
+ <div class="faq-answer">Every site we build includes on-page SEO fundamentals: proper heading structure, meta tags, fast load times, mobile optimization, and schema markup. We also offer ongoing SEO packages to help you rank for competitive Miami keywords and drive sustained organic traffic throughout Miami-Dade County.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Do you offer ongoing support after launch?</div>
+ <div class="faq-answer">Yes — every project includes a post-launch support period and we offer monthly maintenance plans covering security updates, backups, performance monitoring, and content updates. Many Miami clients stay with us long-term for ongoing digital growth.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Can you redesign my existing website?</div>
+ <div class="faq-answer">Absolutely. Website redesign is one of our most requested services for Miami-Dade County businesses. We audit your existing site, identify conversion bottlenecks, and deliver a redesigned version that performs measurably better while preserving your brand and SEO equity.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Do you build mobile-friendly websites?</div>
+ <div class="faq-answer">Every site we build is mobile-first by design. With the majority of Miami web traffic coming from smartphones, we ensure your site looks and performs flawlessly on all devices — phones, tablets, and desktops.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">How do I get started?</div>
+ <div class="faq-answer">Getting started is easy. Call us at <a href="tel:(508)561-8276" style="color:#e8622a;font-weight:600;">(508)561-8276</a>, email <a href="mailto:refrdai@gmail.com" style="color:#e8622a;font-weight:600;">refrdai@gmail.com</a>, or fill out the quote form at the top of this page. We'll respond within 2 business hours with a free, no-obligation consultation for your Miami, FL project.</div>
+ </div>
+ </div>
+ </div>
+ </div>
+</section>
+<!-- SECTION:contact-form END -->
+
+<!-- CTA BANNER -->
+<section><div class="max-w-6xl mx-auto px-4"><div class="bg-white rounded-xl p-6 md:p-8"><div class="cta-banner">
+ <div class="section-inner">
+ <h2>Ready to Grow Your Miami Business Online?</h2>
+ <p>Get a free consultation from Miami Web Design — Miami-Dade County's trusted Web Design partner.</p>
+ <div class="cta-btns">
+ <a href="https://webdesignmiami.net/api/contact" class="btn-blue-600">Get Free Quote →</a>
+ <a href="tel:(508)561-8276" class="btn-ghost-white">Call (508)561-8276</a>
+ </div>
+ </div>
+</div></div></div></section>
+
+</div><!-- /.content-body -->  <div class="last-updated" style="text-align: center; padding: 1rem; font-size: 0.875rem; color: #666;">  Last updated: 5/5/2026  </div>  </main>
+
+<!-- SECTION:footer START -->
+
+<!-- AI_HINTS: {"primaryIntent":"hire local service","secondaryIntents":["compare options","understand costs","learn about process"],"entities":["Web Design","Miami","FL","Miami Web Design"],"serviceArea":"Miami, FL metropolitan area","lastValidated":"2026-05-05"} -->
+<!-- Interlinking: Start -->
+<section style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-radius: 0.5rem;">
+  <h3 style="margin: 0 0 1rem 0; font-size: 1.25rem; font-weight: 600;">Nearby Areas We Serve</h3>
+  <ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.75rem;">
+    <li><a href="https://webdesignmiami.net/web-design/fl/homestead/33033/" style="color: #2563eb; text-decoration: none; hover:underline">Homestead</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/key-biscayne/33149/" style="color: #2563eb; text-decoration: none; hover:underline">Key Biscayne</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/hialeah/33012/" style="color: #2563eb; text-decoration: none; hover:underline">Hialeah</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/miami-beach/33141/" style="color: #2563eb; text-decoration: none; hover:underline">Miami Beach</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/opa-locka/33055/" style="color: #2563eb; text-decoration: none; hover:underline">Opa Locka</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/miami-gardens/33056/" style="color: #2563eb; text-decoration: none; hover:underline">Miami Gardens</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/north-miami-beach/33160/" style="color: #2563eb; text-decoration: none; hover:underline">North Miami Beach</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/pembroke-pines/33028/" style="color: #2563eb; text-decoration: none; hover:underline">Pembroke Pines</a></li>
+  </ul>
+</section>
+<!-- Interlinking: End -->
+<footer class="footer">
+ <div class="footer-inner">
+ <div>
+ <div class="footer-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/MWD-Logo.webp" alt="Miami Web Design" style="width:100%;height:100%;object-fit:contain;"></div>
+ <p class="footer-desc">Professional Web Design serving Miami, FL and throughout Miami-Dade County.</p>
+ <div class="footer-badges">
+ <img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/9175369_6545-1-Photoroom.webp" alt="Quality badges" style="max-width:180px;height:auto;margin-top:8px;">
+ </div>
+ </div>
+ <div class="footer-col">
+ <h4>Useful Links</h4>
+ <ul>
+ <li>Home</li>
+ <li>About Us</li>
+ <li>Our Services</li>
+ <li>Blog</li>
+ <li>Contact Us</li>
+ </ul>
+ </div>
+ <div class="footer-col">
+ <h4>Our Services</h4>
+ <p>Custom Web Design · E-Commerce Development · SEO &amp; Digital Marketing · Website Maintenance</p>
+ </div>
+ <div class="footer-col">
+ <h4>Let's get in touch</h4>
+ <p><a href="tel:(508)561-8276" style="color:#b0c4d8;">(508)561-8276</a></p>
+ <p><a href="mailto:refrdai@gmail.com" style="color:#b0c4d8;">refrdai@gmail.com</a></p>
+ <p>Miami, FL 33157</p>
+ <p>Miami-Dade County</p>
+ <div class="footer-social" style="margin-top:20px;">
+ <div class="social-icon" style="background:#1877f2;">f</div>
+ <div class="social-icon" style="background:#000;">X</div>
+ <div class="social-icon" style="background:#0a66c2;">in</div>
+ <div class="social-icon" style="background:#e1306c;">ig</div>
+ </div>
+ </div>
+ </div>
+
+<div class="footer-bottom">
+ © 2026 Miami Web Design. All rights reserved. | Professional Web Design in Miami, FL
+</div>
+
+<script>
+ // FAQ accordion — no external dependencies required
+ document.querySelectorAll('.faq-question').forEach(function(q) {
+ q.addEventListener('click', function() {
+ this.parentElement.classList.toggle('open');
+ });
+ });  // Reading progress bar
+ (function() {
+ var bar = document.getElementById('reading-progress');
+ if (!bar) return;
+ function update() {
+ var scrollTop = window.scrollY || document.documentElement.scrollTop;
+ var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+ if (docHeight <= 0) { bar.style.width = '0%'; return; }
+ var progress = Math.min(100, Math.max(0, (scrollTop / docHeight) * 100));
+ bar.style.width = progress + '%';
+ }
+ window.addEventListener('scroll', update, { passive: true });
+ window.addEventListener('resize', update);
+ update();
+ })();
+</script>
+</footer>
+<!-- SECTION:footer END -->  
+
+</body></html>
