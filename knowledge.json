@@ -4,7 +4,7 @@
   "name": "Local Business Page Generator",
   "description": "AI-optimized local business pages with unique content and complete SEO",
   "url": "https://webdesignmiami.net",
-  "dateModified": "2026-05-05T22:16:19.910Z",
+  "dateModified": "2026-05-07T07:37:32.536Z",
   "inLanguage": "en-US",
   "pages": [
     {
@@ -173,6 +173,552 @@
         "coordinates": {
           "lat": 25.94812,
           "lon": -80.27809
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/key-biscayne-fl-33149",
+      "name": "Key Biscayne, Florida",
+      "location": {
+        "city": "Key Biscayne",
+        "state": "Florida",
+        "zip": "33149",
+        "coordinates": {
+          "lat": 25.72479,
+          "lon": -80.16118
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/palmetto-bay-fl-33157",
+      "name": "Palmetto Bay, Florida",
+      "location": {
+        "city": "Palmetto Bay",
+        "state": "Florida",
+        "zip": "33157",
+        "coordinates": {
+          "lat": 25.60671,
+          "lon": -80.34314
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/miami-gardens-fl-33055",
+      "name": "Miami Gardens, Florida",
+      "location": {
+        "city": "Miami Gardens",
+        "state": "Florida",
+        "zip": "33055",
+        "coordinates": {
+          "lat": 25.94812,
+          "lon": -80.27809
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/dania-beach-fl-33004",
+      "name": "Dania Beach, Florida",
+      "location": {
+        "city": "Dania Beach",
+        "state": "Florida",
+        "zip": "33004",
+        "coordinates": {
+          "lat": 26.05939,
+          "lon": -80.13637
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/plantation-fl-33324",
+      "name": "Plantation, Florida",
+      "location": {
+        "city": "Plantation",
+        "state": "Florida",
+        "zip": "33324",
+        "coordinates": {
+          "lat": 26.11205,
+          "lon": -80.27469
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/miramar-fl-33025",
+      "name": "Miramar, Florida",
+      "location": {
+        "city": "Miramar",
+        "state": "Florida",
+        "zip": "33025",
+        "coordinates": {
+          "lat": 25.98737,
+          "lon": -80.28134
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/country-club-fl-33015",
+      "name": "Country Club, Florida",
+      "location": {
+        "city": "Country Club",
+        "state": "Florida",
+        "zip": "33015",
+        "coordinates": {
+          "lat": 25.94116,
+          "lon": -80.31761
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/the-crossings-fl-33186",
+      "name": "The Crossings, Florida",
+      "location": {
+        "city": "The Crossings",
+        "state": "Florida",
+        "zip": "33186",
+        "coordinates": {
+          "lat": 25.65565,
+          "lon": -80.41062
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/south-miami-heights-fl-33177",
+      "name": "South Miami Heights, Florida",
+      "location": {
+        "city": "South Miami Heights",
+        "state": "Florida",
+        "zip": "33177",
+        "coordinates": {
+          "lat": 25.59703,
+          "lon": -80.40458
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/the-hammocks-fl-33196",
+      "name": "The Hammocks, Florida",
+      "location": {
+        "city": "The Hammocks",
+        "state": "Florida",
+        "zip": "33196",
+        "coordinates": {
+          "lat": 25.64505,
+          "lon": -80.55524
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/westchester-fl-33165",
+      "name": "Westchester, Florida",
+      "location": {
+        "city": "Westchester",
+        "state": "Florida",
+        "zip": "33165",
+        "coordinates": {
+          "lat": 25.73437,
+          "lon": -80.35862
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/ives-estates-fl-33179",
+      "name": "Ives Estates, Florida",
+      "location": {
+        "city": "Ives Estates",
+        "state": "Florida",
+        "zip": "33179",
+        "coordinates": {
+          "lat": 25.95821,
+          "lon": -80.17981
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/west-little-river-fl-33147",
+      "name": "West Little River, Florida",
+      "location": {
+        "city": "West Little River",
+        "state": "Florida",
+        "zip": "33147",
+        "coordinates": {
+          "lat": 25.85104,
+          "lon": -80.23861
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/north-miami-beach-fl-33162",
+      "name": "North Miami Beach, Florida",
+      "location": {
+        "city": "North Miami Beach",
+        "state": "Florida",
+        "zip": "33162",
+        "coordinates": {
+          "lat": 25.92845,
+          "lon": -80.17844
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/miami-lakes-fl-33014",
+      "name": "Miami Lakes, Florida",
+      "location": {
+        "city": "Miami Lakes",
+        "state": "Florida",
+        "zip": "33014",
+        "coordinates": {
+          "lat": 25.90332,
+          "lon": -80.30173
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/kendale-lakes-fl-33183",
+      "name": "Kendale Lakes, Florida",
+      "location": {
+        "city": "Kendale Lakes",
+        "state": "Florida",
+        "zip": "33183",
+        "coordinates": {
+          "lat": 25.70047,
+          "lon": -80.40578
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/coral-gables-fl-33134",
+      "name": "Coral Gables, Florida",
+      "location": {
+        "city": "Coral Gables",
+        "state": "Florida",
+        "zip": "33134",
+        "coordinates": {
+          "lat": 25.75338,
+          "lon": -80.2712
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/pinecrest-fl-33156",
+      "name": "Pinecrest, Florida",
+      "location": {
+        "city": "Pinecrest",
+        "state": "Florida",
+        "zip": "33156",
+        "coordinates": {
+          "lat": 25.66779,
+          "lon": -80.29728
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/oakland-park-fl-33334",
+      "name": "Oakland Park, Florida",
+      "location": {
+        "city": "Oakland Park",
+        "state": "Florida",
+        "zip": "33334",
+        "coordinates": {
+          "lat": 26.18316,
+          "lon": -80.13456
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/hallandale-beach-fl-33009",
+      "name": "Hallandale Beach, Florida",
+      "location": {
+        "city": "Hallandale Beach",
+        "state": "Florida",
+        "zip": "33009",
+        "coordinates": {
+          "lat": 25.98531,
+          "lon": -80.1466
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/pembroke-pines-fl-33024",
+      "name": "Pembroke Pines, Florida",
+      "location": {
+        "city": "Pembroke Pines",
+        "state": "Florida",
+        "zip": "33024",
+        "coordinates": {
+          "lat": 26.02501,
+          "lon": -80.24475
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/tamarac-fl-33319",
+      "name": "Tamarac, Florida",
+      "location": {
+        "city": "Tamarac",
+        "state": "Florida",
+        "zip": "33319",
+        "coordinates": {
+          "lat": 26.1826,
+          "lon": -80.22641
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/tamiami-fl-33175",
+      "name": "Tamiami, Florida",
+      "location": {
+        "city": "Tamiami",
+        "state": "Florida",
+        "zip": "33175",
+        "coordinates": {
+          "lat": 25.73435,
+          "lon": -80.40621
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/hollywood-fl-33021",
+      "name": "Hollywood, Florida",
+      "location": {
+        "city": "Hollywood",
+        "state": "Florida",
+        "zip": "33021",
+        "coordinates": {
+          "lat": 26.02277,
+          "lon": -80.18742
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/aventura-fl-33180",
+      "name": "Aventura, Florida",
+      "location": {
+        "city": "Aventura",
+        "state": "Florida",
+        "zip": "33180",
+        "coordinates": {
+          "lat": 25.96145,
+          "lon": -80.1415
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/sunset-fl-33173",
+      "name": "Sunset, Florida",
+      "location": {
+        "city": "Sunset",
+        "state": "Florida",
+        "zip": "33173",
+        "coordinates": {
+          "lat": 25.70163,
+          "lon": -80.35765
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/doral-fl-33178",
+      "name": "Doral, Florida",
+      "location": {
+        "city": "Doral",
+        "state": "Florida",
+        "zip": "33178",
+        "coordinates": {
+          "lat": 25.83578,
+          "lon": -80.4213
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/lauderhill-fl-33313",
+      "name": "Lauderhill, Florida",
+      "location": {
+        "city": "Lauderhill",
+        "state": "Florida",
+        "zip": "33313",
+        "coordinates": {
+          "lat": 26.15069,
+          "lon": -80.22634
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/princeton-fl-33032",
+      "name": "Princeton, Florida",
+      "location": {
+        "city": "Princeton",
+        "state": "Florida",
+        "zip": "33032",
+        "coordinates": {
+          "lat": 25.52963,
+          "lon": -80.39234
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/miami-fl-33142",
+      "name": "Miami, Florida",
+      "location": {
+        "city": "Miami",
+        "state": "Florida",
+        "zip": "33142",
+        "coordinates": {
+          "lat": 25.80665,
+          "lon": -80.25517
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/kendall-fl-33176",
+      "name": "Kendall, Florida",
+      "location": {
+        "city": "Kendall",
+        "state": "Florida",
+        "zip": "33176",
+        "coordinates": {
+          "lat": 25.65876,
+          "lon": -80.35919
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/coral-terrace-fl-33155",
+      "name": "Coral Terrace, Florida",
+      "location": {
+        "city": "Coral Terrace",
+        "state": "Florida",
+        "zip": "33155",
+        "coordinates": {
+          "lat": 25.73672,
+          "lon": -80.31117
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/weston-fl-33326",
+      "name": "Weston, Florida",
+      "location": {
+        "city": "Weston",
+        "state": "Florida",
+        "zip": "33326",
+        "coordinates": {
+          "lat": 26.11033,
+          "lon": -80.37403
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/glenvar-heights-fl-33143",
+      "name": "Glenvar Heights, Florida",
+      "location": {
+        "city": "Glenvar Heights",
+        "state": "Florida",
+        "zip": "33143",
+        "coordinates": {
+          "lat": 25.70255,
+          "lon": -80.29792
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/southwest-ranches-fl-33331",
+      "name": "Southwest Ranches, Florida",
+      "location": {
+        "city": "Southwest Ranches",
+        "state": "Florida",
+        "zip": "33331",
+        "coordinates": {
+          "lat": 26.0587,
+          "lon": -80.36989
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/cutler-bay-fl-33189",
+      "name": "Cutler Bay, Florida",
+      "location": {
+        "city": "Cutler Bay",
+        "state": "Florida",
+        "zip": "33189",
+        "coordinates": {
+          "lat": 25.57314,
+          "lon": -80.33929
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/westview-fl-33167",
+      "name": "Westview, Florida",
+      "location": {
+        "city": "Westview",
+        "state": "Florida",
+        "zip": "33167",
+        "coordinates": {
+          "lat": 25.8848,
+          "lon": -80.23631
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/richmond-west-fl-33187",
+      "name": "Richmond West, Florida",
+      "location": {
+        "city": "Richmond West",
+        "state": "Florida",
+        "zip": "33187",
+        "coordinates": {
+          "lat": 25.54889,
+          "lon": -80.57638
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/goulds-fl-33170",
+      "name": "Goulds, Florida",
+      "location": {
+        "city": "Goulds",
+        "state": "Florida",
+        "zip": "33170",
+        "coordinates": {
+          "lat": 25.55827,
+          "lon": -80.45313
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/surfside-fl-33154",
+      "name": "Surfside, Florida",
+      "location": {
+        "city": "Surfside",
+        "state": "Florida",
+        "zip": "33154",
+        "coordinates": {
+          "lat": 25.88609,
+          "lon": -80.13332
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/fisher-island-fl-33109",
+      "name": "Fisher Island, Florida",
+      "location": {
+        "city": "Fisher Island",
+        "state": "Florida",
+        "zip": "33109",
+        "coordinates": {
+          "lat": 25.7616,
+          "lon": -80.14197
+        }
+      }
+    },
+    {
+      "url": "https://webdesignmiami.net/web-design/homestead-base-fl-33039",
+      "name": "Homestead Base, Florida",
+      "location": {
+        "city": "Homestead Base",
+        "state": "Florida",
+        "zip": "33039",
+        "coordinates": {
+          "lat": 25.49796,
+          "lon": -80.39818
         }
       }
     }
