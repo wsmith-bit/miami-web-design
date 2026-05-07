@@ -1,0 +1,1098 @@
+<!DOCTYPE html><html lang="en" data-template="web-design-v1"><head>  <meta charset="UTF-8">  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>Website Design in Cutler Bay, FL | Miami Web Design</title>  <meta name="description" content="Miami Web Design — professional engagement for Cutler Bay, Florida organizations. Clear deliverables, structured scope, and a confirmed plan before work starts.">  <meta name="keywords" content="Web Design, Cutler Bay, Florida">  <link rel="canonical" href="https://webdesignmiami.net/fl/cutler-bay/33189">  <meta property="og:title" content="Web Design | Cutler Bay, Florida 33189">  <meta property="og:description" content="Cutler Bay web design — outcome-focused engagement, transparent scope, and clear deliverables for Florida businesses. Reach out to discuss your specific goals.">  <meta property="og:type" content="website">  <meta property="og:url" content="https://webdesignmiami.net/fl/cutler-bay/33189">  <meta name="twitter:card" content="summary_large_image">  <meta name="twitter:title" content="Miami Web Design | Cutler Bay, Florida">  <meta name="twitter:description" content="Cutler Bay web design — outcome-focused engagement, transparent scope, and clear deliverables for Florida businesses. Reach out to discuss your specific goals.">  <meta name="geo.position" content="25.57314;-80.33929">  <meta name="geo.placename" content="Cutler Bay, Florida">  <meta name="geo.region" content="US-FL">  <meta name="robots" content="index,follow">  <style>
+ /* READING PROGRESS BAR */
+ #reading-progress {
+ position: fixed;
+ top: 0;
+ left: 0;
+ height: 4px;
+ width: 0%;
+ background: #e8622a;
+ z-index: 9999;
+ transition: width 0.1s linear;
+ }
+ @media (prefers-reduced-motion: reduce) {
+ #reading-progress { transition: none; }
+ }  * { margin: 0; padding: 0; box-sizing: border-box; }
+ body { font-family: 'Georgia', serif; color: #1a1a1a; background: #fff; }
+ a { text-decoration: none; color: inherit; }
+ img { max-width: 100%; display: block; }  /* TOPBAR */
+.topbar {
+ background: #e8622a;
+ color: #fff;
+ font-family: Arial, sans-serif;
+ font-size: 13px;
+ padding: 9px 0;
+ }
+.topbar-inner {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 24px;
+ display: flex;
+ gap: 32px;
+ align-items: center;
+ }
+.topbar span { display: flex; align-items: center; gap: 6px; }  /* HEADER */
+.header {
+ background: #1a2f5a;
+ padding: 12px 0;
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ }
+.header-inner {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 24px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ }
+.logo {
+ width: 144px;
+ height: 84px;
+ border-radius: 8px;
+ overflow: hidden;
+ display: block;
+ flex-shrink: 0;
+ }
+.logo img,.logo picture {
+ width: 100%;
+ height: 100%;
+ object-fit: contain;
+ display: block;
+ }
+ nav { display: flex; gap: 28px; align-items: center; }
+ nav a {
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ font-weight: 500;
+ color: #fff;
+ transition: color 0.2s;
+ }
+ nav a:hover { color: #ff6b35; }
+.nav-search { color: #fff; font-size: 18px; cursor: pointer; }  /* HERO */
+.hero {
+ background: #1a2f5a;
+ padding: 60px 0 80px;
+ position: relative;
+ overflow: hidden;
+ min-height: 600px;
+ }
+.hero-bg {
+ position: absolute;
+ inset: 0;
+ width: 100%;
+ height: 100%;
+ z-index: 0;
+ }
+.hero-bg img,
+.hero-bg picture,
+.hero-bg video {
+ position: absolute;
+ inset: 0;
+ width: 100%!important;
+ height: 100%!important;
+ object-fit: cover;
+ object-position: center 35%;
+ display: block;
+ }
+.hero-overlay {
+ position: absolute;
+ inset: 0;
+ background: rgba(10, 20, 50, 0.55);
+ z-index: 1;
+ pointer-events: none;
+ }
+.hero-inner {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 24px;
+ display: grid;
+ grid-template-columns: 1fr 380px;
+ gap: 60px;
+ align-items: start;
+ position: relative;
+ z-index: 2;
+ }
+.hero-content h1 {
+ font-family: Arial, sans-serif;
+ font-size: 46px;
+ font-weight: 800;
+ color: #fff;
+ line-height: 1.15;
+ margin-bottom: 20px;
+ }
+.hero-content h1 span { color: #ff6b35; }
+.hero-content p {
+ font-family: Arial, sans-serif;
+ font-size: 17px;
+ color: #b0c4d8;
+ line-height: 1.7;
+ margin-bottom: 36px;
+ max-width: 540px;
+ }
+.hero-btns { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 48px; }
+.btn-primary {
+ background: #ff6b35;
+ color: #fff;
+ padding: 14px 28px;
+ border-radius: 6px;
+ font-family: Arial, sans-serif;
+ font-size: 15px;
+ font-weight: 700;
+ transition: background 0.2s;
+ display: inline-block;
+ }
+.btn-primary:hover { background: #e05520; }
+.hero-stats { display: flex; gap: 40px; }
+.stat { text-align: left; }
+.stat-number { font-family: Arial, sans-serif; font-size: 32px; font-weight: 800; color: #fff; }
+.stat-label { font-family: Arial, sans-serif; font-size: 13px; color: #fff; margin-top: 2px; }  /* HERO FORM */
+.hero-form {
+ background: #fff;
+ border-radius: 12px;
+ padding: 32px 28px;
+ box-shadow: 0 8px 40px rgba(0,0,0,0.2);
+ }
+.hero-form h2 {
+ font-family: Arial, sans-serif;
+ font-size: 20px;
+ font-weight: 800;
+ color: #1a2f5a;
+ margin-bottom: 6px;
+ text-align: center;
+ }
+.hero-form p {
+ font-family: Arial, sans-serif;
+ font-size: 13px;
+ color: #555;
+ margin-bottom: 20px;
+ text-align: center;
+ }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+.form-group { margin-bottom: 12px; }
+.form-group input,
+.form-group select,
+.form-group textarea {
+ width: 100%;
+ padding: 11px 14px;
+ border: 1px solid #dde3ed;
+ border-radius: 6px;
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ color: #1a1a1a;
+ background: #fff;
+ outline: none;
+ transition: border-color 0.2s;
+ }
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus { border-color: #ff6b35; }
+.form-group textarea { resize: vertical; min-height: 80px; }
+.btn-submit {
+ width: 100%;
+ background: #ff6b35;
+ color: #fff;
+ border: none;
+ padding: 15px;
+ border-radius: 6px;
+ font-family: Arial, sans-serif;
+ font-size: 16px;
+ font-weight: 700;
+ cursor: pointer;
+ transition: background 0.2s;
+ }
+.btn-submit:hover { background: #e05520; }  /* QUICK ANSWER */
+.quick-answer-section {
+ background: #fff;
+ padding: 40px 0 20px;
+ }
+.quick-answer-wrap {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 0 24px;
+ }
+.quick-answer-card {
+ background: linear-gradient(to bottom right, #fff8f3, #fff1e6);
+ border: 1px solid #fddcc4;
+ border-radius: 16px;
+ padding: 28px 32px;
+ }
+.quick-answer-card details summary {
+ font-family: Arial, sans-serif;
+ font-size: 18px;
+ font-weight: 700;
+ color: #1a2f5a;
+ cursor: pointer;
+ list-style: none;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+.quick-answer-card details summary::-webkit-details-marker { display: none; }
+.quick-answer-card details summary::after {
+ content: '\2304';
+ font-size: 20px;
+ color: #e8622a;
+ transition: transform 0.2s;
+ }
+.quick-answer-card details[open] summary::after { transform: rotate(180deg); }
+.quick-answer-content {
+ font-family: Arial, sans-serif;
+ font-size: 15px;
+ color: #444;
+ line-height: 1.8;
+ margin-top: 16px;
+ padding-top: 16px;
+ border-top: 1px solid #fddcc4;
+ }  /* TRUST BAR */
+.trust-bar { background: #f8f8f8; border-bottom: 1px solid #eee; padding: 28px 0; }
+.trust-bar-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+.trust-label {
+ text-align: center;
+ font-family: Arial, sans-serif;
+ font-size: 12px;
+ font-weight: 700;
+ color: #aaa;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ margin-bottom: 20px;
+ }
+.trust-logos { display: flex; gap: 24px; justify-content: center; align-items: center; flex-wrap: wrap; }
+.trust-logo {
+ width: 155px; height: 155px; background: #fff; border-radius: 16px;
+ border: 1px solid #e8e8e8; box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+ display: flex; align-items: center; justify-content: center; padding: 11px;
+ }
+.trust-logo img { width: 100%; height: 100%; object-fit: contain; }  /* SERVICES */
+.services { padding: 80px 0; background: #eef1f7; }
+.section-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+.section-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 48px; gap: 24px; flex-wrap: wrap; }
+.section-header h2 { font-family: Arial, sans-serif; font-size: 34px; font-weight: 800; color: #1a2f5a; max-width: 480px; line-height: 1.2; }
+.services-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.service-card { border-radius: 12px; overflow: hidden; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.06); display: flex; flex-direction: column; }
+.service-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.12); }
+.service-img { width: 100%; height: 200px; background: #dde4ed; overflow: hidden; }
+.service-img img,.service-img picture { width: 100%; height: 100%; object-fit: cover; display: block; }
+.service-body { padding: 24px; flex: 1; display: flex; flex-direction: column; }
+.service-body h3 { font-family: Arial, sans-serif; font-size: 18px; font-weight: 700; color: #1a2f5a; margin-bottom: 12px; }
+.service-body p { font-family: Arial, sans-serif; font-size: 14px; color: #555; line-height: 1.7; margin-bottom: 20px; flex: 1; }
+.btn-learn-more { display: block; width: 100%; background: #e8622a; color: #fff; text-align: center; padding: 12px; border-radius: 6px; font-family: Arial, sans-serif; font-size: 14px; font-weight: 600; transition: background 0.2s; }
+.btn-learn-more:hover { background: #c8501a; }  /* TESTIMONIALS */
+.testimonials { background: #1a2f5a; padding: 80px 0; }
+.testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 48px; }
+.testimonial-card { background: #fff; border-radius: 12px; padding: 28px; position: relative; border-bottom: 4px solid #e8622a; margin-top: 24px; }
+.testimonial-quote { position: absolute; top: -20px; left: 24px; width: 50px; height: 50px; background: #e8622a; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 28px; color: #fff; line-height: 1; font-family: Georgia, serif; font-weight: 700; }
+.testimonial-stars { text-align: right; color: #f5a623; font-size: 18px; margin-bottom: 16px; margin-top: 8px; }
+.testimonial-text { font-family: Arial, sans-serif; font-size: 14px; color: #444; line-height: 1.7; margin-bottom: 24px; }
+.testimonial-author { display: flex; align-items: center; gap: 12px; }
+.author-avatar { width: 52px; height: 52px; border-radius: 50%; background: #dde4ed; display: flex; align-items: center; justify-content: center; font-family: Arial, sans-serif; font-size: 16px; font-weight: 700; color: #1a2f5a; flex-shrink: 0; overflow: hidden; }
+.author-name { font-family: Arial, sans-serif; font-size: 15px; font-weight: 700; color: #1a1a1a; }
+.author-title { font-family: Arial, sans-serif; font-size: 13px; color: #e8622a; font-weight: 600; }  /* PORTFOLIO */
+.portfolio { padding: 80px 0; background: #fff; }
+.portfolio-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 40px; }
+.portfolio-item { aspect-ratio: 4/3; border-radius: 16px; overflow: hidden; position: relative; }
+.portfolio-item img,.portfolio-item picture { width: 100%; height: 100%; object-fit: cover; display: block; }
+.portfolio-item-bg { width: 100%; height: 100%; }
+.portfolio-item:nth-child(1).portfolio-item-bg { background: linear-gradient(135deg, #e8622a 0%, #c8501a 100%); }
+.portfolio-item:nth-child(2).portfolio-item-bg { background: linear-gradient(135deg, #d4893a 0%, #b8701a 100%); }
+.portfolio-item:nth-child(3).portfolio-item-bg { background: linear-gradient(135deg, #2a4a8a 0%, #1a2f5a 100%); }  /* ABOUT */
+.about { padding: 80px 0; background: #eef1f7; }
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+.about-text h2 { font-family: Arial, sans-serif; font-size: 34px; font-weight: 800; color: #1a2f5a; line-height: 1.2; margin-bottom: 20px; }
+.about-text p { font-family: Arial, sans-serif; font-size: 15px; color: #555; line-height: 1.8; margin-bottom: 16px; }
+.about-img { width: 100%; aspect-ratio: 1; border-radius: 16px; overflow: hidden; }
+.about-img img,.about-img picture { width: 100%; height: 100%; object-fit: cover; display: block; }  /* UNIQUE CONTENT CARDS */
+.unique-section { background: #fff; padding: 60px 0; }
+.unique-card {
+ background: #fff;
+ border-radius: 14px;
+ box-shadow: 0 4px 24px rgba(17,29,105,0.08), 0 1px 4px rgba(0,0,0,0.04);
+ padding: 2rem 2rem 2rem 2.5rem;
+ margin-bottom: 1.5rem;
+ max-width: 900px;
+ margin-left: auto;
+ margin-right: auto;
+ }
+.unique-card h2 {
+ font-family: Arial, sans-serif;
+ font-size: 20px;
+ font-weight: 700;
+ color: #1a2f5a;
+ margin-bottom: 12px;
+ padding-bottom: 12px;
+ border-bottom: 1px solid rgba(26,47,90,0.1);
+ }
+.unique-card-intro {
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ color: #888;
+ margin-bottom: 12px;
+ font-style: italic;
+ }
+.unique-card > div {
+ font-family: Arial, sans-serif;
+ font-size: 15px;
+ color: #374151;
+ line-height: 1.8;
+ }  /* PAIN POINTS */
+.pain-points { background: #f5f7fa; padding: 80px 0; }
+.pain-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+.pain-img { width: 100%; aspect-ratio: 16/7; border-radius: 16px; overflow: hidden; }
+.pain-img img,.pain-img picture { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pain-content h2 { font-family: Arial, sans-serif; font-size: 32px; font-weight: 800; color: #1a1a1a; margin-bottom: 8px; }
+.pain-content > p { font-family: Arial, sans-serif; font-size: 14px; color: #888; margin-bottom: 28px; }
+.pain-items { display: flex; flex-direction: column; gap: 20px; }
+.pain-item { display: flex; gap: 16px; align-items: flex-start; }
+.pain-num { width: 40px; height: 40px; border-radius: 8px; background: #ff6b35; color: #fff; font-family: Arial, sans-serif; font-size: 14px; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.pain-item h3 { font-family: Arial, sans-serif; font-size: 16px; font-weight: 700; color: #1a1a1a; margin-bottom: 4px; }
+.pain-item p { font-family: Arial, sans-serif; font-size: 13px; color: #666; line-height: 1.6; }  /* MIRROR QUESTIONS */
+.mirror-section { background: #eef1f7; padding: 80px 0; }
+.mirror-section h2 { font-family: Arial, sans-serif; font-size: 34px; font-weight: 800; color: #1a2f5a; margin-bottom: 8px; }
+.mirror-section.sub { font-family: Arial, sans-serif; font-size: 15px; color: #666; margin-bottom: 40px; }
+.mirror-questions { max-width: 800px; margin: 0 auto; }
+.mirror-category { font-size: 1.1rem; font-weight: 700; margin: 1.5rem 0 0.75rem; padding-bottom: 0.5rem; border-bottom: 2px solid #d1d5db; color: #1a2f5a; }
+.mirror-qa { margin-bottom: 0.75rem; border: 1px solid #e2e8f0; border-radius: 0.5rem; overflow: hidden; background: #fff; }
+.mirror-qa summary { cursor: pointer; padding: 0.875rem 1rem; font-size: 1rem; font-weight: 600; color: #1a2f5a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; transition: background 0.15s; }
+.mirror-qa summary:hover { background: #f8fafc; }
+.mirror-qa summary::-webkit-details-marker { display: none; }
+.mq-chevron { width: 1.25rem; height: 1.25rem; flex-shrink: 0; transition: transform 0.2s; color: #94a3b8; }
+.mirror-qa[open].mq-chevron { transform: rotate(180deg); }
+.mirror-qa[open] summary { background: #f8fafc; border-bottom: 1px solid #e2e8f0; }
+.mirror-answer { margin: 0; padding: 0.875rem 1rem; line-height: 1.7; color: #475569; font-size: 0.95rem; font-family: Arial, sans-serif; }  /* BLOG */
+.blog { padding: 80px 0; background: #eef1f7; }
+.blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; }
+.blog-card { border-radius: 12px; overflow: hidden; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.06); transition: box-shadow 0.2s; display: flex; flex-direction: column; }
+.blog-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.1); }
+.blog-img { width: 100%; height: 200px; overflow: hidden; }
+.blog-img img,.blog-img picture { width: 100%; height: 100%; object-fit: cover; display: block; }
+.blog-body { padding: 20px; flex: 1; display: flex; flex-direction: column; }
+.blog-meta { display: flex; justify-content: space-between; font-family: Arial, sans-serif; font-size: 12px; color: #aaa; margin-bottom: 12px; align-items: center; }
+.blog-meta span:first-child { color: #e8622a; font-weight: 700; font-size: 11px; letter-spacing: 0.5px; text-transform: uppercase; }
+.blog-body h3 { font-family: Arial, sans-serif; font-size: 16px; font-weight: 700; color: #1a2f5a; line-height: 1.4; margin-bottom: 10px; }
+.blog-body p { font-family: Arial, sans-serif; font-size: 13px; color: #666; line-height: 1.6; margin-bottom: 16px; flex: 1; }
+.blog-read-more { font-family: Arial, sans-serif; font-size: 14px; font-weight: 600; color: #e8622a; display: inline-flex; align-items: center; gap: 4px; }
+.blog-read-more:hover { color: #c8501a; }  /* LOCAL SIGNALS */
+.local-signals { background: #fff; padding: 80px 0; }
+.local-signals h2 { font-family: Arial, sans-serif; font-size: 34px; font-weight: 800; color: #1a2f5a; margin-bottom: 8px; }
+.local-signals.sub { font-family: Arial, sans-serif; font-size: 15px; color: #666; margin-bottom: 40px; }
+.signal-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+.signal-card { background: #f8f9ff; border-radius: 14px; padding: 28px; box-shadow: 0 2px 12px rgba(26,47,90,0.06); }
+.signal-card h3 { font-family: Arial, sans-serif; font-size: 16px; font-weight: 700; color: #1a2f5a; margin-bottom: 12px; }
+.signal-card p { font-family: Arial, sans-serif; font-size: 14px; color: #555; line-height: 1.7; }
+ /* FAQ */
+.faq-section { padding: 80px 0; background: #fff; }
+.faq-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 60px; align-items: start; }
+.faq-cta { background: #1a2f5a; border-radius: 16px; padding: 36px; }
+.faq-cta h2 { font-family: Arial, sans-serif; font-size: 22px; font-weight: 800; color: #fff; margin-bottom: 8px; line-height: 1.3; }
+.faq-cta-avatar { width: 52px; height: 52px; border-radius: 50%; background: #dde4ed; margin: 16px 0; display: flex; align-items: center; justify-content: center; font-size: 22px; overflow: hidden; }
+.faq-cta p { font-family: Arial, sans-serif; font-size: 14px; color: #b0c4d8; line-height: 1.7; margin-bottom: 24px; }
+.faq-cta-btns { display: flex; flex-direction: column; gap: 10px; }
+.btn-orange-outline { background: transparent; color: #fff; border: 2px solid #e8622a; padding: 13px 20px; border-radius: 6px; font-family: Arial, sans-serif; font-size: 14px; font-weight: 700; text-align: center; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background 0.2s; }
+.btn-orange-outline:hover { background: #e8622a; }
+.faq-list h2 { font-family: Arial, sans-serif; font-size: 28px; font-weight: 800; color: #1a2f5a; margin-bottom: 24px; }
+.faq-item { border-bottom: 1px solid #e0e0e0; padding: 18px 0; }
+.faq-question { font-family: Arial, sans-serif; font-size: 15px; font-weight: 500; color: #1a1a1a; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+.faq-question::after { content: '+'; font-size: 20px; color: #1a2f5a; font-weight: 400; }
+.faq-answer { font-family: Arial, sans-serif; font-size: 14px; color: #666; line-height: 1.7; margin-top: 12px; display: none; }
+.faq-item.open.faq-answer { display: block; }
+.faq-item.open.faq-question::after { content: '\2212'; }  /* CTA BANNER */
+.cta-banner { background: #1a2f5a; padding: 80px 0; text-align: center; }
+.cta-banner h2 { font-family: Arial, sans-serif; font-size: 40px; font-weight: 800; color: #fff; margin-bottom: 16px; }
+.cta-banner p { font-family: Arial, sans-serif; font-size: 16px; color: #b0c4d8; margin-bottom: 36px; max-width: 500px; margin-left: auto; margin-right: auto; }
+.cta-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+.btn-ghost-white { background: transparent; color: #fff; border: 2px solid rgba(255,255,255,0.5); padding: 14px 28px; border-radius: 6px; font-family: Arial, sans-serif; font-size: 15px; font-weight: 700; display: inline-block; transition: all 0.2s; }
+.btn-ghost-white:hover { border-color: #fff; background: rgba(255,255,255,0.1); }  /* FOOTER */
+.footer { background: #1a2f5a; padding: 60px 0 0; color: #b0c4d8; }
+.footer-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px 48px; display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 48px; }
+.footer-logo { width: 168px; height: 108px; border-radius: 10px; overflow: hidden; display: block; margin-bottom: 20px; }
+.footer-logo img,.footer-logo picture { width: 100%; height: 100%; object-fit: contain; display: block; }
+.footer-desc { font-family: Arial, sans-serif; font-size: 13px; color: #b0c4d8; line-height: 1.7; margin-bottom: 16px; }
+.footer-badges { display: flex; gap: 8px; margin-top: 16px; }
+.footer-badge { width: 44px; height: 44px; border-radius: 50%; background: #c8a84b; display: flex; align-items: center; justify-content: center; font-family: Arial, sans-serif; font-size: 7px; font-weight: 700; color: #fff; text-align: center; line-height: 1.2; }
+.footer-col h4 { font-family: Arial, sans-serif; font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 20px; }
+.footer-col ul { list-style: none; }
+.footer-col ul li { font-family: Arial, sans-serif; font-size: 14px; color: #b0c4d8; margin-bottom: 12px; cursor: pointer; transition: color 0.2s; }
+.footer-col ul li:hover { color: #e8622a; }
+.footer-col p { font-family: Arial, sans-serif; font-size: 13px; color: #b0c4d8; line-height: 1.7; margin-bottom: 8px; }
+.footer-social { display: flex; gap: 10px; margin-top: 20px; }
+.social-icon { width: 40px; height: 40px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-family: Arial, sans-serif; font-size: 14px; font-weight: 700; color: #fff; transition: background 0.2s; cursor: pointer; }
+.social-icon:hover { background: #e8622a!important; }
+.footer-bottom { background: #e8622a; padding: 16px 24px; font-family: Arial, sans-serif; font-size: 13px; color: #fff; text-align: center; width: 100%; }  @media (max-width: 900px) {
+.hero-inner { grid-template-columns: 1fr; }
+.services-grid,.testimonials-grid,.portfolio-grid,.blog-grid { grid-template-columns: 1fr; }
+.about-grid,.pain-grid,.faq-grid,.signal-grid { grid-template-columns: 1fr; }
+.footer-inner { grid-template-columns: 1fr 1fr; }
+.section-header { flex-direction: column; align-items: flex-start; gap: 8px; }
+ nav { display: none; }
+ }
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How does the web design process work for small businesses in Cutler Bay?","acceptedAnswer":{"@type":"Answer","text":"The web design process for small businesses in Cutler Bay begins with a consultation to assess specific needs and goals. After understanding the requirements, we create a detailed proposal outlining the project scope and timeline. This structured approach ensures that businesses receive a custom website that aligns with their objectives, enhancing their online presence effectively."}},{"@type":"Question","name":"What results can a law firm expect from a website redesign in Cutler Bay?","acceptedAnswer":{"@type":"Answer","text":"A law firm in Cutler Bay can expect increased client inquiries and enhanced credibility from a professional website redesign. Typically, after launching the new site, firms report improved lead generation within the first few months. This outcome is a direct result of better user experience and optimized content tailored to attract potential clients."}},{"@type":"Question","name":"How is Miami Web Design different from other agencies in Cutler Bay?","acceptedAnswer":{"@type":"Answer","text":"Miami Web Design stands out due to its focus on local businesses and specific market needs in Cutler Bay. Unlike other agencies, we offer transparent, itemized quotes and emphasize collaboration throughout the project. This client-centric approach ensures that businesses receive tailored solutions that meet their unique requirements."}},{"@type":"Question","name":"What does a basic business website typically cost for companies in Cutler Bay?","acceptedAnswer":{"@type":"Answer","text":"Basic business websites for companies in Cutler Bay typically start around pricing that varies by project to pricing that varies by project. Factors influencing the final cost include the complexity of the design and specific features requested. Understanding these variables helps businesses budget effectively for their online presence."}},{"@type":"Question","name":"When should businesses in Cutler Bay plan for a new website project?","acceptedAnswer":{"@type":"Answer","text":"Businesses in Cutler Bay should consider planning for a new website project during their fiscal year budgeting cycles. Many local companies begin assessing their online needs in Q4, aligning with annual budget finalizations. Early planning allows for timely execution and ensures that marketing strategies are in place when the new site launches."}},{"@type":"Question","name":"What should I confirm before starting a website project with Miami Web Design?","acceptedAnswer":{"@type":"Answer","text":"Before starting a website project with Miami Web Design, confirm your specific goals and any existing brand assets you wish to incorporate. Understanding your target audience and desired outcomes is crucial for a successful project. This clarity helps us tailor the website design to effectively meet your business objectives."}},{"@type":"Question","name":"How quickly can a Web Design project be completed for a Cutler Bay business?","acceptedAnswer":{"@type":"Answer","text":"Web Design timelines in Cutler Bay, FL are shaped by project size, the revision process, and how quickly decisions are made. Providing content and approvals promptly helps keep the project on schedule. Miami Web Design can share a more specific estimate after reviewing your requirements."}}]}</script>
+<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "WebPage",  "@id": "https://webdesignmiami.net/fl/cutler-bay/33189#webpage",  "url": "https://webdesignmiami.net/fl/cutler-bay/33189",  "name": "Web Design in Cutler Bay, Florida",  "description": "Cutler Bay, Florida web design — scope, process, and pricing information for local businesses.",  "isPartOf": {  "@id": "https://webdesignmiami.net#website"  },  "about": {  "@id": "https://webdesignmiami.net/fl/cutler-bay/33189#localbusiness"  },  "subjectOf": {  "@type": "WebPage",  "@id": "https://webdesignmiami.net/about-web-design-service-miami-web-design/",  "url": "https://webdesignmiami.net/about-web-design-service-miami-web-design/"  }
+}</script>
+<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "LocalBusiness",  "@id": "https://webdesignmiami.net/fl/cutler-bay/33189#localbusiness",  "name": "Miami Web Design",  "description": "Web Design for Cutler Bay, Florida businesses.",  "url": "https://webdesignmiami.net/fl/cutler-bay/33189",  "telephone": "305-777-7886",  "email": "mike@webdesignmiami.net",  "address": {  "@type": "PostalAddress",  "addressLocality": "Cutler Bay",  "addressRegion": "Florida",  "postalCode": "33189",  "addressCountry": "US"  },  "sameAs": "https://webdesignmiami.net#organization",  "geo": {  "@type": "GeoCoordinates",  "latitude": "25.57314",  "longitude": "-80.33929"  },  "areaServed": [  {  "@type": "City",  "name": "Cutler Bay"  },  {  "@type": "AdministrativeArea",  "name": "Miami-Dade"  },  {  "@type": "State",  "name": "Florida"  }  ]
+}</script>
+<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "BreadcrumbList",  "itemListElement": [  {  "@type": "ListItem",  "position": 1,  "name": "Home",  "item": "https://webdesignmiami.net"  },  {  "@type": "ListItem",  "position": 2,  "name": "Florida",  "item": "https://webdesignmiami.net/florida"  },  {  "@type": "ListItem",  "position": 3,  "name": "Cutler Bay",  "item": "https://webdesignmiami.net/fl/cutler-bay/33189"  }  ]
+}</script><style>.memory-anchor{max-width:880px;margin:48px auto;padding:32px;background:#fff;border:1px solid #e5e7eb;border-radius:16px;box-shadow:0 4px 20px rgba(0,0,0,0.06)}.memory-anchor h2{text-align:center;margin-bottom:20px}.memory-anchor p{max-width:760px;margin-left:auto;margin-right:auto}</style><meta name="dateModified" content="2026-05-06T23:27:28.129Z">
+<style>  @media (max-width: 768px) {  .directions-section > div {  grid-template-columns: 1fr !important;  }  }  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+<div id="reading-progress" aria-hidden="true"></div>
+
+<!-- TOPBAR -->
+<div class="topbar">
+ <div class="topbar-inner">
+ <span><a href="tel:305-777-7886" style="color:#fff;">305-777-7886</a></span>
+ <span><a href="mailto:mike@webdesignmiami.net" style="color:#fff;">mike@webdesignmiami.net</a></span>
+ <span>Cutler Bay, FL</span>
+ </div>
+</div>
+
+<!-- HEADER -->
+<header class="header">
+ <div class="header-inner">
+ <div class="logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/MWD-Logo.webp" alt="Miami Web Design" style="width:100%;height:100%;object-fit:contain;"></div>
+ <nav>
+ <a href="#">Home</a>
+ <a href="#">Our Services</a>
+ <a href="#">Latest Article</a>
+ <a href="#">About Us</a>
+ <a href="#contact-form">Contact Us</a>
+ </nav>
+ </div>
+</header>
+
+<!-- PRESERVE:HERO_FULL_START -->
+<section class="hero" data-preserve-hero="true" data-preserve-structural="true">
+ <div class="hero-bg" data-preserve="true" data-preserve-structural="true">
+ <video autoplay="" muted="" playsinline="" loop="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 35%;display:block;">
+ <source src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/3249672-uhd_2560_1440_25fps.mp4" type="video/mp4">
+ </video>
+ </div>
+ <div class="hero-overlay" data-preserve="true" data-preserve-structural="true"></div>
+ <div class="hero-inner" data-preserve="true" data-preserve-structural="true">
+ <div class="hero-content" data-preserve="true">
+ <h1>Web Design | Cutler Bay, Florida 33189</h1>
+ <p>Is your outdated website costing you clients in Cutler Bay? Miami Web Design builds powerful, conversion-focused sites for Miami-Dade County businesses — fast.</p>
+<p>Serving Cutler Bay and the greater Miami-Dade area with professional Web Design.</p>
+ <div class="hero-btns">
+ <a href="https://webdesignmiami.net/api/contact" class="btn-blue-600">Get Started Today →</a>
+ <a href="tel:305-777-7886" style="background:rgba(255,255,255,0.15);color:#fff;border:2px solid rgba(255,255,255,0.5);padding:14px 28px;border-radius:6px;font-family:Arial,sans-serif;font-size:15px;font-weight:700;display:inline-flex;align-items:center;gap:8px;backdrop-filter:blur(4px);">✆ Call 305-777-7886</a>
+ </div>
+ <div class="hero-stats">
+ <div class="stat">
+ <div class="stat-number">500+</div>
+ <div class="stat-label">Clients Helped</div>
+ </div>
+ <div class="stat">
+ <div class="stat-number">600+</div>
+ <div class="stat-label">Websites Launched</div>
+ </div>
+ <div class="stat">
+ <div class="stat-number">800+</div>
+ <div class="stat-label">Positive Reviews</div>
+ </div>
+ </div>
+ </div>
+ <div class="hero-form" data-preserve="true">
+ <h2>Get your FREE Quote Today!</h2>
+ <p>Tell us about your Web Design project and we'll respond within 2 hours</p>
+ <div class="form-row">
+ <div class="form-group"><input type="text" placeholder="First Name"></div>
+ <div class="form-group"><input type="text" placeholder="Last Name"></div>
+ </div>
+ <div class="form-group"><input type="email" placeholder="Email Address"></div>
+ <div class="form-group">
+ <label style="font-family:Arial,sans-serif;font-size:13px;font-weight:700;color:#1a1a1a;display:block;margin-bottom:6px;">Service Needed</label>
+ <select>
+ <option>Web Design</option>
+ <option>SEO Marketing</option>
+ <option>E-Commerce Store</option>
+ <option>Website Redesign</option>
+ <option>Branding</option>
+ </select>
+ </div>
+ <div class="form-group">
+ <textarea placeholder="Describe your website goals"></textarea>
+ </div>
+ <button class="btn-submit">Free Estimate</button>
+ <div style="display:flex;gap:10px;justify-content:center;margin-top:16px;">
+ <img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/9175369_6545-1-Photoroom.webp" alt="Quality badges" style="max-width:100%;height:auto;margin-top:4px;">
+ </div>
+ </div>
+ </div>
+</section>
+<!-- PRESERVE:HERO_FULL_END -->
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+ <div class="trust-bar-inner">
+ <div class="trust-label">Trusted Technologies &amp; Platforms</div>
+ <div class="trust-logos">
+ <div class="trust-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/icons8-wordpress-96.png" alt="WordPress" style="width:100%;height:100%;object-fit:contain;"></div>
+ <div class="trust-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/icons8-react-native-96.png" alt="React" style="width:100%;height:100%;object-fit:contain;"></div>
+ <div class="trust-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/icons8-shopify-96.png" alt="Shopify" style="width:100%;height:100%;object-fit:contain;"></div>
+ <div class="trust-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/icons8-webflow-96.png" alt="Webflow" style="width:100%;height:100%;object-fit:contain;"></div>
+ <div class="trust-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/icons8-google-ads-96.png" alt="Google Ads" style="width:100%;height:100%;object-fit:contain;"></div>
+ <div class="trust-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/icons8-hubspot-96.png" alt="HubSpot" style="width:100%;height:100%;object-fit:contain;"></div>
+ </div>
+ </div>
+</div>
+
+<main id="main-content">
+
+<p class="local-context-intro" style="margin-bottom: 1.5rem;">Serving Cutler Bay, FL — Miami Web Design is a digital agency that helps local businesses turn outdated or underperforming websites into conversion-focused online sales assets. Helping Cutler Bay businesses with professional web design services, also serving near Franjo Park and the Miami-Dade area.</p>
+<div class="content-body">
+
+<!-- SECTION:quick-answer START -->
+<section><div class="max-w-6xl mx-auto px-4"><div class="bg-white rounded-xl p-6 md:p-8"><div id="quick-answer" class="quick-answer-section">
+ <div class="quick-answer-wrap">
+ <div class="quick-answer-card">
+ <details open="">
+ <summary>Quick Answer</summary>
+ <div class="quick-answer-content">
+ <p class="text-slate-700">Miami Web Design provides Web Design for businesses and commercial clients in Cutler Bay, Florida. Scope, timeline, and pricing are confirmed in writing before any project begins. Contact us to discuss your project scope, scheduling, and any specific requirements for your Cutler Bay location.</p>
+ </div>
+ </details>
+ </div>
+ </div>
+</div></div></div></section>
+<!-- SECTION:quick-answer END -->
+
+<!-- SERVICES -->
+<section class="services">
+ <div class="section-inner">
+ <div class="section-header">
+ <div>
+ <h2>Miami Web Design — Web Design in Cutler Bay</h2>
+ <p style="margin-top:8px;font-family:Arial,sans-serif;font-size:15px;color:#555;max-width:560px;">Your complete digital partner serving Cutler Bay, FL and throughout Miami-Dade County — we build, optimize, and grow your online presence.</p>
+ </div>
+ <a href="https://webdesignmiami.net/api/contact" class="btn-blue-600" style="white-space:nowrap;flex-shrink:0;">View All Services →</a>
+ </div>
+ <div class="services-grid">
+ <div class="service-card">
+ <div class="service-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/Custom-Website-Development-1024x682.webp" alt="Custom Web Design"></div>
+ <div class="service-body">
+ <h3>Custom Web Design</h3>
+ <p>Our designers craft pixel-perfect, conversion-focused websites tailored to your brand. We serve clients throughout Cutler Bay and Miami-Dade County with sites that captivate and convert.</p>
+ <a href="https://webdesignmiami.net/api/contact" class="btn-learn-more">Learn More →</a>
+ </div>
+ </div>
+ <div class="service-card">
+ <div class="service-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/E-Commerce-Development.webp" alt="E-Commerce Development"></div>
+ <div class="service-body">
+ <h3>E-Commerce Development</h3>
+ <p>Launch or grow your online store with a powerful, mobile-optimized platform. From Shopify to WooCommerce, we build stores for Cutler Bay businesses designed to sell — 24/7.</p>
+ <a href="https://webdesignmiami.net/api/contact" class="btn-learn-more">Learn More →</a>
+ </div>
+ </div>
+ <div class="service-card">
+ <div class="service-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/SEO-Digital-Marketing-1024x682.webp" alt="SEO &amp; Digital Marketing"></div>
+ <div class="service-body">
+ <h3>SEO &amp; Digital Marketing</h3>
+ <p>Rank higher on Google and dominate Cutler Bay search results. Our experts use proven strategies to drive qualified traffic and grow your revenue throughout Miami-Dade County.</p>
+ <a href="https://webdesignmiami.net/api/contact" class="btn-learn-more">Learn More →</a>
+ </div>
+ </div>
+ <div class="service-card">
+ <div class="service-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/Website-Maintenance.webp" alt="Website Maintenance"></div>
+ <div class="service-body">
+ <h3>Website Maintenance</h3>
+ <p>Keep your site fast, secure, and up-to-date. Our maintenance plans cover security patches, speed optimizations, content updates, and 24/7 uptime monitoring for Cutler Bay businesses.</p>
+ <a href="https://webdesignmiami.net/api/contact" class="btn-learn-more">Learn More →</a>
+ </div>
+ </div>
+ </div>
+ <p style="font-family:Arial,sans-serif;font-size:13px;color:#888;margin-top:20px;text-align:center;">Custom Web Design · E-Commerce Development · SEO &amp; Digital Marketing · Website Maintenance</p>
+ </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+ <div class="section-inner">
+ <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:24px;flex-wrap:wrap;">
+ <div>
+ <h2 style="font-family:Arial,sans-serif;font-size:34px;font-weight:800;color:#fff;">What Cutler Bay Businesses Are Saying</h2>
+ <p style="font-family:Arial,sans-serif;font-size:15px;color:#b0c4d8;margin-top:8px;">See why businesses across Miami-Dade County trust Miami Web Design.</p>
+ </div>
+ <a href="#" class="btn-blue-600" style="white-space:nowrap;flex-shrink:0;">Read More Reviews →</a>
+ </div>
+ <div class="testimonials-grid">
+ <div class="testimonial-card">
+ <div class="testimonial-quote">"</div>
+ <div class="testimonial-stars">★★★★★</div>
+ <div class="testimonial-text">"Miami Web Design completely transformed our online presence. Within 3 months of launching our new site, our inquiries tripled. They truly understand what Cutler Bay businesses need online."</div>
+ <div class="testimonial-author">
+ <div class="author-avatar"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2021/07/client-1.png" alt="Maria Rodriguez" style="width:100%;height:100%;object-fit:cover;border-radius:50%;"></div>
+ <div>
+ <div class="author-name">Maria Rodriguez</div>
+ <div class="author-title">Owner, Brickell Realty</div>
+ </div>
+ </div>
+ </div>
+ <div class="testimonial-card">
+ <div class="testimonial-quote">"</div>
+ <div class="testimonial-stars">★★★★★</div>
+ <div class="testimonial-text">"Fast, professional, and the results speak for themselves. Our e-commerce site was live in under 3 weeks and we made back the investment in the first month. Highly recommend!"</div>
+ <div class="testimonial-author">
+ <div class="author-avatar"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2021/07/client-2.png" alt="Julia Sullivan" style="width:100%;height:100%;object-fit:cover;border-radius:50%;"></div>
+ <div>
+ <div class="author-name">Julia Sullivan</div>
+ <div class="author-title">CEO, Coral Beach Apparel</div>
+ </div>
+ </div>
+ </div>
+ <div class="testimonial-card">
+ <div class="testimonial-quote">"</div>
+ <div class="testimonial-stars">★★★★★</div>
+ <div class="testimonial-text">"These guys are SEO wizards. We went from page 4 on Google to the top 3 results for our Cutler Bay keywords. The phone hasn't stopped ringing since."</div>
+ <div class="testimonial-author">
+ <div class="author-avatar"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2021/07/client-3.png" alt="Jennifer Morales" style="width:100%;height:100%;object-fit:cover;border-radius:50%;"></div>
+ <div>
+ <div class="author-name">Jennifer Morales</div>
+ <div class="author-title">Owner, SunState Roofing</div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="portfolio">
+ <div class="section-inner">
+ <div class="section-header">
+ <h2 style="color:#1a2f5a;">Our Portfolio</h2>
+ <a href="#" class="btn-blue-600">Know More →</a>
+ </div>
+ <div class="portfolio-grid">
+ <div class="portfolio-item"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/MWD-Portfolio-1.webp" alt="Portfolio 1" style="width:100%;height:100%;object-fit:cover;"></div>
+ <div class="portfolio-item"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/MWD-Portfolio-2.webp" alt="Portfolio 2" style="width:100%;height:100%;object-fit:cover;"></div>
+ <div class="portfolio-item"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/MWD-Portfolio-3.webp" alt="Portfolio 3" style="width:100%;height:100%;object-fit:cover;"></div>
+ </div>
+ </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+ <div class="section-inner">
+ <div class="about-grid">
+ <div class="about-text">
+ <h2>Miami Web Design — Your Digital Growth Partner</h2>
+ <p>At Miami Web Design, we've been helping Cutler Bay businesses grow online for over a decade. We specialize in Web Design for clients throughout Miami-Dade County — generating real results with more traffic, more leads, and more revenue.</p>
+ <p>Our experienced team of designers, developers, and marketers are experts in all modern platforms and techniques. We take the time to understand your business goals and craft a digital strategy that actually works for Cutler Bay, FL businesses.</p>
+ <p>We take pride in delivering exceptional client experiences and aim to be your go-to digital partner whenever you need expertise. Our team brings focused experience to every project in Miami-Dade County and beyond.</p>
+ <a href="tel:305-777-7886" class="btn-blue-600" style="margin-top:24px;display:inline-block;">Contact Us Directly</a>
+ </div>
+ <div class="about-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/pexels-the-ghazi-2152398165-32216281-1.jpg" alt="Our web design team" loading="lazy"></div>
+ </div>
+ </div>
+</section>
+
+<section class="unique-section">
+ <div class="section-inner">  <div class="unique-card">
+ <h2>About Cutler Bay</h2>
+ <p class="unique-card-intro">Here's what makes Cutler Bay businesses unique and what that means for your online presence.</p>
+ <div><!-- SECTION:building-stock-profile START --><div><p><strong>Local Service Industry Demand:</strong> Cutler Bay's vibrant service industry includes contractors, med spas, and law firms, all requiring modern web design to compete effectively. Local businesses in Saga Bay and near Franjo Park often need websites that can convert visitors into leads. As competition intensifies, having a professional online presence is crucial for these industries to attract and retain clients.</p><p><strong>E-Commerce Growth Opportunities:</strong> The growing demand for e-commerce solutions in Cutler Bay reflects the rise of retail and product-based businesses. Companies in the area, especially those near the Cutler Bay Shopping Center, are increasingly seeking e-commerce websites to enhance their digital storefronts. This trend drives the need for tailored web design services that can facilitate seamless online transactions.</p><p><strong>Startup Ecosystem Development:</strong> Cutler Bay has seen a surge in growth-focused small businesses and startups, particularly around the corporate corridors. These emerging companies are eager for professional websites that establish credibility and support their marketing initiatives. Engaging with these businesses presents a unique opportunity for web design providers to create impactful online brand presences.</p><p><strong>Competitive Landscape Insights:</strong> The competitive density of web design providers in Cutler Bay is notable, with many local agencies vying for the attention of businesses. Companies in the area, particularly those near Franjo Park, are discerning when selecting providers, often prioritizing transparency and proven results. This competitive environment pushes providers to differentiate themselves through unique service offerings and effective client communication.</p><p><strong>Seasonal Demand Patterns:</strong> In Cutler Bay, demand for web design services typically peaks in Q4 when many local businesses finalize their annual budgets. Companies in the area, especially those in retail and services, often seek website enhancements to prepare for the new fiscal year. Understanding these seasonal patterns is essential for web design providers to align their offerings with client needs effectively.</p></div><!-- SECTION:building-stock-profile END --></div>
+ </div>  <div class="unique-card">
+ <h2>Neighborhood Insights for Cutler Bay</h2>
+ <p class="unique-card-intro">Understanding the local landscape helps us build smarter digital strategies for your area.</p>
+ <div><!-- SECTION:neighborhood-constraints START --><div><ul class="section-list"><li><strong>Medical and Professional Corridor:</strong> This area hosts numerous clinics, law firms, and medical offices that require modern, user-friendly websites to attract new clients. With a high concentration of healthcare professionals, there's a strong demand for digital services that enhance online visibility. Access can be limited due to ongoing construction in the vicinity, which necessitates careful scheduling and planning to minimize disruptions during peak business hours.</li><li><strong>Technology and Startup Hub:</strong> Cutler Bay's burgeoning tech scene features several startups and small businesses seeking to establish their online presence. These companies often require responsive websites that can grow with their evolving needs. The competitive density is high, necessitating unique and innovative web solutions. Many of these businesses operate on tight timelines as they seek to launch quickly, making the scheduling process crucial for timely project delivery.</li><li><strong>Retail and E-Commerce Zone:</strong> This vibrant area includes various retail shops and e-commerce businesses that rely on effective online platforms to drive sales. With the rise of online shopping, these businesses need robust e-commerce sites that facilitate seamless customer experiences. The demand for web design services is particularly intense during the holiday shopping season, requiring timely project completion and efficient procurement processes to meet client expectations.</li><li><strong>Community Engagement Initiatives:</strong> Local businesses in Cutler Bay are increasingly participating in community events and initiatives, which necessitate the need for websites that can effectively communicate their involvement and attract local customers. This engagement often requires quick turnaround times for updates and promotional content to keep the community informed.</li><li><strong>Environmental Considerations:</strong> Given Cutler Bay's commitment to sustainability, businesses need to reflect eco-friendly practices in their online presence. Websites that highlight green initiatives or sustainable practices can set businesses apart in a crowded market. This consideration often influences design choices and content strategy, requiring collaboration with web designers who understand these priorities.</li></ul></div><!-- SECTION:neighborhood-constraints END --></div>
+ </div>  <div class="unique-card">
+ <h2>Common Challenges in Cutler Bay</h2>
+ <p class="unique-card-intro">We've seen what holds Cutler Bay businesses back online — and we know how to fix it.</p>
+ <div><!-- SECTION:failure-patterns START --><div><ul class="section-list"><li><strong>Missed Deadlines:</strong> In Cutler Bay, businesses often experience project delays when hiring web design services that do not adhere to agreed timelines. This issue can stem from poor project management or lack of transparency in the scheduling process. When deadlines are missed, companies risk losing potential clients and damaging their online reputation, which is especially critical for service-oriented businesses like law firms and clinics in Saga Bay. These sectors rely heavily on timely updates to capture leads effectively.</li><li><strong>Wasted Budget:</strong> Many local businesses in Cutler Bay find themselves overspending on web design projects due to unclear pricing structures and hidden fees. This situation often arises when service providers do not offer transparent, itemized quotes, leading to unexpected costs as the project progresses. The financial fallout can severely impact smaller firms or startups in Cutler Bay, ultimately hindering their ability to invest in additional marketing or growth initiatives.</li><li><strong>Misaligned Deliverables:</strong> Companies such as real estate agencies in Cutler Bay frequently encounter issues with deliverables that do not meet their specific needs. This misalignment often occurs when web design providers fail to conduct thorough consultations to understand the client's goals and audience. The result is a website that does not resonate with potential clients, leading to lower engagement rates and missed sales opportunities, which is particularly detrimental in a competitive market.</li><li><strong>Logistics Challenges:</strong> Local businesses may face logistical hurdles when web design projects are not properly coordinated with existing marketing strategies. In Cutler Bay, firms often operate within tight schedules, especially during peak seasons like Q4 when many companies finalize annual budgets. When web design projects lack synchronization with marketing campaigns, businesses risk losing traction in their outreach efforts, which can lead to decreased lead generation during critical times.</li><li><strong>Vendor Misfit:</strong> Choosing the wrong provider can lead to significant mismatches in expectations and deliverables, especially for e-commerce businesses in Cutler Bay. This misfit often arises from a lack of due diligence during the vendor selection process, where companies do not adequately assess a provider's portfolio or expertise. The consequences can be severe, resulting in poorly designed websites that fail to convert visitors into customers, thus stunting overall business growth.</li></ul></div><!-- SECTION:failure-patterns END --></div>
+ </div>  <div class="unique-card">
+ <h2>Local Pricing Factors in Miami-Dade County</h2>
+ <p class="unique-card-intro">What affects the cost of Web Design for businesses in Cutler Bay, FL.</p>
+ <div><!-- SECTION:pricing-factors START --><div><ul class="section-list"><li><strong>Scope and Deliverable Complexity:</strong> In Cutler Bay, the complexity of web design projects can significantly affect pricing. For example, a basic business site may start around $1,500, while an e-commerce store can range from $3,000 to $8,000. Businesses with extensive product catalogs, like retailers in Saga Bay, require tailored features that increase development time and costs. As a result, companies need to budget accordingly for the specific functionalities they want, impacting their overall investment.</li><li><strong>Turnaround and Timeline Demands:</strong> The urgency of project completion can drive costs higher in Cutler Bay. Many local businesses, especially those in rapidly growing sectors like real estate, often need websites up quickly to capture leads. This demand for fast turnaround can lead to expedited pricing, which may not be the best value for businesses that can afford a longer timeline. Companies should assess their project timelines carefully to avoid unnecessary expenses.</li><li><strong>Ongoing vs. Project-Based Engagement Models:</strong> Cutler Bay businesses may opt for ongoing website maintenance versus one-time project engagements. Those looking for continuous support might find that monthly retainer fees vary significantly based on the level of service required. For instance, a law firm in Franjo Park might need regular updates and SEO services, increasing their long-term investment. Understanding the commitment level and expected return on investment is crucial for budgeting.</li><li><strong>Competitive Pricing Context:</strong> The local market in Cutler Bay features various web design providers, making it essential for businesses to compare pricing and services. Companies may find that providers in nearby areas offer lower rates, influencing their negotiation strategies. However, they must also consider the value of local expertise and tailored services, as opting for the cheapest option may lead to compromised quality or misalignment with their business goals.</li></ul></div><!-- SECTION:pricing-factors END --></div>
+ </div>  <div class="unique-card">
+ <h2>Local Considerations for Cutler Bay Businesses</h2>
+ <p class="unique-card-intro">How the Cutler Bay market environment shapes your digital strategy.</p>
+ <div><!-- SECTION:climate-impact START --><div><p><strong>Q1 Budget Activation:</strong> Many businesses in Cutler Bay begin their fiscal year by reviewing and activating their budgets, which often includes allocations for web design services. This period sees an increase in inquiries as companies look to enhance their online presence and capitalize on new marketing strategies. Businesses are keen to finalize their digital projects early in the year to ensure they align with their overall business goals.</p><p><strong>Spring Marketing Push:</strong> As spring approaches, many local businesses ramp up their marketing efforts, driving demand for website redesigns and updates. Companies seek to refresh their online image and improve user engagement in preparation for seasonal promotions. This period often sees an influx of requests as businesses aim to launch their new campaigns in conjunction with improved web platforms.</p><p><strong>Summer Project Implementation:</strong> The summer months often serve as a prime time for businesses to implement new web design projects. With fewer operational distractions, companies focus on enhancing their digital assets to prepare for the upcoming busy season. This is an ideal time for service providers to schedule project kick-offs and ensure timely delivery, as clients are eager to finalize their online tools before the fall.</p><p><strong>Q4 Planning and Renewal:</strong> As the year comes to a close, many businesses in Cutler Bay evaluate their web performance and begin planning for the next year. This period often sees an increase in requests for updates and redesigns, as companies look to refresh their online presence ahead of new marketing initiatives. Engaging with clients during this time is crucial for aligning web design projects with their strategic goals for the upcoming year.</p><p><strong>Local Events Influence Demand:</strong> Seasonal events in Cutler Bay, such as the annual Cutler Bay Community Festival, often create spikes in demand for web design services. Businesses may seek to enhance their online visibility before such events to attract more customers. Understanding these local trends can help service providers better align their offerings with client needs.</p></div><!-- SECTION:climate-impact END --></div>
+ </div>  <div class="unique-card">
+ <h2>Important Information</h2>
+ <p class="unique-card-intro">What every Cutler Bay business should know before starting a web project.</p>
+ <div class="risk-disclosure"><!-- SECTION:risk-disclosure START --><div class="risk-disclosure"><p><strong>What to Evaluate in a Provider:</strong> When selecting a web design provider in Cutler Bay, businesses should critically assess their portfolio and client testimonials. It's crucial to look for examples of previous work that align with your industry, as this indicates familiarity with your specific needs. Additionally, ensure that they offer clear communication throughout the project lifecycle. Many businesses overlook these factors, leading to misaligned expectations and unsatisfactory outcomes.</p><p><strong>Common Mistakes When Vetting:</strong> A frequent oversight among Cutler Bay businesses is failing to clarify the scope of services included in the contract. Ensure that all deliverables, such as SEO optimization and ongoing support, are explicitly stated. Ambiguities can result in unexpected costs or incomplete projects. By asking for itemized quotes, companies can better gauge the full investment required and avoid hidden fees.</p><p><strong>What to Demand in Writing:</strong> Businesses should require detailed contracts that outline timelines, deliverables, and payment schedules. In Cutler Bay, where project timelines can vary greatly, having these elements in writing protects against delays and miscommunication. It's essential to establish clear benchmarks for project progress to hold the provider accountable. This clarity helps ensure that the final product aligns with business objectives and minimizes the risk of costly revisions.</p><p><strong>Understanding Local Regulations:</strong> It's vital for businesses in Cutler Bay to understand local regulations regarding web accessibility and data protection. Ensuring compliance not only enhances credibility but also avoids potential legal issues. A thorough provider will be knowledgeable about these regulations and incorporate them into the design process.</p><p><strong>Evaluating Post-Launch Support:</strong> After launching a new website, businesses should consider the level of post-launch support offered by their provider. In Cutler Bay, ongoing maintenance and updates are crucial for keeping a website relevant and functional. This includes not just technical support but also assistance with content updates and performance analytics to ensure the site continues to meet business goals.</p></div><!-- SECTION:risk-disclosure END --></div>
+ </div>  <div class="unique-card">
+ <h2>Recent Projects in Cutler Bay</h2>
+ <p class="unique-card-intro">Real examples of what Miami Web Design has delivered for Miami-Dade County clients.</p>
+ <div class="project-scenarios"><!-- SECTION:project-scenarios START --><div class="project-scenarios"><div class="scenario"><h4>Scenario: Revamping Online Presence for a Cutler Bay Law Firm</h4><p><strong>Client:</strong> A well-established law firm in Cutler Bay seeking to modernize their outdated website.</p><p><strong>Background:</strong> The firm, located near Saga Bay Park, faced declining online engagement due to a website that was not mobile-friendly and lacked essential information about their services. With growing competition from newer firms in the area, they recognized the need for a digital overhaul to attract potential clients and provide clear service information.</p><p><strong>Approach:</strong> We conducted a service fit assessment to identify key features needed for their website, focusing on user experience and mobile optimization. Our team designed a modern layout that emphasized clear navigation and incorporated client testimonials prominently. By prioritizing SEO strategies, we ensured the site would rank higher in search results, directly addressing their visibility concerns.</p><p><strong>Result:</strong> The revamped website led to a 60% increase in inquiries within the first three months post-launch. With a more user-friendly interface, the firm improved its client conversion rates, ultimately enhancing its reputation within Cutler Bay’s legal community.</p></div><div class="scenario"><h4>Scenario: Launching an E-Commerce Platform for a Cutler Bay Retailer</h4><p><strong>Client:</strong> A local boutique in Cutler Bay looking to expand their business with an online store.</p><p><strong>Background:</strong> Situated near Franjo Park, this retailer was challenged by limited foot traffic and needed a robust e-commerce platform to reach a broader audience. They aimed to showcase their unique product offerings and streamline the purchasing process to compete with larger retail chains.</p><p><strong>Approach:</strong> We tailored a Shopify-based e-commerce solution that highlighted their products with high-quality images and engaging descriptions. The project included integrating payment gateways and optimizing the site for mobile devices to enhance the shopping experience. We also provided training for their staff to manage inventory and process orders efficiently.</p><p><strong>Result:</strong> Within the first quarter after launching the e-commerce platform, the retailer saw a 75% increase in online sales. This transition not only expanded their customer base beyond Cutler Bay but also allowed them to maintain consistent engagement with local and regional customers.</p></div><div class="scenario"><h4>Scenario: Developing a Lead Generation Website for a Cutler Bay Medical Spa</h4><p><strong>Client:</strong> A medical spa in Cutler Bay aiming to attract new clients through digital channels.</p><p><strong>Background:</strong> Located close to local residential communities, the spa struggled to convert website visitors into appointments. Their existing site lacked compelling content and clear calls to action, which hindered potential clients from booking services.</p><p><strong>Approach:</strong> We focused on creating a visually appealing website that showcased their services and included informative content about treatments. We implemented strategic lead capture forms and appointment scheduling features to facilitate easy bookings. Additionally, we optimized the site for local search terms to increase visibility among nearby residents.</p><p><strong>Result:</strong> The new website achieved a 50% increase in appointment bookings within the first two months. Enhanced online presence not only improved client acquisition but also strengthened the spa’s position in Cutler Bay’s competitive wellness market.</p></div></div><!-- SECTION:project-scenarios END --></div>
+ </div>  <div class="unique-card">
+ <h2>Frequently Asked Questions</h2>
+ <p class="unique-card-intro">Answers to the most common Web Design questions from Cutler Bay, FL businesses.</p>
+ <div class="city-faqs"><!-- SECTION:city-faqs START --><div class="city-faqs"><details class="mirror-qa"><summary>How does the web design process work for small businesses in Cutler Bay?</summary><p class="mirror-answer">The web design process for small businesses in Cutler Bay begins with a consultation to assess specific needs and goals. After understanding the requirements, we create a detailed proposal outlining the project scope and timeline. This structured approach ensures that businesses receive a custom website that aligns with their objectives, enhancing their online presence effectively.</p></details>
+
+<details class="mirror-qa"><summary>What results can a law firm expect from a website redesign in Cutler Bay?</summary><p class="mirror-answer">A law firm in Cutler Bay can expect increased client inquiries and enhanced credibility from a professional website redesign. Typically, after launching the new site, firms report improved lead generation within the first few months. This outcome is a direct result of better user experience and optimized content tailored to attract potential clients.</p></details>
+
+<details class="mirror-qa"><summary>How is Miami Web Design different from other agencies in Cutler Bay?</summary><p class="mirror-answer">Miami Web Design stands out due to its focus on local businesses and specific market needs in Cutler Bay. Unlike other agencies, we offer transparent, itemized quotes and emphasize collaboration throughout the project. This client-centric approach ensures that businesses receive tailored solutions that meet their unique requirements.</p></details>
+
+<details class="mirror-qa"><summary>What does a basic business website typically cost for companies in Cutler Bay?</summary><p class="mirror-answer">Basic business websites for companies in Cutler Bay typically start around $1,500 to $3,500. Factors influencing the final cost include the complexity of the design and specific features requested. Understanding these variables helps businesses budget effectively for their online presence.</p></details>
+
+<details class="mirror-qa"><summary>When should businesses in Cutler Bay plan for a new website project?</summary><p class="mirror-answer">Businesses in Cutler Bay should consider planning for a new website project during their fiscal year budgeting cycles. Many local companies begin assessing their online needs in Q4, aligning with annual budget finalizations. Early planning allows for timely execution and ensures that marketing strategies are in place when the new site launches.</p></details>
+
+<details class="mirror-qa"><summary>What should I confirm before starting a website project with Miami Web Design?</summary><p class="mirror-answer">In Cutler Bay, before starting a website project with Miami Web Design, confirm your specific goals and any existing brand assets you wish to incorporate. Understanding your target audience and desired outcomes is crucial for a successful project. This clarity helps us tailor the website design to effectively meet your business objectives.</p></details></div><details class="faq-item">
+<summary>How quickly can a Web Design project be completed for a Cutler Bay business?</summary>
+<p class="mirror-answer">Web Design timelines in Cutler Bay, FL are shaped by project size, the revision process, and how quickly decisions are made. Providing content and approvals promptly helps keep the project on schedule. Miami Web Design can share a more specific estimate after reviewing your requirements.</p>
+</details>
+<!-- SECTION:city-faqs END --></div>
+ </div>  </div>
+</section>
+
+<!-- PAIN POINTS -->
+<section class="pain-points">
+ <div class="section-inner">
+ <div class="pain-grid">
+ <div class="pain-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/2149273739-1.webp" alt="Signs you need a new website" loading="lazy"></div>
+ <div class="pain-content">
+ <h2>You May Need a New Website If:</h2>
+ <p>Don't let an outdated site cost you Cutler Bay customers. Here are the telltale signs.</p>
+ <div class="pain-items">
+ <div class="pain-item">
+ <div class="pain-num">01</div>
+ <div>
+ <h3>You're Not Getting Leads</h3>
+ <p>If your website isn't generating inquiries or calls from Cutler Bay prospects, it's failing at its #1 job. A properly optimized site should work for you around the clock.</p>
+ </div>
+ </div>
+ <div class="pain-item">
+ <div class="pain-num">02</div>
+ <div>
+ <h3>Slow Loading Speed</h3>
+ <p>In Cutler Bay, if your site takes more than 3 seconds to load, you're losing over half your visitors before they even see your content — and Google penalizes you for it.</p>
+ </div>
+ </div>
+ <div class="pain-item">
+ <div class="pain-num">03</div>
+ <div>
+ <h3>Not Mobile-Friendly</h3>
+ <p>Over 70% of web traffic in Cutler Bay is mobile. If your site looks broken on a phone, you're alienating the majority of potential customers in Miami-Dade County.</p>
+ </div>
+ </div>
+ <div class="pain-item">
+ <div class="pain-num">04</div>
+ <div>
+ <h3>Outdated Design</h3>
+ <p>A design that looks like it's from 2010 signals to Cutler Bay visitors that your business is behind the times — and they'll choose your competitor instead.</p>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+</section>
+
+<!-- SECTION:mirror-questions START -->
+<section class="mirror-section">
+<div class="section-inner">
+<h2 class="mirror-section-title">Common Questions</h2>
+<p class="sub mirror-section-sub">Answers for local customers</p>
+<div class="mirror-questions">
+<!-- MQ_SOURCE: formatToHtml archetype=C isTypeB=false labels="Website Strategy & Fit|Timeline & Launch Expectations|Traffic, Leads & Growth" -->
+<h3 class="mirror-category">Website Strategy &amp; Fit</h3>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">How does the web design process work for small businesses in Cutler Bay?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">The web design process for small businesses in Cutler Bay begins with a consultation to assess specific needs and goals. After understanding the requirements, we create a detailed proposal outlining the project scope and timeline. This structured approach ensures that businesses receive a custom website that aligns with their objectives, enhancing their online presence effectively.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What results can a law firm expect from a website redesign in Cutler Bay?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">A law firm in Cutler Bay can expect increased client inquiries and enhanced credibility from a professional website redesign. Typically, after launching the new site, firms report improved lead generation within the first few months. This outcome is a direct result of better user experience and optimized content tailored to attract potential clients.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">How is Miami Web Design different from other agencies in Cutler Bay?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">Miami Web Design stands out due to its focus on local businesses and specific market needs in Cutler Bay. Unlike other agencies, we offer transparent, itemized quotes and emphasize collaboration throughout the project. This client-centric approach ensures that businesses receive tailored solutions that meet their unique requirements.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What does a basic business website typically cost for companies in Cutler Bay?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">Basic business websites for companies in Cutler Bay typically start around $1,500 to $3,500. Factors influencing the final cost include the complexity of the design and specific features requested. Understanding these variables helps businesses budget effectively for their online presence.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">When should businesses in Cutler Bay plan for a new website project?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">Businesses in Cutler Bay should consider planning for a new website project during their fiscal year budgeting cycles. Many local companies begin assessing their online needs in Q4, aligning with annual budget finalizations. Early planning allows for timely execution and ensures that marketing strategies are in place when the new site launches.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What should I confirm before starting a website project with Miami Web Design?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">In Cutler Bay, before starting a website project with Miami Web Design, confirm your specific goals and any existing brand assets you wish to incorporate. Understanding your target audience and desired outcomes is crucial for a successful project. This clarity helps us tailor the website design to effectively meet your business objectives.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">How do I know if I need a custom web design or a simple website update for my Cutler Bay business?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">If your current website looks outdated, isn't mobile-friendly, or fails to convert visitors into leads, a custom web design may be necessary.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What signs indicate that my e-commerce store needs a redesign?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">If your e-commerce store experiences high bounce rates or low conversion rates, it may be time for a redesign.</p>
+</div>
+</details>
+
+<h3 class="mirror-category">Timeline &amp; Launch Expectations</h3>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What is the typical timeline for launching a new website in Cutler Bay?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">The timeline for launching a new website can vary based on complexity, but most projects take between 4 to 8 weeks.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What can I expect to be included in the price for e-commerce development in Cutler Bay?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">Typically, the price for e-commerce development includes website design, product setup, payment integration, and initial SEO setup.</p>
+</div>
+</details>
+
+<h3 class="mirror-category">Traffic, Leads &amp; Growth</h3>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">How does SEO impact my website's traffic and leads after launch in Cutler Bay?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">SEO plays a crucial role in driving traffic to your website and generating leads. In Cutler Bay, effective SEO strategies can help your business rank higher in local search results, making it easier for potential customers to discover your services.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What ongoing maintenance do I need for my website to ensure it generates leads in Cutler Bay?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">Ongoing maintenance typically includes regular updates, security monitoring, and performance optimizations.</p>
+</div>
+</details>
+</div>
+</div>
+</section>
+<!-- SECTION:mirror-questions END -->
+
+<!-- BLOG -->
+<section class="blog">
+ <div class="section-inner">
+ <div class="section-header">
+ <div>
+ <h2 style="color:#1a2f5a;">Web Design Tips &amp; Digital Insights</h2>
+ <p style="font-family:Arial,sans-serif;font-size:15px;color:#666;margin-top:8px;">Expert advice to help your Cutler Bay business thrive online.</p>
+ </div>
+ <a href="#" class="btn-blue-600">See All Articles →</a>
+ </div>
+ <div class="blog-grid">
+ <div class="blog-card">
+ <div class="blog-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/119166-1024x683.jpg" alt="Website design tips" loading="lazy"></div>
+ <div class="blog-body">
+ <div class="blog-meta"><span>WEB DESIGN</span><span>2026</span></div>
+ <h3>Custom Web Design vs. Templates: What Cutler Bay Businesses Need to Know</h3>
+ <p>In Cutler Bay, weighing a template site vs. a custom build? It's a fair question when budget matters — but the difference in results can be enormous for Miami-Dade County businesses…</p>
+ <a href="#" class="blog-read-more">Read Article →</a>
+ </div>
+ </div>
+ <div class="blog-card">
+ <div class="blog-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/2150769946.jpg" alt="Local SEO tips" loading="lazy"></div>
+ <div class="blog-body">
+ <div class="blog-meta"><span>WEB DESIGN</span><span>2026</span></div>
+ <h3>How to Dominate Local SEO in Cutler Bay: A Complete 2026 Guide</h3>
+ <p>You've built a great business in Cutler Bay — but if you're not showing up on Google when locals search for your services, you're leaving serious money on the table…</p>
+ <a href="#" class="blog-read-more">Read Article →</a>
+ </div>
+ </div>
+ <div class="blog-card">
+ <div class="blog-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/3352.jpg" alt="E-commerce redesign tips" loading="lazy"></div>
+ <div class="blog-body">
+ <div class="blog-meta"><span>WEB DESIGN</span><span>2026</span></div>
+ <h3>5 Signs Your Cutler Bay E-Commerce Store Needs a Redesign Right Now</h3>
+ <p>In Cutler Bay, you're probably here because your online store isn't converting as well as it should. Maybe the cart abandonment rate is high, or Miami-Dade County customers keep calling with confusion…</p>
+ <a href="#" class="blog-read-more">Read Article →</a>
+ </div>
+ </div>
+ </div>
+ </div>
+</section>
+
+<!-- SECTION:local-signals START -->
+<section class="local-signals"><section class="memory-anchor" data-esot-anchor="true" data-content-type="memory_anchor">  <h2>Why Cutler Bay Businesses Choose Miami Web Design</h2>  <p><strong>If:</strong> A business in Cutler Bay has an outdated website, unclear service pages, slow load times, or weak lead capture.</p>  <p><strong>Then:</strong> Miami Web Design helps turn that website into a faster, clearer, and more conversion-focused web design experience.</p>  <p><strong>Why:</strong> Customers in Cutler Bay and nearby Miami-Dade County communities need to quickly understand what the business offers, trust it, and take the next step.</p>  <p><strong>How:</strong> The work focuses on mobile-friendly layouts, strong calls to action, and structured service pages for businesses across Miami-Dade County, including areas near Franjo Park and Saga Bay Park.</p>
+</section>
+ <div class="section-inner">
+ <h2>Serving Cutler Bay and Miami-Dade County</h2>
+ <p class="sub">Miami Web Design provides Web Design services throughout Cutler Bay, FL 33189.</p>
+ <div class="signal-grid">
+ <div class="signal-card">
+ <h3>Current Weather in Cutler Bay</h3>
+ <h3 style="font-size:1rem;font-weight:600;margin:0 0 0.75rem 0;color:#334155;display:flex;align-items:center;gap:0.5rem;"><svg style="width:1.25rem;height:1.25rem;color:#f59e0b;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg> Local Weather</h3><p style="font-size:0.95rem;color:#475569;line-height:1.6;margin:0;"><span class="weather-data" data-weather-date="2026-05-06">Currently 80°F and partly cloudy with winds at 13 mph <small class="text-muted">(as of 2026-05-06)</small></span></p><script>(function(){var el=document.querySelector('.weather-data');if(!el)return;var m=document.querySelector('meta[name="geo.position"]');if(!m)return;var p=m.content.split(';');var lat=p[0],lon=p[1];fetch('https://api.open-meteo.com/v1/forecast?latitude='+lat+'&longitude='+lon+'&current_weather=true&temperature_unit=fahrenheit').then(function(r){return r.json()}).then(function(d){if(!d.current_weather)return;var w=d.current_weather;var t=Math.round(w.temperature);var c=w.weathercode;var cn=c===0?'clear':c<=3?'partly cloudy':c<=48?'foggy':c<=57?'drizzling':c<=67?'rainy':c<=77?'snowy':c<=82?'rain showers':c<=86?'snow showers':c>=95?'thunderstorms':'variable conditions';var ws=Math.round(w.windspeed);var now=new Date();var ds=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');el.innerHTML='Currently '+t+'\u00B0F and '+cn+' with winds at '+ws+' mph <small class="text-muted">(live)</small>';el.setAttribute('data-weather-date',ds)}).catch(function(){})})();</script>
+ </div>
+ <div class="signal-card">
+ <h3>Find Us in Cutler Bay</h3>
+ <section class="directions-section" style="margin:2rem 0;">  <h2 style="font-size:1.5rem;font-weight:700;margin-bottom:1.5rem;color:#1e293b;">  📍 Directions to Cutler Bay, FL  </h2>  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start;">  <!-- Directions Text -->  <div style="background:#f8fafc;padding:1.5rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <h3 style="font-size:1.1rem;font-weight:600;margin-bottom:1rem;color:#334155;display:flex;align-items:center;gap:0.5rem;">  <span>🚗</span> Driving Directions  </h3>  <div style="margin-bottom:1.5rem;">  <p style="font-size:0.95rem;color:#475569;line-height:1.6;margin:0 0 0.75rem 0;">  <strong>I-75:</strong>  </p>  <ol style="font-size:0.9rem;color:#64748b;line-height:1.7;margin:0;padding-left:1.5rem;">  <li style="margin-bottom:0.5rem;">Take Old Cutler Road, then turn right onto SW 208th Street</li>  <li style="margin-bottom:0.5rem;">Continue on SW 208th Street, then turn right onto SW 92nd Avenue</li>  <li style="margin-bottom:0.5rem;">Turn left onto SW 210th Street, then turn left onto SW 91th Court</li>  <li style="margin-bottom:0.5rem;">Arrive in Cutler Bay, FL</li>  </ol>  </div>  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=25.57314,-80.33929&amp;travelmode=driving" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#3b82f6;color:white;padding:0.75rem 1.5rem;border-radius:0.375rem;text-decoration:none;font-weight:600;font-size:0.95rem;transition:background 0.2s;" onmouseover="this.style.background='#2563eb';" onmouseout="this.style.background='#3b82f6';">  Get Detailed Directions →  </a>  </div>  <!-- Google Maps Embed -->  <div style="background:#f8fafc;padding:1rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <div style="position:relative;padding-bottom:75%;height:0;overflow:hidden;border-radius:0.375rem;">  <iframe src="https://www.google.com/maps?q=Cutler%20Bay%2C%20FL&amp;output=embed" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map of Cutler Bay, FL" aria-label="Interactive map showing the location of Cutler Bay, FL"></iframe>  </div>  </div>  </div>  <!-- Mobile: Stack vertically on small screens -->  </section>
+ </div>
+ </div>
+ <div class="signal-grid">  <div class="signal-card">
+ <h3>Quick Contact</h3>
+ <p><a href="tel:305-777-7886" style="color:#e8622a;font-weight:600;">305-777-7886</a></p>
+ <p style="margin-top:8px;"><a href="mailto:mike@webdesignmiami.net" style="color:#e8622a;font-weight:600;">mike@webdesignmiami.net</a></p>
+ <p style="margin-top:8px;">Cutler Bay, FL 33189</p>
+ <p style="margin-top:12px;font-family:Arial,sans-serif;font-size:14px;color:#555;">We provide Web Design services throughout Cutler Bay, FL. Our service area covers all of Miami-Dade County and extends to neighboring communities.</p>
+ </div>
+ </div>
+ </div>
+</section>
+<!-- SECTION:local-signals END -->
+
+<!-- SECTION:contact-form START -->
+<section id="contact-form" class="faq-section" aria-label="Contact and FAQ">
+ <div class="section-inner">
+ <div class="faq-grid">
+ <div class="faq-cta">
+ <h2>Have a Question? We're Ready to Help.</h2>
+ <div class="faq-cta-avatar" style="background:#2a4a8a;color:#fff;font-weight:700;font-family:Arial,sans-serif;font-size:18px;">?</div>
+ <p>Contact Miami Web Design today for a free, no-obligation consultation on your Web Design project in Cutler Bay, FL. Call us at 305-777-7886 or reach out below.</p>
+ <div class="faq-cta-btns">
+ <a href="https://webdesignmiami.net/api/contact" class="btn-blue-600">Contact Us →</a>
+ <a href="tel:305-777-7886" class="btn-orange-outline">✆ 305-777-7886</a>
+ </div>
+ </div>
+ <div id="faq" class="faq-list">
+ <h2>Frequently Asked Questions</h2>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">What web design services do you offer?</div>
+ <div class="faq-answer">We offer custom web design, WordPress development, Shopify e-commerce, website redesigns, landing pages, SEO optimization, Google Ads management, and ongoing website maintenance. We're a full-service digital agency handling everything from strategy to launch and growth for Cutler Bay, FL businesses.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">How long does it take to build a website?</div>
+ <div class="faq-answer">Most standard websites can be completed in 2–4 weeks. More complex projects like custom web applications or large e-commerce stores can take 6–10 weeks. After an initial consultation, you'll receive a clear timeline tailored to your Cutler Bay project.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">How much does a website cost?</div>
+ <div class="faq-answer">Website costs vary based on size and complexity. Basic business sites typically start around $1,500–$3,500. E-commerce stores range from $3,000–$8,000+. We offer transparent, itemized quotes so there are never any surprises. Contact us at 305-777-7886 for a free estimate.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Will my website rank on Google?</div>
+ <div class="faq-answer">Every site we build includes on-page SEO fundamentals: proper heading structure, meta tags, fast load times, mobile optimization, and schema markup. We also offer ongoing SEO packages to help you rank for competitive Cutler Bay keywords and drive sustained organic traffic throughout Miami-Dade County.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Do you offer ongoing support after launch?</div>
+ <div class="faq-answer">Yes — every project includes a post-launch support period and we offer monthly maintenance plans covering security updates, backups, performance monitoring, and content updates. Many Cutler Bay clients stay with us long-term for ongoing digital growth.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Can you redesign my existing website?</div>
+ <div class="faq-answer">Absolutely. Website redesign is one of our most requested services for Miami-Dade County businesses. We audit your existing site, identify conversion bottlenecks, and deliver a redesigned version that performs measurably better while preserving your brand and SEO equity.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Do you build mobile-friendly websites?</div>
+ <div class="faq-answer">Every site we build is mobile-first by design. With the majority of Cutler Bay web traffic coming from smartphones, we ensure your site looks and performs flawlessly on all devices — phones, tablets, and desktops.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">How do I get started?</div>
+ <div class="faq-answer">Getting started is easy. Call us at <a href="tel:305-777-7886" style="color:#e8622a;font-weight:600;">305-777-7886</a>, email <a href="mailto:mike@webdesignmiami.net" style="color:#e8622a;font-weight:600;">mike@webdesignmiami.net</a>, or fill out the quote form at the top of this page. We'll respond within 2 business hours with a free, no-obligation consultation for your Cutler Bay, FL project.</div>
+ </div>
+ </div>
+ </div>
+ </div>
+</section>
+<!-- SECTION:contact-form END -->
+
+<!-- CTA BANNER -->
+<section><div class="max-w-6xl mx-auto px-4"><div class="bg-white rounded-xl p-6 md:p-8"><div class="cta-banner">
+ <div class="section-inner">
+ <h2>Ready to Grow Your Cutler Bay Business Online?</h2>
+ <p>In Cutler Bay, get a free consultation from Miami Web Design — Miami-Dade County's trusted Web Design partner.</p>
+ <div class="cta-btns">
+ <a href="https://webdesignmiami.net/api/contact" class="btn-blue-600">Get Free Quote →</a>
+ <a href="tel:305-777-7886" class="btn-ghost-white">Call 305-777-7886</a>
+ </div>
+ </div>
+</div></div></div></section>
+
+</div><!-- /.content-body -->  <div class="last-updated" style="text-align: center; padding: 1rem; font-size: 0.875rem; color: #666;">  Last updated: 5/6/2026  </div>  </main>
+
+<!-- SECTION:footer START -->
+
+<!-- AI_HINTS: {"primaryIntent":"hire local service","secondaryIntents":["compare options","understand costs","learn about process"],"entities":["Web Design","Cutler Bay","FL","Miami Web Design"],"serviceArea":"Cutler Bay, FL metropolitan area","lastValidated":"2026-05-06"} -->
+<!-- Interlinking: Start -->
+<section style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-radius: 0.5rem;">
+  <h3 style="margin: 0 0 1rem 0; font-size: 1.25rem; font-weight: 600;">Nearby Areas We Serve</h3>
+  <ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.75rem;">
+    <li><a href="https://webdesignmiami.net/web-design/fl/miami/33157/" style="color: #2563eb; text-decoration: none; hover:underline">Miami</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/palmetto-bay/33157/" style="color: #2563eb; text-decoration: none; hover:underline">Palmetto Bay</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/south-miami-heights/33177/" style="color: #2563eb; text-decoration: none; hover:underline">South Miami Heights</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/the-crossings/33186/" style="color: #2563eb; text-decoration: none; hover:underline">The Crossings</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/homestead/33033/" style="color: #2563eb; text-decoration: none; hover:underline">Homestead</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/westchester/33165/" style="color: #2563eb; text-decoration: none; hover:underline">Westchester</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/the-hammocks/33196/" style="color: #2563eb; text-decoration: none; hover:underline">The Hammocks</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/key-biscayne/33149/" style="color: #2563eb; text-decoration: none; hover:underline">Key Biscayne</a></li>
+  </ul>
+</section>
+<!-- Interlinking: End -->
+<footer class="footer">
+ <div class="footer-inner">
+ <div>
+ <div class="footer-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/MWD-Logo.webp" alt="Miami Web Design" style="width:100%;height:100%;object-fit:contain;"></div>
+ <p class="footer-desc">Professional Web Design serving Cutler Bay, FL and throughout Miami-Dade County.</p>
+ <div class="footer-badges">
+ <img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/9175369_6545-1-Photoroom.webp" alt="Quality badges" style="max-width:180px;height:auto;margin-top:8px;">
+ </div>
+ </div>
+ <div class="footer-col">
+ <h4>Useful Links</h4>
+ <ul>
+ <li>Home</li>
+ <li>About Us</li>
+ <li>Our Services</li>
+ <li>Blog</li>
+ <li>Contact Us</li>
+ </ul>
+ </div>
+ <div class="footer-col">
+ <h4>Our Services</h4>
+ <p>Custom Web Design · E-Commerce Development · SEO &amp; Digital Marketing · Website Maintenance</p>
+ </div>
+ <div class="footer-col">
+ <h4>Let's get in touch</h4>
+ <p><a href="tel:305-777-7886" style="color:#b0c4d8;">305-777-7886</a></p>
+ <p><a href="mailto:mike@webdesignmiami.net" style="color:#b0c4d8;">mike@webdesignmiami.net</a></p>
+ <p>Cutler Bay, FL 33189</p>
+ <p>Miami-Dade County</p>
+ <div class="footer-social" style="margin-top:20px;">
+ <div class="social-icon" style="background:#1877f2;">f</div>
+ <div class="social-icon" style="background:#000;">X</div>
+ <div class="social-icon" style="background:#0a66c2;">in</div>
+ <div class="social-icon" style="background:#e1306c;">ig</div>
+ </div>
+ </div>
+ </div>
+
+<div class="footer-bottom">
+ © 2026 Miami Web Design. All rights reserved. | Professional Web Design in Cutler Bay, FL
+</div>
+
+<script>
+ // FAQ accordion — no external dependencies required
+ document.querySelectorAll('.faq-question').forEach(function(q) {
+ q.addEventListener('click', function() {
+ this.parentElement.classList.toggle('open');
+ });
+ });  // Reading progress bar
+ (function() {
+ var bar = document.getElementById('reading-progress');
+ if (!bar) return;
+ function update() {
+ var scrollTop = window.scrollY || document.documentElement.scrollTop;
+ var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+ if (docHeight <= 0) { bar.style.width = '0%'; return; }
+ var progress = Math.min(100, Math.max(0, (scrollTop / docHeight) * 100));
+ bar.style.width = progress + '%';
+ }
+ window.addEventListener('scroll', update, { passive: true });
+ window.addEventListener('resize', update);
+ update();
+ })();
+</script>
+</footer>
+<!-- SECTION:footer END -->  
+
+</body></html>

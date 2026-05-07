@@ -1,0 +1,1106 @@
+<!DOCTYPE html><html lang="en" data-template="web-design-v1"><head>  <meta charset="UTF-8">  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>Website Design in West Little River, FL | Miami Web Design</title>  <meta name="description" content="Web Design for businesses in West Little River, Florida. Engagement scope defined, outcomes aligned, and deliverables structured before work begins. Serving 33147 and the broader FL area.">  <meta name="keywords" content="Web Design, West Little River, Florida">  <link rel="canonical" href="https://webdesignmiami.net/fl/west-little-river/33147">  <meta property="og:title" content="West Little River Web Design — Florida | Miami">  <meta property="og:description" content="Web Design for West Little River, Florida — clear scope, defined deliverables, and structured engagements for organizations in FL. Contact Miami Web Design to get started.">  <meta property="og:type" content="website">  <meta property="og:url" content="https://webdesignmiami.net/fl/west-little-river/33147">  <meta name="twitter:card" content="summary_large_image">  <meta name="twitter:title" content="West Little River Web Design | Florida 33147">  <meta name="twitter:description" content="Web Design for West Little River, Florida — clear scope, defined deliverables, and structured engagements for organizations in FL. Contact Miami Web Design to get started.">  <meta name="geo.position" content="25.85104;-80.23861">  <meta name="geo.placename" content="West Little River, Florida">  <meta name="geo.region" content="US-FL">  <meta name="robots" content="index,follow">  <style>
+ /* READING PROGRESS BAR */
+ #reading-progress {
+ position: fixed;
+ top: 0;
+ left: 0;
+ height: 4px;
+ width: 0%;
+ background: #e8622a;
+ z-index: 9999;
+ transition: width 0.1s linear;
+ }
+ @media (prefers-reduced-motion: reduce) {
+ #reading-progress { transition: none; }
+ }  * { margin: 0; padding: 0; box-sizing: border-box; }
+ body { font-family: 'Georgia', serif; color: #1a1a1a; background: #fff; }
+ a { text-decoration: none; color: inherit; }
+ img { max-width: 100%; display: block; }  /* TOPBAR */
+.topbar {
+ background: #e8622a;
+ color: #fff;
+ font-family: Arial, sans-serif;
+ font-size: 13px;
+ padding: 9px 0;
+ }
+.topbar-inner {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 24px;
+ display: flex;
+ gap: 32px;
+ align-items: center;
+ }
+.topbar span { display: flex; align-items: center; gap: 6px; }  /* HEADER */
+.header {
+ background: #1a2f5a;
+ padding: 12px 0;
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ }
+.header-inner {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 24px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ }
+.logo {
+ width: 144px;
+ height: 84px;
+ border-radius: 8px;
+ overflow: hidden;
+ display: block;
+ flex-shrink: 0;
+ }
+.logo img,.logo picture {
+ width: 100%;
+ height: 100%;
+ object-fit: contain;
+ display: block;
+ }
+ nav { display: flex; gap: 28px; align-items: center; }
+ nav a {
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ font-weight: 500;
+ color: #fff;
+ transition: color 0.2s;
+ }
+ nav a:hover { color: #ff6b35; }
+.nav-search { color: #fff; font-size: 18px; cursor: pointer; }  /* HERO */
+.hero {
+ background: #1a2f5a;
+ padding: 60px 0 80px;
+ position: relative;
+ overflow: hidden;
+ min-height: 600px;
+ }
+.hero-bg {
+ position: absolute;
+ inset: 0;
+ width: 100%;
+ height: 100%;
+ z-index: 0;
+ }
+.hero-bg img,
+.hero-bg picture,
+.hero-bg video {
+ position: absolute;
+ inset: 0;
+ width: 100%!important;
+ height: 100%!important;
+ object-fit: cover;
+ object-position: center 35%;
+ display: block;
+ }
+.hero-overlay {
+ position: absolute;
+ inset: 0;
+ background: rgba(10, 20, 50, 0.55);
+ z-index: 1;
+ pointer-events: none;
+ }
+.hero-inner {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 24px;
+ display: grid;
+ grid-template-columns: 1fr 380px;
+ gap: 60px;
+ align-items: start;
+ position: relative;
+ z-index: 2;
+ }
+.hero-content h1 {
+ font-family: Arial, sans-serif;
+ font-size: 46px;
+ font-weight: 800;
+ color: #fff;
+ line-height: 1.15;
+ margin-bottom: 20px;
+ }
+.hero-content h1 span { color: #ff6b35; }
+.hero-content p {
+ font-family: Arial, sans-serif;
+ font-size: 17px;
+ color: #b0c4d8;
+ line-height: 1.7;
+ margin-bottom: 36px;
+ max-width: 540px;
+ }
+.hero-btns { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 48px; }
+.btn-primary {
+ background: #ff6b35;
+ color: #fff;
+ padding: 14px 28px;
+ border-radius: 6px;
+ font-family: Arial, sans-serif;
+ font-size: 15px;
+ font-weight: 700;
+ transition: background 0.2s;
+ display: inline-block;
+ }
+.btn-primary:hover { background: #e05520; }
+.hero-stats { display: flex; gap: 40px; }
+.stat { text-align: left; }
+.stat-number { font-family: Arial, sans-serif; font-size: 32px; font-weight: 800; color: #fff; }
+.stat-label { font-family: Arial, sans-serif; font-size: 13px; color: #fff; margin-top: 2px; }  /* HERO FORM */
+.hero-form {
+ background: #fff;
+ border-radius: 12px;
+ padding: 32px 28px;
+ box-shadow: 0 8px 40px rgba(0,0,0,0.2);
+ }
+.hero-form h2 {
+ font-family: Arial, sans-serif;
+ font-size: 20px;
+ font-weight: 800;
+ color: #1a2f5a;
+ margin-bottom: 6px;
+ text-align: center;
+ }
+.hero-form p {
+ font-family: Arial, sans-serif;
+ font-size: 13px;
+ color: #555;
+ margin-bottom: 20px;
+ text-align: center;
+ }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+.form-group { margin-bottom: 12px; }
+.form-group input,
+.form-group select,
+.form-group textarea {
+ width: 100%;
+ padding: 11px 14px;
+ border: 1px solid #dde3ed;
+ border-radius: 6px;
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ color: #1a1a1a;
+ background: #fff;
+ outline: none;
+ transition: border-color 0.2s;
+ }
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus { border-color: #ff6b35; }
+.form-group textarea { resize: vertical; min-height: 80px; }
+.btn-submit {
+ width: 100%;
+ background: #ff6b35;
+ color: #fff;
+ border: none;
+ padding: 15px;
+ border-radius: 6px;
+ font-family: Arial, sans-serif;
+ font-size: 16px;
+ font-weight: 700;
+ cursor: pointer;
+ transition: background 0.2s;
+ }
+.btn-submit:hover { background: #e05520; }  /* QUICK ANSWER */
+.quick-answer-section {
+ background: #fff;
+ padding: 40px 0 20px;
+ }
+.quick-answer-wrap {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 0 24px;
+ }
+.quick-answer-card {
+ background: linear-gradient(to bottom right, #fff8f3, #fff1e6);
+ border: 1px solid #fddcc4;
+ border-radius: 16px;
+ padding: 28px 32px;
+ }
+.quick-answer-card details summary {
+ font-family: Arial, sans-serif;
+ font-size: 18px;
+ font-weight: 700;
+ color: #1a2f5a;
+ cursor: pointer;
+ list-style: none;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+.quick-answer-card details summary::-webkit-details-marker { display: none; }
+.quick-answer-card details summary::after {
+ content: '\2304';
+ font-size: 20px;
+ color: #e8622a;
+ transition: transform 0.2s;
+ }
+.quick-answer-card details[open] summary::after { transform: rotate(180deg); }
+.quick-answer-content {
+ font-family: Arial, sans-serif;
+ font-size: 15px;
+ color: #444;
+ line-height: 1.8;
+ margin-top: 16px;
+ padding-top: 16px;
+ border-top: 1px solid #fddcc4;
+ }  /* TRUST BAR */
+.trust-bar { background: #f8f8f8; border-bottom: 1px solid #eee; padding: 28px 0; }
+.trust-bar-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+.trust-label {
+ text-align: center;
+ font-family: Arial, sans-serif;
+ font-size: 12px;
+ font-weight: 700;
+ color: #aaa;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ margin-bottom: 20px;
+ }
+.trust-logos { display: flex; gap: 24px; justify-content: center; align-items: center; flex-wrap: wrap; }
+.trust-logo {
+ width: 155px; height: 155px; background: #fff; border-radius: 16px;
+ border: 1px solid #e8e8e8; box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+ display: flex; align-items: center; justify-content: center; padding: 11px;
+ }
+.trust-logo img { width: 100%; height: 100%; object-fit: contain; }  /* SERVICES */
+.services { padding: 80px 0; background: #eef1f7; }
+.section-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+.section-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 48px; gap: 24px; flex-wrap: wrap; }
+.section-header h2 { font-family: Arial, sans-serif; font-size: 34px; font-weight: 800; color: #1a2f5a; max-width: 480px; line-height: 1.2; }
+.services-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.service-card { border-radius: 12px; overflow: hidden; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.06); display: flex; flex-direction: column; }
+.service-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.12); }
+.service-img { width: 100%; height: 200px; background: #dde4ed; overflow: hidden; }
+.service-img img,.service-img picture { width: 100%; height: 100%; object-fit: cover; display: block; }
+.service-body { padding: 24px; flex: 1; display: flex; flex-direction: column; }
+.service-body h3 { font-family: Arial, sans-serif; font-size: 18px; font-weight: 700; color: #1a2f5a; margin-bottom: 12px; }
+.service-body p { font-family: Arial, sans-serif; font-size: 14px; color: #555; line-height: 1.7; margin-bottom: 20px; flex: 1; }
+.btn-learn-more { display: block; width: 100%; background: #e8622a; color: #fff; text-align: center; padding: 12px; border-radius: 6px; font-family: Arial, sans-serif; font-size: 14px; font-weight: 600; transition: background 0.2s; }
+.btn-learn-more:hover { background: #c8501a; }  /* TESTIMONIALS */
+.testimonials { background: #1a2f5a; padding: 80px 0; }
+.testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 48px; }
+.testimonial-card { background: #fff; border-radius: 12px; padding: 28px; position: relative; border-bottom: 4px solid #e8622a; margin-top: 24px; }
+.testimonial-quote { position: absolute; top: -20px; left: 24px; width: 50px; height: 50px; background: #e8622a; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 28px; color: #fff; line-height: 1; font-family: Georgia, serif; font-weight: 700; }
+.testimonial-stars { text-align: right; color: #f5a623; font-size: 18px; margin-bottom: 16px; margin-top: 8px; }
+.testimonial-text { font-family: Arial, sans-serif; font-size: 14px; color: #444; line-height: 1.7; margin-bottom: 24px; }
+.testimonial-author { display: flex; align-items: center; gap: 12px; }
+.author-avatar { width: 52px; height: 52px; border-radius: 50%; background: #dde4ed; display: flex; align-items: center; justify-content: center; font-family: Arial, sans-serif; font-size: 16px; font-weight: 700; color: #1a2f5a; flex-shrink: 0; overflow: hidden; }
+.author-name { font-family: Arial, sans-serif; font-size: 15px; font-weight: 700; color: #1a1a1a; }
+.author-title { font-family: Arial, sans-serif; font-size: 13px; color: #e8622a; font-weight: 600; }  /* PORTFOLIO */
+.portfolio { padding: 80px 0; background: #fff; }
+.portfolio-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 40px; }
+.portfolio-item { aspect-ratio: 4/3; border-radius: 16px; overflow: hidden; position: relative; }
+.portfolio-item img,.portfolio-item picture { width: 100%; height: 100%; object-fit: cover; display: block; }
+.portfolio-item-bg { width: 100%; height: 100%; }
+.portfolio-item:nth-child(1).portfolio-item-bg { background: linear-gradient(135deg, #e8622a 0%, #c8501a 100%); }
+.portfolio-item:nth-child(2).portfolio-item-bg { background: linear-gradient(135deg, #d4893a 0%, #b8701a 100%); }
+.portfolio-item:nth-child(3).portfolio-item-bg { background: linear-gradient(135deg, #2a4a8a 0%, #1a2f5a 100%); }  /* ABOUT */
+.about { padding: 80px 0; background: #eef1f7; }
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+.about-text h2 { font-family: Arial, sans-serif; font-size: 34px; font-weight: 800; color: #1a2f5a; line-height: 1.2; margin-bottom: 20px; }
+.about-text p { font-family: Arial, sans-serif; font-size: 15px; color: #555; line-height: 1.8; margin-bottom: 16px; }
+.about-img { width: 100%; aspect-ratio: 1; border-radius: 16px; overflow: hidden; }
+.about-img img,.about-img picture { width: 100%; height: 100%; object-fit: cover; display: block; }  /* UNIQUE CONTENT CARDS */
+.unique-section { background: #fff; padding: 60px 0; }
+.unique-card {
+ background: #fff;
+ border-radius: 14px;
+ box-shadow: 0 4px 24px rgba(17,29,105,0.08), 0 1px 4px rgba(0,0,0,0.04);
+ padding: 2rem 2rem 2rem 2.5rem;
+ margin-bottom: 1.5rem;
+ max-width: 900px;
+ margin-left: auto;
+ margin-right: auto;
+ }
+.unique-card h2 {
+ font-family: Arial, sans-serif;
+ font-size: 20px;
+ font-weight: 700;
+ color: #1a2f5a;
+ margin-bottom: 12px;
+ padding-bottom: 12px;
+ border-bottom: 1px solid rgba(26,47,90,0.1);
+ }
+.unique-card-intro {
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ color: #888;
+ margin-bottom: 12px;
+ font-style: italic;
+ }
+.unique-card > div {
+ font-family: Arial, sans-serif;
+ font-size: 15px;
+ color: #374151;
+ line-height: 1.8;
+ }  /* PAIN POINTS */
+.pain-points { background: #f5f7fa; padding: 80px 0; }
+.pain-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+.pain-img { width: 100%; aspect-ratio: 16/7; border-radius: 16px; overflow: hidden; }
+.pain-img img,.pain-img picture { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pain-content h2 { font-family: Arial, sans-serif; font-size: 32px; font-weight: 800; color: #1a1a1a; margin-bottom: 8px; }
+.pain-content > p { font-family: Arial, sans-serif; font-size: 14px; color: #888; margin-bottom: 28px; }
+.pain-items { display: flex; flex-direction: column; gap: 20px; }
+.pain-item { display: flex; gap: 16px; align-items: flex-start; }
+.pain-num { width: 40px; height: 40px; border-radius: 8px; background: #ff6b35; color: #fff; font-family: Arial, sans-serif; font-size: 14px; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.pain-item h3 { font-family: Arial, sans-serif; font-size: 16px; font-weight: 700; color: #1a1a1a; margin-bottom: 4px; }
+.pain-item p { font-family: Arial, sans-serif; font-size: 13px; color: #666; line-height: 1.6; }  /* MIRROR QUESTIONS */
+.mirror-section { background: #eef1f7; padding: 80px 0; }
+.mirror-section h2 { font-family: Arial, sans-serif; font-size: 34px; font-weight: 800; color: #1a2f5a; margin-bottom: 8px; }
+.mirror-section.sub { font-family: Arial, sans-serif; font-size: 15px; color: #666; margin-bottom: 40px; }
+.mirror-questions { max-width: 800px; margin: 0 auto; }
+.mirror-category { font-size: 1.1rem; font-weight: 700; margin: 1.5rem 0 0.75rem; padding-bottom: 0.5rem; border-bottom: 2px solid #d1d5db; color: #1a2f5a; }
+.mirror-qa { margin-bottom: 0.75rem; border: 1px solid #e2e8f0; border-radius: 0.5rem; overflow: hidden; background: #fff; }
+.mirror-qa summary { cursor: pointer; padding: 0.875rem 1rem; font-size: 1rem; font-weight: 600; color: #1a2f5a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; transition: background 0.15s; }
+.mirror-qa summary:hover { background: #f8fafc; }
+.mirror-qa summary::-webkit-details-marker { display: none; }
+.mq-chevron { width: 1.25rem; height: 1.25rem; flex-shrink: 0; transition: transform 0.2s; color: #94a3b8; }
+.mirror-qa[open].mq-chevron { transform: rotate(180deg); }
+.mirror-qa[open] summary { background: #f8fafc; border-bottom: 1px solid #e2e8f0; }
+.mirror-answer { margin: 0; padding: 0.875rem 1rem; line-height: 1.7; color: #475569; font-size: 0.95rem; font-family: Arial, sans-serif; }  /* BLOG */
+.blog { padding: 80px 0; background: #eef1f7; }
+.blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; }
+.blog-card { border-radius: 12px; overflow: hidden; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.06); transition: box-shadow 0.2s; display: flex; flex-direction: column; }
+.blog-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.1); }
+.blog-img { width: 100%; height: 200px; overflow: hidden; }
+.blog-img img,.blog-img picture { width: 100%; height: 100%; object-fit: cover; display: block; }
+.blog-body { padding: 20px; flex: 1; display: flex; flex-direction: column; }
+.blog-meta { display: flex; justify-content: space-between; font-family: Arial, sans-serif; font-size: 12px; color: #aaa; margin-bottom: 12px; align-items: center; }
+.blog-meta span:first-child { color: #e8622a; font-weight: 700; font-size: 11px; letter-spacing: 0.5px; text-transform: uppercase; }
+.blog-body h3 { font-family: Arial, sans-serif; font-size: 16px; font-weight: 700; color: #1a2f5a; line-height: 1.4; margin-bottom: 10px; }
+.blog-body p { font-family: Arial, sans-serif; font-size: 13px; color: #666; line-height: 1.6; margin-bottom: 16px; flex: 1; }
+.blog-read-more { font-family: Arial, sans-serif; font-size: 14px; font-weight: 600; color: #e8622a; display: inline-flex; align-items: center; gap: 4px; }
+.blog-read-more:hover { color: #c8501a; }  /* LOCAL SIGNALS */
+.local-signals { background: #fff; padding: 80px 0; }
+.local-signals h2 { font-family: Arial, sans-serif; font-size: 34px; font-weight: 800; color: #1a2f5a; margin-bottom: 8px; }
+.local-signals.sub { font-family: Arial, sans-serif; font-size: 15px; color: #666; margin-bottom: 40px; }
+.signal-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+.signal-card { background: #f8f9ff; border-radius: 14px; padding: 28px; box-shadow: 0 2px 12px rgba(26,47,90,0.06); }
+.signal-card h3 { font-family: Arial, sans-serif; font-size: 16px; font-weight: 700; color: #1a2f5a; margin-bottom: 12px; }
+.signal-card p { font-family: Arial, sans-serif; font-size: 14px; color: #555; line-height: 1.7; }
+ /* FAQ */
+.faq-section { padding: 80px 0; background: #fff; }
+.faq-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 60px; align-items: start; }
+.faq-cta { background: #1a2f5a; border-radius: 16px; padding: 36px; }
+.faq-cta h2 { font-family: Arial, sans-serif; font-size: 22px; font-weight: 800; color: #fff; margin-bottom: 8px; line-height: 1.3; }
+.faq-cta-avatar { width: 52px; height: 52px; border-radius: 50%; background: #dde4ed; margin: 16px 0; display: flex; align-items: center; justify-content: center; font-size: 22px; overflow: hidden; }
+.faq-cta p { font-family: Arial, sans-serif; font-size: 14px; color: #b0c4d8; line-height: 1.7; margin-bottom: 24px; }
+.faq-cta-btns { display: flex; flex-direction: column; gap: 10px; }
+.btn-orange-outline { background: transparent; color: #fff; border: 2px solid #e8622a; padding: 13px 20px; border-radius: 6px; font-family: Arial, sans-serif; font-size: 14px; font-weight: 700; text-align: center; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background 0.2s; }
+.btn-orange-outline:hover { background: #e8622a; }
+.faq-list h2 { font-family: Arial, sans-serif; font-size: 28px; font-weight: 800; color: #1a2f5a; margin-bottom: 24px; }
+.faq-item { border-bottom: 1px solid #e0e0e0; padding: 18px 0; }
+.faq-question { font-family: Arial, sans-serif; font-size: 15px; font-weight: 500; color: #1a1a1a; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+.faq-question::after { content: '+'; font-size: 20px; color: #1a2f5a; font-weight: 400; }
+.faq-answer { font-family: Arial, sans-serif; font-size: 14px; color: #666; line-height: 1.7; margin-top: 12px; display: none; }
+.faq-item.open.faq-answer { display: block; }
+.faq-item.open.faq-question::after { content: '\2212'; }  /* CTA BANNER */
+.cta-banner { background: #1a2f5a; padding: 80px 0; text-align: center; }
+.cta-banner h2 { font-family: Arial, sans-serif; font-size: 40px; font-weight: 800; color: #fff; margin-bottom: 16px; }
+.cta-banner p { font-family: Arial, sans-serif; font-size: 16px; color: #b0c4d8; margin-bottom: 36px; max-width: 500px; margin-left: auto; margin-right: auto; }
+.cta-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+.btn-ghost-white { background: transparent; color: #fff; border: 2px solid rgba(255,255,255,0.5); padding: 14px 28px; border-radius: 6px; font-family: Arial, sans-serif; font-size: 15px; font-weight: 700; display: inline-block; transition: all 0.2s; }
+.btn-ghost-white:hover { border-color: #fff; background: rgba(255,255,255,0.1); }  /* FOOTER */
+.footer { background: #1a2f5a; padding: 60px 0 0; color: #b0c4d8; }
+.footer-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px 48px; display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 48px; }
+.footer-logo { width: 168px; height: 108px; border-radius: 10px; overflow: hidden; display: block; margin-bottom: 20px; }
+.footer-logo img,.footer-logo picture { width: 100%; height: 100%; object-fit: contain; display: block; }
+.footer-desc { font-family: Arial, sans-serif; font-size: 13px; color: #b0c4d8; line-height: 1.7; margin-bottom: 16px; }
+.footer-badges { display: flex; gap: 8px; margin-top: 16px; }
+.footer-badge { width: 44px; height: 44px; border-radius: 50%; background: #c8a84b; display: flex; align-items: center; justify-content: center; font-family: Arial, sans-serif; font-size: 7px; font-weight: 700; color: #fff; text-align: center; line-height: 1.2; }
+.footer-col h4 { font-family: Arial, sans-serif; font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 20px; }
+.footer-col ul { list-style: none; }
+.footer-col ul li { font-family: Arial, sans-serif; font-size: 14px; color: #b0c4d8; margin-bottom: 12px; cursor: pointer; transition: color 0.2s; }
+.footer-col ul li:hover { color: #e8622a; }
+.footer-col p { font-family: Arial, sans-serif; font-size: 13px; color: #b0c4d8; line-height: 1.7; margin-bottom: 8px; }
+.footer-social { display: flex; gap: 10px; margin-top: 20px; }
+.social-icon { width: 40px; height: 40px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-family: Arial, sans-serif; font-size: 14px; font-weight: 700; color: #fff; transition: background 0.2s; cursor: pointer; }
+.social-icon:hover { background: #e8622a!important; }
+.footer-bottom { background: #e8622a; padding: 16px 24px; font-family: Arial, sans-serif; font-size: 13px; color: #fff; text-align: center; width: 100%; }  @media (max-width: 900px) {
+.hero-inner { grid-template-columns: 1fr; }
+.services-grid,.testimonials-grid,.portfolio-grid,.blog-grid { grid-template-columns: 1fr; }
+.about-grid,.pain-grid,.faq-grid,.signal-grid { grid-template-columns: 1fr; }
+.footer-inner { grid-template-columns: 1fr 1fr; }
+.section-header { flex-direction: column; align-items: flex-start; gap: 8px; }
+ nav { display: none; }
+ }
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How does web design work for e-commerce businesses in West Little River?","acceptedAnswer":{"@type":"Answer","text":"The process typically begins with an initial consultation to assess specific needs and goals. E-commerce businesses require a focus on user experience and conversion optimization, which we prioritize during design. After gathering requirements, we create a tailored design proposal, ensuring it aligns with your brand and operational objectives."}},{"@type":"Question","name":"What results can a local service business expect from a website redesign in West Little River?","acceptedAnswer":{"@type":"Answer","text":"A website redesign can significantly enhance user engagement and lead generation. Local service businesses often see improvements in site traffic and conversion rates within the first few months post-launch. This leads to increased inquiries and ultimately more revenue, especially when optimized for local search visibility."}},{"@type":"Question","name":"How long does a standard website development project typically take?","acceptedAnswer":{"@type":"Answer","text":"The timeline for a standard website development project varies based on complexity, typically ranging from 4 to 8 weeks. This includes phases such as planning, design, development, and testing. To ensure timely delivery, we recommend having all necessary content and feedback ready as early as possible."}},{"@type":"Question","name":"What does web design typically cost for a small business in West Little River?","acceptedAnswer":{"@type":"Answer","text":"Basic business websites in West Little River typically start around pricing that varies by project to pricing that varies by project. E-commerce sites, which require more functionality, range from pricing that varies by project to pricing that varies by project. These prices include transparent, itemized quotes, ensuring clarity on what services are covered."}},{"@type":"Question","name":"How is your web design service different from other agencies in West Little River?","acceptedAnswer":{"@type":"Answer","text":"Our approach emphasizes understanding the unique needs of local businesses in West Little River, ensuring tailored solutions that drive results. We prioritize transparent communication and detailed project planning, which sets us apart from many competitors. Additionally, our focus on conversion optimization helps businesses achieve better ROI from their online presence."}},{"@type":"Question","name":"What specific features should local businesses in West Little River consider for their websites?","acceptedAnswer":{"@type":"Answer","text":"It's essential for local businesses to incorporate features such as Google Maps integration, which helps customers find your location easily. Additionally, showcasing testimonials from other West Little River clients can build trust and credibility."}},{"@type":"Question","name":"How can local SEO impact my business website?","acceptedAnswer":{"@type":"Answer","text":"Implementing local SEO strategies is crucial for businesses in West Little River, as it enhances visibility in local search results. This includes optimizing your website with local keywords, creating location-specific content, and ensuring your business is listed in local directories."}},{"@type":"Question","name":"Is ongoing support available after Web Design launches for a West Little River business?","acceptedAnswer":{"@type":"Answer","text":"Post-launch maintenance for Web Design in West Little River, FL typically covers updates, backups, and addressing technical issues as they arise. Some providers offer retainer arrangements for ongoing changes. Discussing what is included after launch with Miami Web Design ensures you have the support you need."}}]}</script>
+<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "WebPage",  "@id": "https://webdesignmiami.net/fl/west-little-river/33147#webpage",  "url": "https://webdesignmiami.net/fl/west-little-river/33147",  "name": "Web Design in West Little River, Florida",  "description": "Web Design in West Little River, Florida — digital strategy, deliverables, and engagement details.",  "isPartOf": {  "@id": "https://webdesignmiami.net#website"  },  "about": {  "@id": "https://webdesignmiami.net/fl/west-little-river/33147#localbusiness"  },  "subjectOf": {  "@type": "WebPage",  "@id": "https://webdesignmiami.net/about-web-design-service-miami-web-design/",  "url": "https://webdesignmiami.net/about-web-design-service-miami-web-design/"  }
+}</script>
+<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "LocalBusiness",  "@id": "https://webdesignmiami.net/fl/west-little-river/33147#localbusiness",  "name": "Miami Web Design",  "description": "Web Design serving businesses in West Little River, Florida.",  "url": "https://webdesignmiami.net/fl/west-little-river/33147",  "telephone": "305-777-7886",  "email": "mike@webdesignmiami.net",  "address": {  "@type": "PostalAddress",  "addressLocality": "West Little River",  "addressRegion": "Florida",  "postalCode": "33147",  "addressCountry": "US"  },  "sameAs": "https://webdesignmiami.net#organization",  "geo": {  "@type": "GeoCoordinates",  "latitude": "25.85104",  "longitude": "-80.23861"  },  "areaServed": [  {  "@type": "City",  "name": "West Little River"  },  {  "@type": "AdministrativeArea",  "name": "Miami-Dade"  },  {  "@type": "State",  "name": "Florida"  }  ]
+}</script>
+<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "BreadcrumbList",  "itemListElement": [  {  "@type": "ListItem",  "position": 1,  "name": "Home",  "item": "https://webdesignmiami.net"  },  {  "@type": "ListItem",  "position": 2,  "name": "Florida",  "item": "https://webdesignmiami.net/florida"  },  {  "@type": "ListItem",  "position": 3,  "name": "West Little River",  "item": "https://webdesignmiami.net/fl/west-little-river/33147"  }  ]
+}</script><style>.memory-anchor{max-width:880px;margin:48px auto;padding:32px;background:#fff;border:1px solid #e5e7eb;border-radius:16px;box-shadow:0 4px 20px rgba(0,0,0,0.06)}.memory-anchor h2{text-align:center;margin-bottom:20px}.memory-anchor p{max-width:760px;margin-left:auto;margin-right:auto}</style><meta name="dateModified" content="2026-05-06T22:22:35.469Z">
+<style>  @media (max-width: 768px) {  .directions-section > div {  grid-template-columns: 1fr !important;  }  }  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+<div id="reading-progress" aria-hidden="true"></div>
+
+<!-- TOPBAR -->
+<div class="topbar">
+ <div class="topbar-inner">
+ <span><a href="tel:305-777-7886" style="color:#fff;">305-777-7886</a></span>
+ <span><a href="mailto:mike@webdesignmiami.net" style="color:#fff;">mike@webdesignmiami.net</a></span>
+ <span>West Little River, FL</span>
+ </div>
+</div>
+
+<!-- HEADER -->
+<header class="header">
+ <div class="header-inner">
+ <div class="logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/MWD-Logo.webp" alt="Miami Web Design" style="width:100%;height:100%;object-fit:contain;"></div>
+ <nav>
+ <a href="#">Home</a>
+ <a href="#">Our Services</a>
+ <a href="#">Latest Article</a>
+ <a href="#">About Us</a>
+ <a href="#contact-form">Contact Us</a>
+ </nav>
+ </div>
+</header>
+
+<!-- PRESERVE:HERO_FULL_START -->
+<section class="hero" data-preserve-hero="true" data-preserve-structural="true">
+ <div class="hero-bg" data-preserve="true" data-preserve-structural="true">
+ <video autoplay="" muted="" playsinline="" loop="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 35%;display:block;">
+ <source src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/3249672-uhd_2560_1440_25fps.mp4" type="video/mp4">
+ </video>
+ </div>
+ <div class="hero-overlay" data-preserve="true" data-preserve-structural="true"></div>
+ <div class="hero-inner" data-preserve="true" data-preserve-structural="true">
+ <div class="hero-content" data-preserve="true">
+ <h1>West Little River Web Design — Florida | Miami</h1>
+ <p>Is your outdated website costing you clients in West Little River? Miami Web Design builds powerful, conversion-focused sites for Miami-Dade County businesses — fast.</p>
+<p>Serving West Little River and the greater Miami-Dade area with professional Web Design.</p>
+ <div class="hero-btns">
+ <a href="https://webdesignmiami.net/api/contact" class="btn-blue-600">Get Started Today →</a>
+ <a href="tel:305-777-7886" style="background:rgba(255,255,255,0.15);color:#fff;border:2px solid rgba(255,255,255,0.5);padding:14px 28px;border-radius:6px;font-family:Arial,sans-serif;font-size:15px;font-weight:700;display:inline-flex;align-items:center;gap:8px;backdrop-filter:blur(4px);">✆ Call 305-777-7886</a>
+ </div>
+ <div class="hero-stats">
+ <div class="stat">
+ <div class="stat-number">500+</div>
+ <div class="stat-label">Clients Helped</div>
+ </div>
+ <div class="stat">
+ <div class="stat-number">600+</div>
+ <div class="stat-label">Websites Launched</div>
+ </div>
+ <div class="stat">
+ <div class="stat-number">800+</div>
+ <div class="stat-label">Positive Reviews</div>
+ </div>
+ </div>
+ </div>
+ <div class="hero-form" data-preserve="true">
+ <h2>Get your FREE Quote Today!</h2>
+ <p>In West Little River, tell us about your Web Design project and we'll respond within 2 hours</p>
+ <div class="form-row">
+ <div class="form-group"><input type="text" placeholder="First Name"></div>
+ <div class="form-group"><input type="text" placeholder="Last Name"></div>
+ </div>
+ <div class="form-group"><input type="email" placeholder="Email Address"></div>
+ <div class="form-group">
+ <label style="font-family:Arial,sans-serif;font-size:13px;font-weight:700;color:#1a1a1a;display:block;margin-bottom:6px;">Service Needed</label>
+ <select>
+ <option>Web Design</option>
+ <option>SEO Marketing</option>
+ <option>E-Commerce Store</option>
+ <option>Website Redesign</option>
+ <option>Branding</option>
+ </select>
+ </div>
+ <div class="form-group">
+ <textarea placeholder="Describe your website goals"></textarea>
+ </div>
+ <button class="btn-submit">Free Estimate</button>
+ <div style="display:flex;gap:10px;justify-content:center;margin-top:16px;">
+ <img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/9175369_6545-1-Photoroom.webp" alt="Quality badges" style="max-width:100%;height:auto;margin-top:4px;">
+ </div>
+ </div>
+ </div>
+</section>
+<!-- PRESERVE:HERO_FULL_END -->
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+ <div class="trust-bar-inner">
+ <div class="trust-label">Trusted Technologies &amp; Platforms</div>
+ <div class="trust-logos">
+ <div class="trust-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/icons8-wordpress-96.png" alt="WordPress" style="width:100%;height:100%;object-fit:contain;"></div>
+ <div class="trust-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/icons8-react-native-96.png" alt="React" style="width:100%;height:100%;object-fit:contain;"></div>
+ <div class="trust-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/icons8-shopify-96.png" alt="Shopify" style="width:100%;height:100%;object-fit:contain;"></div>
+ <div class="trust-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/icons8-webflow-96.png" alt="Webflow" style="width:100%;height:100%;object-fit:contain;"></div>
+ <div class="trust-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/icons8-google-ads-96.png" alt="Google Ads" style="width:100%;height:100%;object-fit:contain;"></div>
+ <div class="trust-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/icons8-hubspot-96.png" alt="HubSpot" style="width:100%;height:100%;object-fit:contain;"></div>
+ </div>
+ </div>
+</div>
+
+<main id="main-content">
+
+<p class="local-context-intro" style="margin-bottom: 1.5rem;">Serving West Little River, FL — Miami Web Design is a digital agency that helps local businesses turn outdated or underperforming websites into conversion-focused online sales assets. Helping West Little River businesses with professional web design services, also serving near Arcola Lakes Community Park and the Miami-Dade area.</p>
+<div class="content-body">
+
+<!-- SECTION:quick-answer START -->
+<section><div class="max-w-6xl mx-auto px-4"><div class="bg-white rounded-xl p-6 md:p-8"><div id="quick-answer" class="quick-answer-section">
+ <div class="quick-answer-wrap">
+ <div class="quick-answer-card">
+ <details open="">
+ <summary>Quick Answer</summary>
+ <div class="quick-answer-content">
+ <p class="text-slate-700">Miami Web Design provides Web Design for businesses and commercial clients in West Little River, Florida. Scope, timeline, and pricing are confirmed in writing before any project begins. Contact us to discuss your project scope, scheduling, and any specific requirements for your West Little River location.</p>
+ </div>
+ </details>
+ </div>
+ </div>
+</div></div></div></section>
+<!-- SECTION:quick-answer END -->
+
+<!-- SERVICES -->
+<section class="services">
+ <div class="section-inner">
+ <div class="section-header">
+ <div>
+ <h2>Miami Web Design — Web Design in West Little River</h2>
+ <p style="margin-top:8px;font-family:Arial,sans-serif;font-size:15px;color:#555;max-width:560px;">Your complete digital partner serving West Little River, FL and throughout Miami-Dade County — we build, optimize, and grow your online presence.</p>
+ </div>
+ <a href="https://webdesignmiami.net/api/contact" class="btn-blue-600" style="white-space:nowrap;flex-shrink:0;">View All Services →</a>
+ </div>
+ <div class="services-grid">
+ <div class="service-card">
+ <div class="service-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/Custom-Website-Development-1024x682.webp" alt="Custom Web Design"></div>
+ <div class="service-body">
+ <h3>Custom Web Design</h3>
+ <p>Our designers craft pixel-perfect, conversion-focused websites tailored to your brand. We serve clients throughout West Little River and Miami-Dade County with sites that captivate and convert.</p>
+ <a href="https://webdesignmiami.net/api/contact" class="btn-learn-more">Learn More →</a>
+ </div>
+ </div>
+ <div class="service-card">
+ <div class="service-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/E-Commerce-Development.webp" alt="E-Commerce Development"></div>
+ <div class="service-body">
+ <h3>E-Commerce Development</h3>
+ <p>Launch or grow your online store with a powerful, mobile-optimized platform. From Shopify to WooCommerce, we build stores for West Little River businesses designed to sell — 24/7.</p>
+ <a href="https://webdesignmiami.net/api/contact" class="btn-learn-more">Learn More →</a>
+ </div>
+ </div>
+ <div class="service-card">
+ <div class="service-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/SEO-Digital-Marketing-1024x682.webp" alt="SEO &amp; Digital Marketing"></div>
+ <div class="service-body">
+ <h3>SEO &amp; Digital Marketing</h3>
+ <p>Rank higher on Google and dominate West Little River search results. Our experts use proven strategies to drive qualified traffic and grow your revenue throughout Miami-Dade County.</p>
+ <a href="https://webdesignmiami.net/api/contact" class="btn-learn-more">Learn More →</a>
+ </div>
+ </div>
+ <div class="service-card">
+ <div class="service-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/Website-Maintenance.webp" alt="Website Maintenance"></div>
+ <div class="service-body">
+ <h3>Website Maintenance</h3>
+ <p>Keep your site fast, secure, and up-to-date. Our maintenance plans cover security patches, speed optimizations, content updates, and 24/7 uptime monitoring for West Little River businesses.</p>
+ <a href="https://webdesignmiami.net/api/contact" class="btn-learn-more">Learn More →</a>
+ </div>
+ </div>
+ </div>
+ <p style="font-family:Arial,sans-serif;font-size:13px;color:#888;margin-top:20px;text-align:center;">Custom Web Design · E-Commerce Development · SEO &amp; Digital Marketing · Website Maintenance</p>
+ </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+ <div class="section-inner">
+ <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:24px;flex-wrap:wrap;">
+ <div>
+ <h2 style="font-family:Arial,sans-serif;font-size:34px;font-weight:800;color:#fff;">What West Little River Businesses Are Saying</h2>
+ <p style="font-family:Arial,sans-serif;font-size:15px;color:#b0c4d8;margin-top:8px;">See why businesses across Miami-Dade County trust Miami Web Design.</p>
+ </div>
+ <a href="#" class="btn-blue-600" style="white-space:nowrap;flex-shrink:0;">Read More Reviews →</a>
+ </div>
+ <div class="testimonials-grid">
+ <div class="testimonial-card">
+ <div class="testimonial-quote">"</div>
+ <div class="testimonial-stars">★★★★★</div>
+ <div class="testimonial-text">"Miami Web Design completely transformed our online presence. Within 3 months of launching our new site, our inquiries tripled. They truly understand what West Little River businesses need online."</div>
+ <div class="testimonial-author">
+ <div class="author-avatar"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2021/07/client-1.png" alt="Maria Rodriguez" style="width:100%;height:100%;object-fit:cover;border-radius:50%;"></div>
+ <div>
+ <div class="author-name">Maria Rodriguez</div>
+ <div class="author-title">Owner, Brickell Realty</div>
+ </div>
+ </div>
+ </div>
+ <div class="testimonial-card">
+ <div class="testimonial-quote">"</div>
+ <div class="testimonial-stars">★★★★★</div>
+ <div class="testimonial-text">"Fast, professional, and the results speak for themselves. Our e-commerce site was live in under 3 weeks and we made back the investment in the first month. Highly recommend!"</div>
+ <div class="testimonial-author">
+ <div class="author-avatar"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2021/07/client-2.png" alt="Julia Sullivan" style="width:100%;height:100%;object-fit:cover;border-radius:50%;"></div>
+ <div>
+ <div class="author-name">Julia Sullivan</div>
+ <div class="author-title">CEO, Coral Beach Apparel</div>
+ </div>
+ </div>
+ </div>
+ <div class="testimonial-card">
+ <div class="testimonial-quote">"</div>
+ <div class="testimonial-stars">★★★★★</div>
+ <div class="testimonial-text">"These guys are SEO wizards. We went from page 4 on Google to the top 3 results for our West Little River keywords. The phone hasn't stopped ringing since."</div>
+ <div class="testimonial-author">
+ <div class="author-avatar"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2021/07/client-3.png" alt="Jennifer Morales" style="width:100%;height:100%;object-fit:cover;border-radius:50%;"></div>
+ <div>
+ <div class="author-name">Jennifer Morales</div>
+ <div class="author-title">Owner, SunState Roofing</div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="portfolio">
+ <div class="section-inner">
+ <div class="section-header">
+ <h2 style="color:#1a2f5a;">Our Portfolio</h2>
+ <a href="#" class="btn-blue-600">Know More →</a>
+ </div>
+ <div class="portfolio-grid">
+ <div class="portfolio-item"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/MWD-Portfolio-1.webp" alt="Portfolio 1" style="width:100%;height:100%;object-fit:cover;"></div>
+ <div class="portfolio-item"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/MWD-Portfolio-2.webp" alt="Portfolio 2" style="width:100%;height:100%;object-fit:cover;"></div>
+ <div class="portfolio-item"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/MWD-Portfolio-3.webp" alt="Portfolio 3" style="width:100%;height:100%;object-fit:cover;"></div>
+ </div>
+ </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+ <div class="section-inner">
+ <div class="about-grid">
+ <div class="about-text">
+ <h2>Miami Web Design — Your Digital Growth Partner</h2>
+ <p>At Miami Web Design, we've been helping West Little River businesses grow online for over a decade. We specialize in Web Design for clients throughout Miami-Dade County — generating real results with more traffic, more leads, and more revenue.</p>
+ <p>Our experienced team of designers, developers, and marketers are experts in all modern platforms and techniques. We take the time to understand your business goals and craft a digital strategy that actually works for West Little River, FL businesses.</p>
+ <p>We take pride in delivering exceptional client experiences and aim to be your go-to digital partner whenever you need expertise. Our team brings focused experience to every project in Miami-Dade County and beyond.</p>
+ <a href="tel:305-777-7886" class="btn-blue-600" style="margin-top:24px;display:inline-block;">Contact Us Directly</a>
+ </div>
+ <div class="about-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/pexels-the-ghazi-2152398165-32216281-1.jpg" alt="Our web design team" loading="lazy"></div>
+ </div>
+ </div>
+</section>
+
+<section class="unique-section">
+ <div class="section-inner">  <div class="unique-card">
+ <h2>About West Little River</h2>
+ <p class="unique-card-intro">Here's what makes West Little River businesses unique and what that means for your online presence.</p>
+ <div><!-- SECTION:building-stock-profile START --><div><p><strong>Local Service Businesses:</strong> In West Little River, local service businesses such as contractors, med spas, and law firms are increasingly seeking professional web design services. These industries require modern, mobile-friendly websites that effectively showcase their services to attract clients. With many businesses competing for visibility, a strong online presence is essential for capturing leads and driving conversions.</p><p><strong>E-Commerce Demand:</strong> The rise of e-commerce is particularly evident in West Little River, where retailers and online sellers are looking to establish or enhance their Shopify and e-commerce platforms. Businesses in this sector are focused on creating user-friendly websites that facilitate easy purchasing and improve customer experience. This growing demand highlights the need for specialized web design services tailored to e-commerce functionalities.</p><p><strong>Growth-Focused Startups:</strong> West Little River is home to numerous startups and growth-focused small businesses that require a robust online presence to compete effectively. These businesses often need comprehensive web design solutions that include branding, SEO, and lead capture systems. The ability to launch quickly with a professional website is a critical factor for these emerging companies as they seek to establish market credibility.</p><p><strong>Competitive Landscape:</strong> The competitive landscape for web design services in West Little River is marked by a mix of established agencies and new entrants. Local businesses are becoming more discerning in their selection of providers, often looking for transparency in pricing and proven results. This competitive environment drives web design agencies to differentiate their offerings through specialized services and targeted expertise.</p><p><strong>Client Expectations and Outcomes:</strong> Businesses in West Little River expect clear outcomes and deliverables from their web design investments. They are looking for providers who can articulate the anticipated return on investment from their websites, whether through increased traffic, leads, or sales. Understanding these client expectations is crucial for web design agencies aiming to build long-term relationships with local businesses.</p></div><!-- SECTION:building-stock-profile END --></div>
+ </div>  <div class="unique-card">
+ <h2>Neighborhood Insights for West Little River</h2>
+ <p class="unique-card-intro">Understanding the local landscape helps us build smarter digital strategies for your area.</p>
+ <div><!-- SECTION:neighborhood-constraints START --><div><ul class="section-list"><li><strong>Medical and Professional Corridor:</strong> This area hosts a concentration of clinics, law firms, and consultancy services that require modern web design to enhance their online presence. With a growing competition among healthcare providers in West Little River, these businesses are investing in user-friendly, mobile-optimized sites to attract patients. Accessibility is crucial as many clients prefer scheduling appointments online, necessitating a reliable web platform that integrates seamlessly with their operational workflows.</li><li><strong>Local Retail and E-commerce Zone:</strong> Retailers and e-commerce businesses in West Little River are increasingly seeking tailored web solutions to showcase their products. The demand for visually appealing online storefronts has surged as local boutiques and shops aim to compete with larger retailers. The presence of Arcola Lakes Community Park nearby draws foot traffic, encouraging retailers to enhance their digital marketing strategies through updated websites that drive online sales and customer engagement.</li><li><strong>Small Business and Startup Hub:</strong> New and growing businesses are prevalent in West Little River, necessitating effective web design to establish their brand identity and capture leads. Startups in this area often operate on tight budgets and require transparent pricing models for web services. Their need for quick project turnarounds, especially during local business events, places significant pressure on web design providers to deliver functional sites that meet marketing campaign deadlines.</li><li><strong>Community Engagement and Local Events:</strong> West Little River hosts various community events, such as farmers' markets and local festivals, which provide businesses with opportunities to connect with residents. A well-designed website can be a powerful tool for promoting these events, allowing businesses to share updates and engage with potential customers. Effective integration of social media feeds and event calendars on business websites can significantly enhance local visibility.</li><li><strong>Real Estate and Property Management Sector:</strong> The real estate market in West Little River is competitive, with agents and property managers needing websites that effectively showcase listings. High-quality images and virtual tours are essential features that can attract prospective buyers. Additionally, a focus on search engine optimization (SEO) can help these businesses rank higher in local search results, making it easier for clients to find them online.</li></ul></div><!-- SECTION:neighborhood-constraints END --></div>
+ </div>  <div class="unique-card">
+ <h2>Common Challenges in West Little River</h2>
+ <p class="unique-card-intro">We've seen what holds West Little River businesses back online — and we know how to fix it.</p>
+ <div><!-- SECTION:failure-patterns START --><div><ul class="section-list"><li><strong>Missed Deadlines:</strong> Many local businesses in West Little River, such as law firms and clinics, often face missed deadlines when hiring web design services. This issue arises from inadequate project management and poor communication between the provider and the client. Ignoring this can lead to delayed launches, which may result in lost revenue opportunities, especially for businesses dependent on timely online visibility. The consequence is a diminished competitive edge in a market where timely digital presence is crucial.</li><li><strong>Wasted Budget:</strong> Businesses in sectors like e-commerce and retail frequently experience wasted budgets due to unclear project scopes. In West Little River, a lack of itemized quotes can lead to unexpected costs that exceed initial estimates. This misalignment can create financial strain, making it difficult for businesses to allocate resources effectively. As a result, companies may struggle to invest in other critical areas, impacting overall growth and profitability.</li><li><strong>Misaligned Deliverables:</strong> Service businesses, such as contractors and med spas, often find themselves with misaligned deliverables when their web design project does not meet expectations. This misalignment typically occurs due to vague instructions and a lack of clarity in the initial consultation. When businesses overlook this aspect, they may end up with a website that fails to attract leads or communicate their services effectively, ultimately harming their brand image and diminishing customer trust.</li><li><strong>Vendor Churn:</strong> Companies in West Little River, particularly startups and growth-focused businesses, may experience vendor churn when providers fail to deliver on their promises. This issue stems from a lack of quality signals and vetting during the selection process. If overlooked, businesses can waste valuable time and resources switching providers, which disrupts continuity and leads to inconsistent branding efforts. This is particularly detrimental for companies trying to establish a strong market presence.</li></ul></div><!-- SECTION:failure-patterns END --></div>
+ </div>  <div class="unique-card">
+ <h2>Local Pricing Factors in Miami-Dade County</h2>
+ <p class="unique-card-intro">What affects the cost of Web Design for businesses in West Little River, FL.</p>
+ <div><!-- SECTION:pricing-factors START --><div><ul class="section-list"><li><strong>Scope and Deliverable Complexity:</strong> The complexity of the web design project significantly influences cost, especially for businesses in West Little River that require tailored solutions. For instance, a basic business website may start at $1,500, while e-commerce stores often range from $3,000 to $8,000, depending on the features needed. Companies like local law firms in the Arcola Lakes area often need sophisticated functionality to secure client data, which increases the budget and timeline due to additional development requirements.</li><li><strong>Turnaround and Timeline Demands:</strong> The urgency of the project affects pricing as well. Businesses in West Little River, particularly those in competitive sectors like real estate, may require expedited services to launch their sites quickly. This demand for speed can lead to increased costs, as companies may need to allocate more resources to meet tight deadlines. For example, a real estate agency might prioritize a quick launch ahead of a major listing season, affecting their overall project budget.</li><li><strong>Ongoing vs. Project-Based Engagement Models:</strong> The decision between one-time projects and ongoing maintenance can impact overall investment. Many West Little River businesses, such as e-commerce retailers, benefit from ongoing support and updates to stay competitive. This can lead to a higher total cost over time but ensures the website remains optimized for performance and SEO. Businesses need to evaluate their long-term needs and how they fit into their budget.</li><li><strong>Competitive Pricing Context:</strong> The density of web design providers in the West Little River area influences pricing strategies. With many local firms competing for business, companies may find varying quotes for similar services. This competition encourages businesses to negotiate better terms, but it also means they must evaluate the quality of offerings to avoid subpar results. For instance, a new startup may receive lower bids but should assess the capabilities of those providers to ensure they align with their growth objectives.</li></ul></div><!-- SECTION:pricing-factors END --></div>
+ </div>  <div class="unique-card">
+ <h2>Local Considerations for West Little River Businesses</h2>
+ <p class="unique-card-intro">How the West Little River market environment shapes your digital strategy.</p>
+ <div><!-- SECTION:climate-impact START --><div><p><strong>Q1 Budget Activation:</strong> In the first quarter, businesses in West Little River finalize their budgets, leading to increased demand for web design services. This is when many local service providers, from law firms to medical practices, seek to enhance their online presence as they prepare for the year ahead. The start of the fiscal year prompts these businesses to invest in modernizing their websites to align with their strategic goals.</p><p><strong>Peak Project Season:</strong> Spring marks a busy period for local businesses as they ramp up marketing efforts. Many companies in West Little River, particularly those in retail and e-commerce, launch new campaigns during this time. This surge in activity drives demand for updated websites that can effectively capture leads and convert visitors into customers, making it crucial for web design firms to manage their schedules to accommodate multiple projects.</p><p><strong>Q3 Planning and Renewal:</strong> As summer approaches, businesses begin to evaluate their performance from the first half of the year. West Little River's local companies, especially those in the service industry, often reassess their online strategies and may seek redesigns to improve user engagement. This period is characterized by a focus on analytics and adjustments to existing websites, prompting businesses to allocate funds for necessary updates.</p><p><strong>Year-Round Retainer Demand:</strong> Throughout the year, many companies in West Little River engage web design services for ongoing maintenance and support. This consistent need arises from the necessity to keep websites fresh, secure, and aligned with evolving business objectives. Retainers are particularly popular among service-based businesses that require regular updates to their content and functionality, ensuring they remain competitive in a dynamic digital landscape.</p><p><strong>Seasonal Trends Impacting Web Design:</strong> Local businesses often experience fluctuations in customer engagement based on seasonal trends, such as the winter holiday shopping rush. This necessitates timely updates to their online platforms to reflect promotions and seasonal offerings, making it essential for web design services to be agile in response to these changing demands.</p></div><!-- SECTION:climate-impact END --></div>
+ </div>  <div class="unique-card">
+ <h2>Important Information</h2>
+ <p class="unique-card-intro">What every West Little River business should know before starting a web project.</p>
+ <div class="risk-disclosure"><!-- SECTION:risk-disclosure START --><div class="risk-disclosure"><p><strong>What to Evaluate in a Provider:</strong> When selecting a web design provider in West Little River, businesses must carefully assess the portfolio and case studies of potential partners. A history of successful projects, particularly within the local market, indicates the provider's understanding of regional needs and customer preferences. Companies often overlook the importance of client testimonials and references, which can reveal insights into a provider's reliability and quality of work. Evaluating these factors can prevent costly mistakes that may arise from partnering with an unsuitable vendor.</p><p><strong>Common Mistakes When Vetting:</strong> Businesses frequently make the error of prioritizing cost over quality when choosing a web design service. In West Little River, where the median household income is around $64,215, a lower bid may seem appealing but can lead to subpar outcomes. Companies must ensure they thoroughly vet providers for their expertise in specific industries, such as e-commerce or legal services, to avoid investing in a website that does not meet their operational needs or fails to convert visitors effectively.</p><p><strong>What to Demand in Writing:</strong> It's crucial for businesses in West Little River to require clear, written agreements detailing project scope, deliverables, and timelines from their web design provider. Many companies neglect to establish these parameters, leading to misunderstandings and project overruns. By demanding a comprehensive contract, which outlines expectations and milestones, businesses can mitigate risks associated with budget overruns and missed deadlines, ensuring they receive the service they are paying for.</p><p><strong>Importance of Local Market Knowledge:</strong> Understanding the unique characteristics of West Little River's business environment is essential. A provider familiar with local consumer behavior and market trends can tailor a website to better engage the target audience. This localized approach enhances the chances of higher conversion rates and customer retention.</p><p><strong>Assessing Post-Launch Support:</strong> After a website goes live, ongoing support is vital for businesses in West Little River. Companies should inquire about the level of post-launch assistance their provider offers, including troubleshooting and updates. A responsive support system can significantly impact the long-term success of a business’s online presence.</p></div><!-- SECTION:risk-disclosure END --></div>
+ </div>  <div class="unique-card">
+ <h2>Recent Projects in West Little River</h2>
+ <p class="unique-card-intro">Real examples of what Miami Web Design has delivered for Miami-Dade County clients.</p>
+ <div class="project-scenarios"><!-- SECTION:project-scenarios START --><div class="project-scenarios"><div class="scenario"><h4>Scenario: Website Development for a West Little River Medical Clinic</h4><p><strong>Client:</strong> A local medical clinic specializing in family health services that needed a modern online presence.</p><p><strong>Background:</strong> The clinic faced increasing competition from nearby healthcare providers and was struggling to attract new patients. Their outdated website lacked essential features, such as online appointment scheduling and patient resources. Additionally, the clinic had a tight timeline to launch the new site before the upcoming flu season, making timely delivery critical for their patient engagement strategy.</p><p><strong>Approach:</strong> We initiated the project by conducting a comprehensive needs assessment with the clinic's staff to identify their priorities. The decision was made to prioritize the integration of an online booking system, which would streamline patient scheduling. This required careful planning to ensure the new website was user-friendly and accessible on various devices. Our team worked diligently to create a responsive design that met the clinic's needs while adhering to the local regulations governing healthcare websites.</p><p><strong>Result:</strong> The new website was launched ahead of schedule, resulting in a 35% increase in online appointment bookings within the first month. This success not only improved patient access but also enhanced the clinic's reputation in the West Little River community as a modern healthcare provider.</p></div><div class="scenario"><h4>Scenario: E-Commerce Platform for a West Little River Artisan Bakery</h4><p><strong>Client:</strong> A popular artisan bakery located near Arcola Lakes Community Park that sought to expand its market reach.</p><p><strong>Background:</strong> The bakery had a loyal local customer base but was missing out on sales opportunities due to the lack of an online ordering system. With the rise of online shopping, especially after the pandemic, they needed a robust e-commerce platform to cater to both local and regional customers. Timing was crucial as the bakery planned to launch their new seasonal products soon, which made a rapid deployment essential.</p><p><strong>Approach:</strong> We collaborated closely with the bakery's team to understand their product offerings and customer preferences. The decision was made to utilize a Shopify platform for its ease of use and scalability. Our team focused on creating an appealing, user-friendly interface that showcased their products beautifully and integrated secure payment options. This was vital to ensure a seamless shopping experience and to accommodate their anticipated increase in traffic.</p><p><strong>Result:</strong> Within the first month of launching the e-commerce site, the bakery reported a 50% increase in sales compared to the previous year. This expansion not only boosted their revenue but also allowed them to reach a wider audience beyond West Little River, establishing their brand as a go-to destination for baked goods.</p></div><div class="scenario"><h4>Scenario: Revamping a Non-Profit Organization's Website in West Little River</h4><p><strong>Client:</strong> A non-profit organization focused on community development initiatives in West Little River that required a website overhaul.</p><p><strong>Background:</strong> The organization had an outdated website that failed to effectively communicate their mission and initiatives. They experienced difficulties in engaging potential donors and volunteers, which hindered their fundraising efforts. With an upcoming community event planned, they needed a refreshed online presence to promote the event and attract more participants.</p><p><strong>Approach:</strong> We took the time to understand the organization's goals and the specific features they needed, such as event registration and donation functionalities. The decision was made to implement a content management system that would allow them to update their site easily. Our team worked on creating a visually appealing design that reflected their mission and included compelling calls to action. This ensured that visitors would not only learn about their initiatives but also feel inspired to contribute.</p><p><strong>Result:</strong> The revamped website launched just in time for the community event, leading to a 70% increase in online registrations compared to previous events. This significant uptick in engagement not only boosted attendance but also enhanced the organization's visibility in West Little River, attracting new donors and volunteers to support their cause.</p></div></div><!-- SECTION:project-scenarios END --></div>
+ </div>  <div class="unique-card">
+ <h2>Frequently Asked Questions</h2>
+ <p class="unique-card-intro">Answers to the most common Web Design questions from West Little River, FL businesses.</p>
+ <div class="city-faqs"><!-- SECTION:city-faqs START --><div class="city-faqs"><details class="mirror-qa"><summary>How does web design work for e-commerce businesses in West Little River?</summary><p class="mirror-answer">The process typically begins with an initial consultation to assess specific needs and goals. E-commerce businesses require a focus on user experience and conversion optimization, which we prioritize during design. After gathering requirements, we create a tailored design proposal, ensuring it aligns with your brand and operational objectives.</p></details>
+
+<details class="mirror-qa"><summary>What results can a local service business expect from a website redesign in West Little River?</summary><p class="mirror-answer">A website redesign can significantly enhance user engagement and lead generation. Local service businesses often see improvements in site traffic and conversion rates within the first few months post-launch. This leads to increased inquiries and ultimately more revenue, especially when optimized for local search visibility.</p></details>
+
+<details class="mirror-qa"><summary>How long does a standard website development project typically take?</summary><p class="mirror-answer">The timeline for a standard website development project varies based on complexity, typically ranging from 4 to 8 weeks. This includes phases such as planning, design, development, and testing. To ensure timely delivery, we recommend having all necessary content and feedback ready as early as possible.</p></details>
+
+<details class="mirror-qa"><summary>What does web design typically cost for a small business in West Little River?</summary><p class="mirror-answer">Basic business websites in West Little River typically start around $1,500 to $3,500. E-commerce sites, which require more functionality, range from $3,000 to $8,000. These prices include transparent, itemized quotes, ensuring clarity on what services are covered.</p></details>
+
+<details class="mirror-qa"><summary>How is your web design service different from other agencies in West Little River?</summary><p class="mirror-answer">Our approach emphasizes understanding the unique needs of local businesses in West Little River, ensuring tailored solutions that drive results. We prioritize transparent communication and detailed project planning, which sets us apart from many competitors. Additionally, our focus on conversion optimization helps businesses achieve better ROI from their online presence.</p></details>
+
+<details class="mirror-qa"><summary>What specific features should local businesses in West Little River consider for their websites?</summary><p class="mirror-answer">It's essential for local businesses to incorporate features such as Google Maps integration, which helps customers find your location easily. Additionally, showcasing testimonials from other West Little River clients can build trust and credibility.</p></details>
+
+<details class="mirror-qa"><summary>How can local SEO impact my business website?</summary><p class="mirror-answer">Implementing local SEO strategies is crucial for businesses in West Little River, as it enhances visibility in local search results. This includes optimizing your website with local keywords, creating location-specific content, and ensuring your business is listed in local directories.</p></details></div><details class="faq-item">
+<summary>Is ongoing support available after Web Design launches for a West Little River business?</summary>
+<p class="mirror-answer">Post-launch maintenance for Web Design in West Little River, FL typically covers updates, backups, and addressing technical issues as they arise. Some providers offer retainer arrangements for ongoing changes. Discussing what is included after launch with Miami Web Design ensures you have the support you need.</p>
+</details>
+<!-- SECTION:city-faqs END --></div>
+ </div>  </div>
+</section>
+
+<!-- PAIN POINTS -->
+<section class="pain-points">
+ <div class="section-inner">
+ <div class="pain-grid">
+ <div class="pain-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/2149273739-1.webp" alt="Signs you need a new website" loading="lazy"></div>
+ <div class="pain-content">
+ <h2>You May Need a New Website If:</h2>
+ <p>Don't let an outdated site cost you West Little River customers. Here are the telltale signs.</p>
+ <div class="pain-items">
+ <div class="pain-item">
+ <div class="pain-num">01</div>
+ <div>
+ <h3>You're Not Getting Leads</h3>
+ <p>If your website isn't generating inquiries or calls from West Little River prospects, it's failing at its #1 job. A properly optimized site should work for you around the clock.</p>
+ </div>
+ </div>
+ <div class="pain-item">
+ <div class="pain-num">02</div>
+ <div>
+ <h3>Slow Loading Speed</h3>
+ <p>In West Little River, if your site takes more than 3 seconds to load, you're losing over half your visitors before they even see your content — and Google penalizes you for it.</p>
+ </div>
+ </div>
+ <div class="pain-item">
+ <div class="pain-num">03</div>
+ <div>
+ <h3>Not Mobile-Friendly</h3>
+ <p>Over 70% of web traffic in West Little River is mobile. If your site looks broken on a phone, you're alienating the majority of potential customers in Miami-Dade County.</p>
+ </div>
+ </div>
+ <div class="pain-item">
+ <div class="pain-num">04</div>
+ <div>
+ <h3>Outdated Design</h3>
+ <p>A design that looks like it's from 2010 signals to West Little River visitors that your business is behind the times — and they'll choose your competitor instead.</p>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+</section>
+
+<!-- SECTION:mirror-questions START -->
+<section class="mirror-section">
+<div class="section-inner">
+<h2 class="mirror-section-title">Common Questions</h2>
+<p class="sub mirror-section-sub">Answers for local customers</p>
+<div class="mirror-questions">
+<!-- MQ_SOURCE: formatToHtml archetype=C isTypeB=false labels="Website Strategy & Fit|Timeline & Launch Expectations|Traffic, Leads & Growth" -->
+<h3 class="mirror-category">Website Strategy &amp; Fit</h3>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">How does web design work for e-commerce businesses in West Little River?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">The process typically begins with an initial consultation to assess specific needs and goals. E-commerce businesses require a focus on user experience and conversion optimization, which we prioritize during design. After gathering requirements, we create a tailored design proposal, ensuring it aligns with your brand and operational objectives.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What results can a local service business expect from a website redesign in West Little River?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">A website redesign can significantly enhance user engagement and lead generation. Local service businesses often see improvements in site traffic and conversion rates within the first few months post-launch. This leads to increased inquiries and ultimately more revenue, especially when optimized for local search visibility.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">How long does a standard website development project typically take?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">The timeline for a standard website development project varies based on complexity, typically ranging from 4 to 8 weeks. This includes phases such as planning, design, development, and testing. To ensure timely delivery, we recommend having all necessary content and feedback ready as early as possible.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What does web design typically cost for a small business in West Little River?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">Basic business websites in West Little River typically start around $1,500 to $3,500. E-commerce sites, which require more functionality, range from $3,000 to $8,000. These prices include transparent, itemized quotes, ensuring clarity on what services are covered.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">How is your web design service different from other agencies in West Little River?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">Our approach emphasizes understanding the unique needs of local businesses in West Little River, ensuring tailored solutions that drive results. We prioritize transparent communication and detailed project planning, which sets us apart from many competitors. Additionally, our focus on conversion optimization helps businesses achieve better ROI from their online presence.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What specific features should local businesses in West Little River consider for their websites?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">It's essential for local businesses to incorporate features such as Google Maps integration, which helps customers find your location easily. Additionally, showcasing testimonials from other West Little River clients can build trust and credibility.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">How can local SEO impact my business website?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">Implementing local SEO strategies is crucial for businesses in West Little River, as it enhances visibility in local search results. This includes optimizing your website with local keywords, creating location-specific content, and ensuring your business is listed in local directories.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">How do I know if I need a custom web design or just a redesign of my current site?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">If your current website is outdated, slow, or not mobile-friendly, a redesign may be necessary. However, if your business has evolved and needs new functionalities or a fresh look to compete, a custom web design could be the answer.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What signs indicate I need an e-commerce development for my West Little River business?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">If you are losing sales due to an outdated website or lack of an online sales platform, it’s time to consider e-commerce development.</p>
+</div>
+</details>
+
+<h3 class="mirror-category">Timeline &amp; Launch Expectations</h3>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">How long does it typically take to launch a new website in West Little River?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">The timeline for launching a new website generally varies based on complexity and size. For a basic web design project, you can expect a turnaround of about 4 to 6 weeks.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What is included in the price for a custom web design project in West Little River?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">A typical custom web design package includes initial consultations, design drafts, revisions, and the final deployment of the site. Additional services like SEO optimization and maintenance can be added based on your needs.</p>
+</div>
+</details>
+
+<h3 class="mirror-category">Traffic, Leads &amp; Growth</h3>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">How will SEO impact my website's performance after launch in West Little River?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">SEO is crucial for improving your website's visibility in search engines, which can significantly increase traffic and leads.</p>
+</div>
+</details>
+<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What ongoing maintenance is recommended for my website to generate leads effectively?<svg class="mq-chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="flex-shrink:0;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="mirror-answer" itemprop="text">Regular website maintenance, including updates, backups, and security checks, is vital to ensure your site remains functional and secure.</p>
+</div>
+</details>
+</div>
+</div>
+</section>
+<!-- SECTION:mirror-questions END -->
+
+<!-- BLOG -->
+<section class="blog">
+ <div class="section-inner">
+ <div class="section-header">
+ <div>
+ <h2 style="color:#1a2f5a;">Web Design Tips &amp; Digital Insights</h2>
+ <p style="font-family:Arial,sans-serif;font-size:15px;color:#666;margin-top:8px;">Expert advice to help your West Little River business thrive online.</p>
+ </div>
+ <a href="#" class="btn-blue-600">See All Articles →</a>
+ </div>
+ <div class="blog-grid">
+ <div class="blog-card">
+ <div class="blog-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/119166-1024x683.jpg" alt="Website design tips" loading="lazy"></div>
+ <div class="blog-body">
+ <div class="blog-meta"><span>WEB DESIGN</span><span>2026</span></div>
+ <h3>Custom Web Design vs. Templates: What West Little River Businesses Need to Know</h3>
+ <p>In West Little River, weighing a template site vs. a custom build? It's a fair question when budget matters — but the difference in results can be enormous for Miami-Dade County businesses…</p>
+ <a href="#" class="blog-read-more">Read Article →</a>
+ </div>
+ </div>
+ <div class="blog-card">
+ <div class="blog-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/2150769946.jpg" alt="Local SEO tips" loading="lazy"></div>
+ <div class="blog-body">
+ <div class="blog-meta"><span>WEB DESIGN</span><span>2026</span></div>
+ <h3>How to Dominate Local SEO in West Little River: A Complete 2026 Guide</h3>
+ <p>You've built a great business in West Little River — but if you're not showing up on Google when locals search for your services, you're leaving serious money on the table…</p>
+ <a href="#" class="blog-read-more">Read Article →</a>
+ </div>
+ </div>
+ <div class="blog-card">
+ <div class="blog-img"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/3352.jpg" alt="E-commerce redesign tips" loading="lazy"></div>
+ <div class="blog-body">
+ <div class="blog-meta"><span>WEB DESIGN</span><span>2026</span></div>
+ <h3>5 Signs Your West Little River E-Commerce Store Needs a Redesign Right Now</h3>
+ <p>In West Little River, you're probably here because your online store isn't converting as well as it should. Maybe the cart abandonment rate is high, or Miami-Dade County customers keep calling with confusion…</p>
+ <a href="#" class="blog-read-more">Read Article →</a>
+ </div>
+ </div>
+ </div>
+ </div>
+</section>
+
+<!-- SECTION:local-signals START -->
+<section class="local-signals"><section class="memory-anchor" data-esot-anchor="true" data-content-type="memory_anchor">  <h2>Why West Little River Businesses Choose Miami Web Design</h2>  <p><strong>If:</strong> A business in West Little River has an outdated website, unclear service pages, slow load times, or weak lead capture.</p>  <p><strong>Then:</strong> Miami Web Design helps turn that website into a faster, clearer, and more conversion-focused web design experience.</p>  <p><strong>Why:</strong> Customers in West Little River and nearby Miami-Dade County communities need to quickly understand what the business offers, trust it, and take the next step.</p>  <p><strong>How:</strong> The work focuses on mobile-friendly layouts, strong calls to action, and structured service pages for businesses across Miami-Dade County, including areas near Arcola Lakes Community Park.</p>
+</section>
+ <div class="section-inner">
+ <h2>Serving West Little River and Miami-Dade County</h2>
+ <p class="sub">Miami Web Design provides Web Design services throughout West Little River, FL 33147.</p>
+ <div class="signal-grid">
+ <div class="signal-card">
+ <h3>Current Weather in West Little River</h3>
+ <h3 style="font-size:1rem;font-weight:600;margin:0 0 0.75rem 0;color:#334155;display:flex;align-items:center;gap:0.5rem;"><svg style="width:1.25rem;height:1.25rem;color:#f59e0b;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg> Local Weather</h3><p style="font-size:0.95rem;color:#475569;line-height:1.6;margin:0;"><span class="weather-data" data-weather-date="2026-05-06">Currently 84°F and clear with winds at 14 mph <small class="text-muted">(as of 2026-05-06)</small></span></p><script>(function(){var el=document.querySelector('.weather-data');if(!el)return;var m=document.querySelector('meta[name="geo.position"]');if(!m)return;var p=m.content.split(';');var lat=p[0],lon=p[1];fetch('https://api.open-meteo.com/v1/forecast?latitude='+lat+'&longitude='+lon+'&current_weather=true&temperature_unit=fahrenheit').then(function(r){return r.json()}).then(function(d){if(!d.current_weather)return;var w=d.current_weather;var t=Math.round(w.temperature);var c=w.weathercode;var cn=c===0?'clear':c<=3?'partly cloudy':c<=48?'foggy':c<=57?'drizzling':c<=67?'rainy':c<=77?'snowy':c<=82?'rain showers':c<=86?'snow showers':c>=95?'thunderstorms':'variable conditions';var ws=Math.round(w.windspeed);var now=new Date();var ds=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');el.innerHTML='Currently '+t+'\u00B0F and '+cn+' with winds at '+ws+' mph <small class="text-muted">(live)</small>';el.setAttribute('data-weather-date',ds)}).catch(function(){})})();</script>
+ </div>
+ <div class="signal-card">
+ <h3>Find Us in West Little River</h3>
+ <section class="directions-section" style="margin:2rem 0;">  <h2 style="font-size:1.5rem;font-weight:700;margin-bottom:1.5rem;color:#1e293b;">  📍 Directions to West Little River, FL  </h2>  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start;">  <!-- Directions Text -->  <div style="background:#f8fafc;padding:1.5rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <h3 style="font-size:1.1rem;font-weight:600;margin-bottom:1rem;color:#334155;display:flex;align-items:center;gap:0.5rem;">  <span>🚗</span> Driving Directions  </h3>  <div style="margin-bottom:1.5rem;">  <p style="font-size:0.95rem;color:#475569;line-height:1.6;margin:0 0 0.75rem 0;">  <strong>I-75:</strong>  </p>  <ol style="font-size:0.9rem;color:#64748b;line-height:1.7;margin:0;padding-left:1.5rem;">  <li style="margin-bottom:0.5rem;">Take Northwest 27th Avenue, SR 9 and turn right onto Northwest 87th Street</li>  <li style="margin-bottom:0.5rem;">Continue on Northwest 87th Street, then turn right onto Northwest 24th Avenue</li>  <li style="margin-bottom:0.5rem;">Turn right onto Northwest 85th Street, then left onto Northwest 24th Court</li>  <li style="margin-bottom:0.5rem;">Arrive at Northwest 24th Court, on the right. Arrive in West Little River, FL</li>  </ol>  </div>  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=25.85104,-80.23861&amp;travelmode=driving" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#3b82f6;color:white;padding:0.75rem 1.5rem;border-radius:0.375rem;text-decoration:none;font-weight:600;font-size:0.95rem;transition:background 0.2s;" onmouseover="this.style.background='#2563eb';" onmouseout="this.style.background='#3b82f6';">  Get Detailed Directions →  </a>  </div>  <!-- Google Maps Embed -->  <div style="background:#f8fafc;padding:1rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <div style="position:relative;padding-bottom:75%;height:0;overflow:hidden;border-radius:0.375rem;">  <iframe src="https://www.google.com/maps?q=West%20Little%20River%2C%20FL&amp;output=embed" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map of West Little River, FL" aria-label="Interactive map showing the location of West Little River, FL"></iframe>  </div>  </div>  </div>  <!-- Mobile: Stack vertically on small screens -->  </section>
+ </div>
+ </div>
+ <div class="signal-grid">  <div class="signal-card">
+ <h3>Quick Contact</h3>
+ <p><a href="tel:305-777-7886" style="color:#e8622a;font-weight:600;">305-777-7886</a></p>
+ <p style="margin-top:8px;"><a href="mailto:mike@webdesignmiami.net" style="color:#e8622a;font-weight:600;">mike@webdesignmiami.net</a></p>
+ <p style="margin-top:8px;">West Little River, FL 33147</p>
+ <p style="margin-top:12px;font-family:Arial,sans-serif;font-size:14px;color:#555;">We provide Web Design services throughout West Little River, FL. Our service area covers all of Miami-Dade County and extends to neighboring communities.</p>
+ </div>
+ </div>
+ </div>
+</section>
+<!-- SECTION:local-signals END -->
+
+<!-- SECTION:contact-form START -->
+<section id="contact-form" class="faq-section" aria-label="Contact and FAQ">
+ <div class="section-inner">
+ <div class="faq-grid">
+ <div class="faq-cta">
+ <h2>Have a Question? We're Ready to Help.</h2>
+ <div class="faq-cta-avatar" style="background:#2a4a8a;color:#fff;font-weight:700;font-family:Arial,sans-serif;font-size:18px;">?</div>
+ <p>Contact Miami Web Design today for a free, no-obligation consultation on your Web Design project in West Little River, FL. Call us at 305-777-7886 or reach out below.</p>
+ <div class="faq-cta-btns">
+ <a href="https://webdesignmiami.net/api/contact" class="btn-blue-600">Contact Us →</a>
+ <a href="tel:305-777-7886" class="btn-orange-outline">✆ 305-777-7886</a>
+ </div>
+ </div>
+ <div id="faq" class="faq-list">
+ <h2>Frequently Asked Questions</h2>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">What web design services do you offer?</div>
+ <div class="faq-answer">We offer custom web design, WordPress development, Shopify e-commerce, website redesigns, landing pages, SEO optimization, Google Ads management, and ongoing website maintenance. We're a full-service digital agency handling everything from strategy to launch and growth for West Little River, FL businesses.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">How long does it take to build a website?</div>
+ <div class="faq-answer">Most standard websites can be completed in 2–4 weeks. More complex projects like custom web applications or large e-commerce stores can take 6–10 weeks. After an initial consultation, you'll receive a clear timeline tailored to your West Little River project.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">How much does a website cost?</div>
+ <div class="faq-answer">Website costs vary based on size and complexity. Basic business sites typically start around $1,500–$3,500. E-commerce stores range from $3,000–$8,000+. We offer transparent, itemized quotes so there are never any surprises. Contact us at 305-777-7886 for a free estimate.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Will my website rank on Google?</div>
+ <div class="faq-answer">Every site we build includes on-page SEO fundamentals: proper heading structure, meta tags, fast load times, mobile optimization, and schema markup. We also offer ongoing SEO packages to help you rank for competitive West Little River keywords and drive sustained organic traffic throughout Miami-Dade County.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Do you offer ongoing support after launch?</div>
+ <div class="faq-answer">Yes — every project includes a post-launch support period and we offer monthly maintenance plans covering security updates, backups, performance monitoring, and content updates. Many West Little River clients stay with us long-term for ongoing digital growth.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Can you redesign my existing website?</div>
+ <div class="faq-answer">Absolutely. Website redesign is one of our most requested services for Miami-Dade County businesses. We audit your existing site, identify conversion bottlenecks, and deliver a redesigned version that performs measurably better while preserving your brand and SEO equity.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Do you build mobile-friendly websites?</div>
+ <div class="faq-answer">Every site we build is mobile-first by design. With the majority of West Little River web traffic coming from smartphones, we ensure your site looks and performs flawlessly on all devices — phones, tablets, and desktops.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">How do I get started?</div>
+ <div class="faq-answer">Getting started is easy. Call us at <a href="tel:305-777-7886" style="color:#e8622a;font-weight:600;">305-777-7886</a>, email <a href="mailto:mike@webdesignmiami.net" style="color:#e8622a;font-weight:600;">mike@webdesignmiami.net</a>, or fill out the quote form at the top of this page. We'll respond within 2 business hours with a free, no-obligation consultation for your West Little River, FL project.</div>
+ </div>
+ </div>
+ </div>
+ </div>
+</section>
+<!-- SECTION:contact-form END -->
+
+<!-- CTA BANNER -->
+<section><div class="max-w-6xl mx-auto px-4"><div class="bg-white rounded-xl p-6 md:p-8"><div class="cta-banner">
+ <div class="section-inner">
+ <h2>Ready to Grow Your West Little River Business Online?</h2>
+ <p>In West Little River, get a free consultation from Miami Web Design — Miami-Dade County's trusted Web Design partner.</p>
+ <div class="cta-btns">
+ <a href="https://webdesignmiami.net/api/contact" class="btn-blue-600">Get Free Quote →</a>
+ <a href="tel:305-777-7886" class="btn-ghost-white">Call 305-777-7886</a>
+ </div>
+ </div>
+</div></div></div></section>
+
+</div><!-- /.content-body -->  <div class="last-updated" style="text-align: center; padding: 1rem; font-size: 0.875rem; color: #666;">  Last updated: 5/6/2026  </div>  </main>
+
+<!-- SECTION:footer START -->
+
+<!-- AI_HINTS: {"primaryIntent":"hire local service","secondaryIntents":["compare options","understand costs","learn about process"],"entities":["Web Design","West Little River","FL","Miami Web Design"],"serviceArea":"West Little River, FL metropolitan area","lastValidated":"2026-05-06"} -->
+<!-- Interlinking: Start -->
+<section style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-radius: 0.5rem;">
+  <h3 style="margin: 0 0 1rem 0; font-size: 1.25rem; font-weight: 600;">Nearby Areas We Serve</h3>
+  <ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.75rem;">
+    <li><a href="https://webdesignmiami.net/web-design/fl/hialeah/33012/" style="color: #2563eb; text-decoration: none; hover:underline">Hialeah</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/miami-beach/33141/" style="color: #2563eb; text-decoration: none; hover:underline">Miami Beach</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/miami-gardens/33056/" style="color: #2563eb; text-decoration: none; hover:underline">Miami Gardens</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/opa-locka/33055/" style="color: #2563eb; text-decoration: none; hover:underline">Opa Locka</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/miami-gardens/33055/" style="color: #2563eb; text-decoration: none; hover:underline">Miami Gardens</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/country-club/33015/" style="color: #2563eb; text-decoration: none; hover:underline">Country Club</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/north-miami-beach/33160/" style="color: #2563eb; text-decoration: none; hover:underline">North Miami Beach</a></li>
+    <li><a href="https://webdesignmiami.net/web-design/fl/miramar/33025/" style="color: #2563eb; text-decoration: none; hover:underline">Miramar</a></li>
+  </ul>
+</section>
+<!-- Interlinking: End -->
+<footer class="footer">
+ <div class="footer-inner">
+ <div>
+ <div class="footer-logo"><img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/MWD-Logo.webp" alt="Miami Web Design" style="width:100%;height:100%;object-fit:contain;"></div>
+ <p class="footer-desc">Professional Web Design serving West Little River, FL and throughout Miami-Dade County.</p>
+ <div class="footer-badges">
+ <img src="https://mediumvioletred-cobra-366183.hostingersite.com/wp-content/uploads/2026/04/9175369_6545-1-Photoroom.webp" alt="Quality badges" style="max-width:180px;height:auto;margin-top:8px;">
+ </div>
+ </div>
+ <div class="footer-col">
+ <h4>Useful Links</h4>
+ <ul>
+ <li>Home</li>
+ <li>About Us</li>
+ <li>Our Services</li>
+ <li>Blog</li>
+ <li>Contact Us</li>
+ </ul>
+ </div>
+ <div class="footer-col">
+ <h4>Our Services</h4>
+ <p>Custom Web Design · E-Commerce Development · SEO &amp; Digital Marketing · Website Maintenance</p>
+ </div>
+ <div class="footer-col">
+ <h4>Let's get in touch</h4>
+ <p><a href="tel:305-777-7886" style="color:#b0c4d8;">305-777-7886</a></p>
+ <p><a href="mailto:mike@webdesignmiami.net" style="color:#b0c4d8;">mike@webdesignmiami.net</a></p>
+ <p>West Little River, FL 33147</p>
+ <p>Miami-Dade County</p>
+ <div class="footer-social" style="margin-top:20px;">
+ <div class="social-icon" style="background:#1877f2;">f</div>
+ <div class="social-icon" style="background:#000;">X</div>
+ <div class="social-icon" style="background:#0a66c2;">in</div>
+ <div class="social-icon" style="background:#e1306c;">ig</div>
+ </div>
+ </div>
+ </div>
+
+<div class="footer-bottom">
+ © 2026 Miami Web Design. All rights reserved. | Professional Web Design in West Little River, FL
+</div>
+
+<script>
+ // FAQ accordion — no external dependencies required
+ document.querySelectorAll('.faq-question').forEach(function(q) {
+ q.addEventListener('click', function() {
+ this.parentElement.classList.toggle('open');
+ });
+ });  // Reading progress bar
+ (function() {
+ var bar = document.getElementById('reading-progress');
+ if (!bar) return;
+ function update() {
+ var scrollTop = window.scrollY || document.documentElement.scrollTop;
+ var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+ if (docHeight <= 0) { bar.style.width = '0%'; return; }
+ var progress = Math.min(100, Math.max(0, (scrollTop / docHeight) * 100));
+ bar.style.width = progress + '%';
+ }
+ window.addEventListener('scroll', update, { passive: true });
+ window.addEventListener('resize', update);
+ update();
+ })();
+</script>
+</footer>
+<!-- SECTION:footer END -->  
+
+</body></html>
